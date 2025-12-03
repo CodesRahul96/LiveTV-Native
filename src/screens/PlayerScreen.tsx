@@ -260,6 +260,17 @@ const PlayerScreen = () => {
         nativeControls={false}
       />
 
+      <Pressable 
+        style={StyleSheet.absoluteFill} 
+        onPress={() => {
+          if (uiVisible) {
+            setUiVisible(false);
+          } else {
+            showControls();
+          }
+        }}
+      />
+
       {loading && (
         <View style={styles.loadingContainer}>
           <ActivityIndicator size="large" color="#fff" />
