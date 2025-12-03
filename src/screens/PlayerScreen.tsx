@@ -7,17 +7,18 @@ import {
   TouchableOpacity,
   StatusBar,
   Keyboard,
+  BackHandler,
   FlatList,
   Pressable,
   Image,
   Animated,
 } from 'react-native';
-import { useVideoPlayer, VideoView } from 'expo-video';
+import { useVideoPlayer, VideoView, VideoContentFit } from 'expo-video';
 import * as ScreenOrientation from 'expo-screen-orientation';
 import { useRoute, useNavigation } from '@react-navigation/native';
 import { Channel } from '../types';
 import { TEST_CHANNEL, useChannels } from '../data/channels';
-import { ArrowLeft, Volume2 } from 'lucide-react-native';
+import { ArrowLeft, Volume2, Maximize, Monitor } from 'lucide-react-native';
 import { saveLastChannel } from '../utils/storage';
 
 const PlayerScreen = () => {
@@ -32,6 +33,8 @@ const PlayerScreen = () => {
   const [error, setError] = useState(false);
   const [showChannelList, setShowChannelList] = useState(false);
   const [showAudioToast, setShowAudioToast] = useState(false);
+  const [audioTrackName, setAudioTrackName] = useState('Default');
+  const [contentFit, setContentFit] = useState<VideoContentFit>('contain');
   
   // Animation for toast
   const toastOpacity = useRef(new Animated.Value(0)).current;
@@ -60,7 +63,7 @@ const PlayerScreen = () => {
     saveLastChannel(currentChannel.id);
     
     // Update player source
-    player.replace(currentChannel.url);
+    player.replaceAsync(currentChannel.url);
     player.play();
   }, [currentChannel, player]);
 
@@ -81,11 +84,55 @@ const PlayerScreen = () => {
     };
   }, [player]);
 
+  // Auto-hide UI
+  const [uiVisible, setUiVisible] = useState(true);
+  const controlsTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const showControls = () => {
+    setUiVisible(true);
+    if (controlsTimeoutRef.current) {
+      clearTimeout(controlsTimeoutRef.current);
+    }
+    
+    // Only auto-hide if channel list is NOT visible
+    if (!showChannelList) {
+      controlsTimeoutRef.current = setTimeout(() => {
+        setUiVisible(false);
+      }, 4000);
+    }
+  };
+
+  useEffect(() => {
+    showControls();
+    return () => {
+      if (controlsTimeoutRef.current) {
+        clearTimeout(controlsTimeoutRef.current);
+      }
+    };
+  }, [showChannelList]); // Re-run when showChannelList changes
+
+  // Hardware Back Button Handler
+  useEffect(() => {
+    const backAction = () => {
+      showControls();
+      if (showChannelList) {
+        setShowChannelList(false);
+        return true;
+      }
+      navigation.goBack();
+      return true;
+    };
+
+    const backHandler = BackHandler.addEventListener('hardwareBackPress', backAction);
+    return () => backHandler.remove();
+  }, [showChannelList, navigation]);
+
   // TV/Keyboard Event Handler
   useEffect(() => {
     // Fallback for remote control events using Keyboard module
     // This works for Android TV / Fire TV D-pad events
     const onKeyDown = (e: any) => {
+      showControls();
       // Map keys to actions
       // Note: Key names might vary by device/platform
       const keyName = e.nativeEvent?.key;
@@ -100,8 +147,19 @@ const PlayerScreen = () => {
         if (showChannelList) {
           setShowChannelList(false);
         } else {
-          showAudioToastMessage();
+          // Instead of just showing toast, maybe toggle controls focus?
+          // For now, let's keep it simple or maybe open audio menu?
+          // Keeping original behavior for Right key (Audio Toast placeholder)
+          // But now we have a real button. Let's keep this as a shortcut.
+          cycleAudioTrack();
         }
+      } else if (keyName === 'Select' || keyName === 'Enter' || keyName === 'DPadCenter' || keyName === ' ') {
+         // Toggle UI or select
+         if (!showChannelList) {
+           // Just showing controls is enough (handled by showControls call above)
+         }
+      } else if (keyName === 'm' || keyName === 'M') {
+        toggleResizeMode();
       }
     };
 
@@ -125,6 +183,24 @@ const PlayerScreen = () => {
     }
     
     setCurrentChannel(channels[newIndex]);
+  };
+
+  const toggleResizeMode = () => {
+    setContentFit(prev => {
+      if (prev === 'contain') return 'cover';
+      if (prev === 'cover') return 'fill'; // 'fill' is 'stretch' effectively
+      return 'contain';
+    });
+    showControls();
+  };
+
+  const cycleAudioTrack = () => {
+    // Placeholder logic for audio track cycling
+    // In a real scenario, we would iterate player.audioTracks
+    // For now, we'll simulate it and show the toast
+    setAudioTrackName(prev => prev === 'Default' ? 'Alternative' : 'Default');
+    showAudioToastMessage();
+    showControls();
   };
 
   const showAudioToastMessage = () => {
@@ -180,8 +256,8 @@ const PlayerScreen = () => {
       <VideoView
         player={player}
         style={styles.video}
-        contentFit="contain"
-        nativeControls={!showChannelList}
+        contentFit={contentFit}
+        nativeControls={false}
       />
 
       {loading && (
@@ -217,17 +293,44 @@ const PlayerScreen = () => {
       {showAudioToast && (
         <Animated.View style={[styles.audioToast, { opacity: toastOpacity }]}>
           <Volume2 color="#fff" size={32} />
-          <Text style={styles.audioToastText}>Audio Track: Default</Text>
+          <Text style={styles.audioToastText}>Audio: {audioTrackName}</Text>
         </Animated.View>
       )}
 
-      <TouchableOpacity 
-        style={styles.backButton}
-        onPress={() => navigation.goBack()}
-        focusable={true}
-      >
-        <ArrowLeft color="#fff" size={24} />
-      </TouchableOpacity>
+      {uiVisible && (
+        <>
+          <TouchableOpacity 
+            style={styles.backButton}
+            onPress={() => navigation.goBack()}
+            focusable={true}
+          >
+            <ArrowLeft color="#fff" size={24} />
+          </TouchableOpacity>
+
+          {/* Player Controls Bar */}
+          <View style={styles.controlsBar}>
+            <TouchableOpacity 
+              style={styles.controlButton} 
+              onPress={toggleResizeMode}
+              focusable={true}
+            >
+              <Maximize color="#fff" size={24} />
+              <Text style={styles.controlText}>
+                {contentFit === 'contain' ? 'Fit' : contentFit === 'cover' ? 'Zoom' : 'Stretch'}
+              </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity 
+              style={styles.controlButton} 
+              onPress={cycleAudioTrack}
+              focusable={true}
+            >
+              <Volume2 color="#fff" size={24} />
+              <Text style={styles.controlText}>Audio</Text>
+            </TouchableOpacity>
+          </View>
+        </>
+      )}
     </View>
   );
 };
@@ -266,6 +369,29 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.5)',
     borderRadius: 20,
     zIndex: 10,
+  },
+  // Controls Bar
+  controlsBar: {
+    position: 'absolute',
+    bottom: 30,
+    right: 30,
+    flexDirection: 'row',
+    backgroundColor: 'rgba(0,0,0,0.6)',
+    borderRadius: 12,
+    padding: 10,
+    zIndex: 10,
+  },
+  controlButton: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginHorizontal: 15,
+    padding: 5,
+  },
+  controlText: {
+    color: '#fff',
+    fontSize: 12,
+    marginTop: 4,
+    fontWeight: '600',
   },
   // Channel List Overlay
   channelListOverlay: {
