@@ -95,7 +95,7 @@ const HomeScreen = () => {
     <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
       <StatusBar barStyle="light-content" backgroundColor="#0f0f0f" />
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Live TV</Text>
+        <Text style={styles.headerTitle}>TVwala</Text>
       </View>
       <FlatList
         data={categories}

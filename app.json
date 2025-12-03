@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "LiveTVNative",
+    "name": "TVwala",
     "slug": "LiveTVNative",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,17 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.codesrahul.livetv"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e0073166-31c2-42c1-9153-8e65fdc4c64f"
+      }
+    },
+    "plugins": ["expo-video"]
   }
 }
