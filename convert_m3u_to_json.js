@@ -34,26 +34,23 @@ const parseM3U = (content) => {
       const tvgLogo = getAttribute(meta, "tvg-logo");
       let groupTitle = getAttribute(meta, "group-title");
 
-      const tvgGenre = getAttribute(meta, "tvg-genre");
-
-      // Prioritize tvg-genre for category
-      if (tvgGenre) {
-        groupTitle = tvgGenre;
-      } else if (!groupTitle || groupTitle.toLowerCase() === "mxplay") {
-        // Fallback if no genre and group is mxplay
-        const nameAttr = getAttribute(meta, "name");
-        if (nameAttr) groupTitle = nameAttr;
-        else groupTitle = "General";
-      }
-
-      // Clean up category
-      if (groupTitle && groupTitle.toLowerCase() === "mxplay") {
+      // Clean up category: "INDIAN | ENTERTAINMENT" -> "Entertainment"
+      if (groupTitle) {
+        if (groupTitle.includes("|")) {
+          const parts = groupTitle.split("|");
+          groupTitle = parts[parts.length - 1].trim();
+        }
+        // Capitalize first letter, lowercase rest
+        groupTitle =
+          groupTitle.charAt(0).toUpperCase() +
+          groupTitle.slice(1).toLowerCase();
+      } else {
         groupTitle = "General";
       }
 
-      // Clean up name (remove mxplay if present)
-      name = name.replace(/mxplay/gi, "").trim();
-      name = name.replace(/^-\s*/, "").trim(); // Remove leading dash if any
+      // Clean up name
+      // Remove "IN | ", "IND: ", "IN: " prefixes
+      name = name.replace(/^(IN\s*[:|]\s*|IND\s*[:|]\s*)/i, "").trim();
 
       let id = tvgId ? tvgId : Date.now().toString() + Math.random().toString();
 
@@ -71,7 +68,7 @@ const parseM3U = (content) => {
         id,
         name,
         logo: tvgLogo || "",
-        category: groupTitle || "Uncategorized",
+        category: groupTitle,
       };
     } else if (line.startsWith("http")) {
       if (currentChannel.name) {
@@ -85,24 +82,14 @@ const parseM3U = (content) => {
   return channels;
 };
 
-https
-  .get(M3U_URL, (resp) => {
-    let data = "";
-
-    // A chunk of data has been received.
-    resp.on("data", (chunk) => {
-      data += chunk;
-    });
-
-    // The whole response has been received.
-    resp.on("end", () => {
-      const channels = parseM3U(data);
-      fs.writeFileSync(OUTPUT_FILE, JSON.stringify(channels, null, 2));
-      console.log(
-        `Successfully converted ${channels.length} channels to ${OUTPUT_FILE}`
-      );
-    });
-  })
-  .on("error", (err) => {
-    console.log("Error: " + err.message);
-  });
+// Read from local file instead of URL
+try {
+  const data = fs.readFileSync("playlist.txt", "utf8");
+  const channels = parseM3U(data);
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(channels, null, 2));
+  console.log(
+    `Successfully converted ${channels.length} channels to ${OUTPUT_FILE}`
+  );
+} catch (err) {
+  console.error("Error reading playlist.txt:", err);
+}

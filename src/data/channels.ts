@@ -1,9 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Channel, Category } from '../types';
-import localChannels from '../../assets/channels.json';
 
-// REPLACE THIS WITH YOUR GITHUB RAW JSON URL
-const CHANNELS_JSON_URL = "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/main/assets/channels.json";
+const CHANNELS_JSON_URL = "https://raw.githubusercontent.com/CodesRahul96/LiveTV-Native/refs/heads/main/assets/channels.json";
 
 export const TEST_CHANNEL: Channel = {
   id: 'test-fallback',
@@ -16,57 +14,72 @@ export const TEST_CHANNEL: Channel = {
 // Module-level cache
 let cachedChannels: Channel[] = [];
 let cachedCategories: Category[] = [];
+let fetchPromise: Promise<void> | null = null;
 
 export const useChannels = () => {
   const [channels, setChannels] = useState<Channel[]>(cachedChannels);
   const [categories, setCategories] = useState<Category[]>(cachedCategories);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(cachedChannels.length === 0);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const loadLocalChannels = async () => {
-      try {
-        if (cachedChannels.length > 0) {
-          setLoading(false);
-          return;
-        }
+    if (cachedChannels.length > 0) {
+      setLoading(false);
+      return;
+    }
 
-        console.log('Loading local channels from JSON...');
-        // Simulate async load
-        await new Promise(resolve => setTimeout(resolve, 100));
-        
-        const parsedChannels: Channel[] = localChannels as Channel[];
-        console.log(`Loaded ${parsedChannels.length} channels locally`);
-
-        // Group channels by category
-        const groupedCategories: Category[] = parsedChannels.reduce((acc, channel) => {
-          const existingCategory = acc.find((c) => c.name === channel.category);
-          if (existingCategory) {
-            existingCategory.channels.push(channel);
-          } else {
-            acc.push({
-              id: channel.category,
-              name: channel.category,
-              channels: [channel],
-            });
+    if (!fetchPromise) {
+      fetchPromise = (async () => {
+        try {
+          console.log('Fetching channels from:', CHANNELS_JSON_URL);
+          const response = await fetch(CHANNELS_JSON_URL);
+          if (!response.ok) {
+            throw new Error(`Failed to fetch channels: ${response.statusText}`);
           }
-          return acc;
-        }, [] as Category[]);
+          const parsedChannels: Channel[] = await response.json();
+          
+          console.log(`Loaded ${parsedChannels.length} channels`);
 
-        cachedChannels = parsedChannels;
-        cachedCategories = groupedCategories;
+          // Group channels by category
+          const groupedCategories: Category[] = parsedChannels.reduce((acc, channel) => {
+            // Explicitly exclude the test channel from the list
+            if (channel.id === TEST_CHANNEL.id) return acc;
 
-        setChannels(parsedChannels);
-        setCategories(groupedCategories);
+            const existingCategory = acc.find((c) => c.name === channel.category);
+            if (existingCategory) {
+              existingCategory.channels.push(channel);
+            } else {
+              acc.push({
+                id: channel.category,
+                name: channel.category,
+                channels: [channel],
+              });
+            }
+            return acc;
+          }, [] as Category[]);
+
+          cachedChannels = parsedChannels;
+          cachedCategories = groupedCategories;
+        } catch (err: any) {
+          console.error('Error fetching channels:', err);
+          throw err;
+        } finally {
+          fetchPromise = null;
+        }
+      })();
+    }
+
+    fetchPromise
+      .then(() => {
+        setChannels(cachedChannels);
+        setCategories(cachedCategories);
         setLoading(false);
-      } catch (err: any) {
-        console.error('Error loading local channels:', err);
+      })
+      .catch((err) => {
         setError(err.message || 'Failed to load channels');
         setLoading(false);
-      }
-    };
+      });
 
-    loadLocalChannels();
   }, []);
 
   return {

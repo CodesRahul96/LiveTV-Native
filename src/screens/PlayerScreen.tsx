@@ -218,13 +218,14 @@ const PlayerScreen = () => {
 
   const handleError = (e: any) => {
     console.error("Video Playback Error:", e);
-    setError(true);
+    // Do not show error state to user
+    // setError(true); 
     setLoading(false);
     
     // Fallback to test channel if not already playing it
     if (currentChannel.id !== TEST_CHANNEL.id) {
-      // Optional: Auto-fallback
-      // setCurrentChannel(TEST_CHANNEL);
+      console.log("Falling back to Test Channel");
+      setCurrentChannel(TEST_CHANNEL);
     }
   };
 
@@ -275,11 +276,7 @@ const PlayerScreen = () => {
         </View>
       )}
 
-      {error && (
-        <View style={styles.errorContainer}>
-          <Text style={styles.errorText}>Playback Error. Retrying...</Text>
-        </View>
-      )}
+      {/* Error UI removed as per request */}
 
       {/* Channel List Overlay (Left Drawer) */}
       {showChannelList && (
