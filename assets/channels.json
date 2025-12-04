@@ -1,0 +1,982 @@
+[
+  {
+    "id": "BLOODY_SWEET",
+    "name": "Mastiii - India's No.1 Music and Youth Channel",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1744.DistroTv.in/hi/1x1/208x208/1708970446051distrotv_thumbv_20210706_165835.jpg",
+    "category": "Music,Bollywood,Music Video",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_1",
+    "name": "ABP News",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2889.DistroTv.in/en/1x1/208x208/test_pic1688044053261.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-news/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_2",
+    "name": "News9Live",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4104.DistroTv.in/en/1x1/208x208/test_pic1690451549448.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news9live/main.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_3",
+    "name": "Kids TV - Nursery Rhymes and Baby Songs",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3449.DistroTv.in/en/1x1/208x208/test_pic1684937177328.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-ind/master_en.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_4",
+    "name": "Vikatan TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3679.DistroTv.in/en/1x1/208x208/test_pic1684937736677.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/vikatan-tv/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_5",
+    "name": "Pitaara TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3132.DistroTv.in/en/1x1/208x208/test_pic1684937427901.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_6",
+    "name": "FOODFOOD",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3139.DistroTv.in/en/1x1/208x208/test_pic1690453723632.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/foodfood/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_7",
+    "name": "ABP Majha",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2891.DistroTv.in/en/1x1/208x208/test_pic1688060652986.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-majha/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_8",
+    "name": "TRACE Urban",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3243.DistroTv.in/en/1x1/208x208/test_pic1690453758770.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-urban/encrypted.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_9",
+    "name": "Balle Balle",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3239.DistroTv.in/en/1x1/208x208/test_pic1688044867895.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/balle-balle/index.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_10",
+    "name": "DroneTV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5143.DistroTv.in/en/1x1/208x208/test_pic1716632233449.jpg",
+    "category": "Travel,Nature,Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/440.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_11",
+    "name": "Always Funny: Pranks & Fails",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5142.DistroTv.in/en/1x1/208x208/1716487313128distrotv_thumbv_20240521_224107.png",
+    "category": "Entertainment,Comedy",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/always-funny-pranks-and-fails/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_12",
+    "name": "YRF Music",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5049.DistroTv.in/hi/1x1/208x208/test_pic1711870399591.jpg",
+    "category": "Music,Bollywood",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_13",
+    "name": "Saga Music Haryanvi",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5051.DistroTv.in/bgc/1x1/208x208/test_pic1711870515037.png",
+    "category": "Music,Music Video",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music-haryanvi/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_14",
+    "name": "Saga Music",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5050.DistroTv.in/pa/1x1/208x208/test_pic1711870478175.png",
+    "category": "Music,Music Video",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_15",
+    "name": "Toon Goggles en Español",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5061.DistroTv.in/es/1x1/208x208/test_pic1711870817326.png",
+    "category": "Entertainment,Animation & Anime,Family/Children",
+    "url": "https://api.toongoggles.com/loggingmediaurlpassthrough/a.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_16",
+    "name": "CraftsyTV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3570.DistroTv.in/en/1x1/208x208/test_pic1690454680871.jpg",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/craftsytv/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_17",
+    "name": "Bhakti Play",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5010.DistroTv.in/hi/1x1/208x208/test_pic1710252021976.jpg",
+    "category": "Music,Devotional",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bhakti-play/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_18",
+    "name": "COOK & BAKE",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5011.DistroTv.in/hi/1x1/208x208/test_pic1710252106157.jpg",
+    "category": "Lifestyle,Food",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cook-and-bake/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_19",
+    "name": "Hollywood Desi",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5012.DistroTv.in/hi/1x1/208x208/test_pic1710252142411.jpg",
+    "category": "Entertainment,Action/Adventure,Thriller,Horror",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/hollywood-desi/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_20",
+    "name": "ABP News",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2889.DistroTv.in/en/1x1/208x208/test_pic1688044053261.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-news/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_21",
+    "name": "ABP Ganga",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2893.DistroTv.in/en/1x1/208x208/test_pic1688044026463.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ganga/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_22",
+    "name": "TV9 Bharatvarsh",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4106.DistroTv.in/hi/1x1/208x208/test_pic1690450650391.png",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-bharatvarsh/main.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_23",
+    "name": "ABP Majha",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2891.DistroTv.in/en/1x1/208x208/test_pic1688060652986.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-majha/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_24",
+    "name": "TV9 Marathi",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4109.DistroTv.in/mr/1x1/208x208/test_pic1690450698840.png",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-marathi/main.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_25",
+    "name": "TV9 Telugu",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4110.DistroTv.in/te/1x1/208x208/test_pic1690450687784.png",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-telugu/main.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_26",
+    "name": "TV9 Kannada",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4108.DistroTv.in/kn/1x1/208x208/test_pic1690450640138.png",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-kannada/main.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_27",
+    "name": "ABP Ananda",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2892.DistroTv.in/en/1x1/208x208/test_pic1688060697267.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_28",
+    "name": "TV9 Bangla",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4105.DistroTv.in/bn/1x1/208x208/test_pic1690451422910.png",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-bangla/main.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_29",
+    "name": "ABP Asmita",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2890.DistroTv.in/en/1x1/208x208/test_pic1688044204937.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-asmita/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_30",
+    "name": "TV9 Gujarati",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4107.DistroTv.in/gu/1x1/208x208/test_pic1690450709976.png",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-gujarati/main.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_31",
+    "name": "ABP Sanjha",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2894.DistroTv.in/en/1x1/208x208/test_pic1688060581602.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-sanjha/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_32",
+    "name": "TV Punjab",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2800.DistroTv.in/en/1x1/208x208/test_pic1690451625305.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_33",
+    "name": "News9Live",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4104.DistroTv.in/en/1x1/208x208/test_pic1690451549448.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news9live/main.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_34",
+    "name": "Euronews",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1244.DistroTv.in/en/1x1/208x208/test_pic1684936918270.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_35",
+    "name": "Law & Crime",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1187.DistroTv.in/en/1x1/208x208/test_pic1684937197479.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/law-crime/playlist_scte.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_36",
+    "name": "Schwab Network",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1116.DistroTv.in/en/1x1/208x208/1708970421820distrotv_thumbv_20231026_191727.png",
+    "category": "Finance,Business,Factual,Talk Show,News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tdameritrade/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_37",
+    "name": "OAN Plus",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1095.DistroTv.in/en/1x1/208x208/test_pic1684937382976.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/oan-encore/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_38",
+    "name": "Africanews",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3120.DistroTv.in/en/1x1/208x208/test_pic1690453452891.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_39",
+    "name": "DeFiance Media",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3426.DistroTv.in/en/1x1/208x208/1684900519977distrotv_thumbv_20221206_212250.jpg",
+    "category": "Finance",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/defiance-media/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_40",
+    "name": "Real Vision",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/658.DistroTv.in/en/1x1/208x208/test_pic1690465190495.jpg",
+    "category": "Finance",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/real-vision-1/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_41",
+    "name": "Entrepreneur",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1081.DistroTv.in/en/1x1/208x208/test_pic1690454150432.jpg",
+    "category": "Business",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/entrepreneur/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_42",
+    "name": "Black Enterprise",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1249.DistroTv.in/en/1x1/208x208/test_pic1690460591441.jpg",
+    "category": "Business",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/black-enterprise/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_43",
+    "name": "YRF Music",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5049.DistroTv.in/hi/1x1/208x208/test_pic1711870399591.jpg",
+    "category": "Music,Bollywood",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_44",
+    "name": "Shemaroo Bollywood",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4996.DistroTv.in/hi/1x1/208x208/test_pic1710147437564.jpg",
+    "category": "Entertainment,Bollywood",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_45",
+    "name": "Shemaroo Umang Plus",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4998.DistroTv.in/hi/1x1/208x208/test_pic1709883348816.jpg",
+    "category": "Entertainment,Hindi GEC",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-umang-plus/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_46",
+    "name": "Shemaroo Filmigaane",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4997.DistroTv.in/hi/1x1/208x208/test_pic1709881484677.jpg",
+    "category": "Music,Bollywood",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-filmigaane/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_47",
+    "name": "Masala Entertainment Plus",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3224.DistroTv.in/en/1x1/208x208/test_pic1690462678800.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/masala-entertainment-plus/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_48",
+    "name": "BritAsiaTV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3633.DistroTv.in/en/1x1/208x208/test_pic1690463007562.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/britasiatv/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_49",
+    "name": "Pitaara TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3132.DistroTv.in/en/1x1/208x208/test_pic1684937427901.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_50",
+    "name": "SANJHA TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2949.DistroTv.in/en/1x1/208x208/test_pic1688061643189.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sanjha-tv/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_51",
+    "name": "Desi TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2954.DistroTv.in/en/1x1/208x208/test_pic1684936798792.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/desi-tv/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_52",
+    "name": "Arré",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2195.DistroTv.in/en/1x1/208x208/test_pic1690290014895.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/arre/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_53",
+    "name": "Hooray Rhymes",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5013.DistroTv.in/en/1x1/208x208/test_pic1710252170632.jpg",
+    "category": "Music,Family/Children,Animation & Anime",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/hooray-rhymes/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_54",
+    "name": "Kids TV India - Nursery Rhymes and Baby Songs",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3687.DistroTv.in/en/1x1/208x208/test_pic1690454184552.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-india-nursery-rhymes-and-baby-songs/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_55",
+    "name": "Kids TV Español Latino - Canciones Infantiles",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3458.DistroTv.in/es/1x1/208x208/test_pic1690462860258.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-et/master_es.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_56",
+    "name": "Kids TV - Nursery Rhymes and Baby Songs",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3449.DistroTv.in/en/1x1/208x208/test_pic1684937177328.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-ind/master_en.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_57",
+    "name": "Watchit Kid!",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3148.DistroTv.in/en/1x1/208x208/test_pic1690454266345.jpg",
+    "category": "Entertainment",
+    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_58",
+    "name": "YRF Music",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5049.DistroTv.in/hi/1x1/208x208/test_pic1711870399591.jpg",
+    "category": "Music,Bollywood",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_59",
+    "name": "9X Jalwa",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3613.DistroTv.in/hi/1x1/208x208/1699639292292distrotv_thumbv_20230328_212825.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_60",
+    "name": "9XM",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3612.DistroTv.in/hi/1x1/208x208/1699639290275distrotv_thumbv_20230328_212755.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_61",
+    "name": "Mastiii - India's No.1 Music and Youth Channel",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1744.DistroTv.in/hi/1x1/208x208/1708970446051distrotv_thumbv_20210706_165835.jpg",
+    "category": "Music,Bollywood,Music Video",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_62",
+    "name": "Maiboli",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4547.DistroTv.in/mr/1x1/208x208/test_pic1696413192025.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/maiboli/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_63",
+    "name": "Dabangg",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4548.DistroTv.in/bh/1x1/208x208/test_pic1696413210292.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dabangg/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_64",
+    "name": "Only Music",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2952.DistroTv.in/en/1x1/208x208/test_pic1688061731041.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/only-music/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_65",
+    "name": "Balle Balle",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3239.DistroTv.in/en/1x1/208x208/test_pic1688044867895.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/balle-balle/index.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_66",
+    "name": "TRACE Urban",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3243.DistroTv.in/en/1x1/208x208/test_pic1690453758770.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-urban/encrypted.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_67",
+    "name": "Pulse",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2970.DistroTv.in/en/1x1/208x208/test_pic1688061882168.jpg",
+    "category": "Music",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pulse/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_68",
+    "name": "Horizon Sports",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/415.DistroTv.in/en/1x1/208x208/test_pic1690453888619.jpg",
+    "category": "Sports",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/horizon-sports/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_69",
+    "name": "Sportskool TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/417.DistroTv.in/en/1x1/208x208/test_pic1684937524434.jpg",
+    "category": "Sports",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sportskool-tv/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_70",
+    "name": "Outside",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/543.DistroTv.in/en/1x1/208x208/test_pic1690453534984.jpg",
+    "category": "Sports",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/outsidetv/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_71",
+    "name": "MMA Junkie",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/661.DistroTv.in/en/1x1/208x208/test_pic1684935485928.jpg",
+    "category": "Sports",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mma-junkie/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_72",
+    "name": "Hard Knocks",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1059.DistroTv.in/en/1x1/208x208/test_pic1684937051245.jpg",
+    "category": "Sports",
+    "url": "https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/109.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_73",
+    "name": "World Poker Tour",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1130.DistroTv.in/en/1x1/208x208/test_pic1684937755515.jpg",
+    "category": "Fun & Games",
+    "url": "https://d3w4n3hhseniak.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-DistroTV/150.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_74",
+    "name": "Adventure Sports TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1186.DistroTv.in/en/1x1/208x208/test_pic1690459372639.jpg",
+    "category": "Sports",
+    "url": "https://doglo1w7hkjkt.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-AdventureSportsTV/438.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_75",
+    "name": "GlewedTV Yoga & Fitness",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1190.DistroTv.in/en/1x1/208x208/test_pic1690459428385.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/glewedtv-yoga/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_76",
+    "name": "Dot Esports",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1192.DistroTv.in/en/1x1/208x208/test_pic1690459525668.jpg",
+    "category": "Fun & Games",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dot-esports/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_77",
+    "name": "FloRacing 24/7",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4500.DistroTv.in/en/1x1/208x208/test_pic1697788721417.jpg",
+    "category": "Sports",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/floracing-247/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_78",
+    "name": "FOODFOOD",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3139.DistroTv.in/en/1x1/208x208/test_pic1690453723632.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/foodfood/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_79",
+    "name": "Gusto TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3187.DistroTv.in/en/1x1/208x208/test_pic1690453571773.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/gusto-tv/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_80",
+    "name": "Wedding TV by Love Stories TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4053.DistroTv.in/en/1x1/208x208/test_pic1697786818076.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/wedding-tv-by-love-stories-tv/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_81",
+    "name": "crema.tv",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4554.DistroTv.in/en/1x1/208x208/test_pic1697788839180.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/crematv/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_82",
+    "name": "Cooking Panda",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1210.DistroTv.in/en/1x1/208x208/test_pic1684936758120.jpg",
+    "category": "Entertainment",
+    "url": "https://api-ott-cookingpanda.ottera.tv/loggingmediaurlpassthrough/a.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_83",
+    "name": "4K TRAVEL TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3193.DistroTv.in/en/1x1/208x208/test_pic1690462555214.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_84",
+    "name": "Real Life TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3366.DistroTv.in/en/1x1/208x208/1684900500596distrotv_thumbv_20221025_173250.png",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/real-life-tv/manifest.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_85",
+    "name": "ChopperTown",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1222.DistroTv.in/en/1x1/208x208/test_pic1688044937389.jpg",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/choppertown/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_86",
+    "name": "The Boat Show",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/416.DistroTv.in/en/1x1/208x208/test_pic1690453934886.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/the-boat-show/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_87",
+    "name": "AWE Plus",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1096.DistroTv.in/en/1x1/208x208/test_pic1684936604288.jpg",
+    "category": "News",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/awe-encore/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_88",
+    "name": "Always Funny: Pranks & Fails",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5142.DistroTv.in/en/1x1/208x208/1716487313128distrotv_thumbv_20240521_224107.png",
+    "category": "Entertainment,Comedy",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/always-funny-pranks-and-fails/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_89",
+    "name": "Always Funny",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4873.DistroTv.in/en/1x1/208x208/1700762509689distrotv_thumbv_20231121_180937.png",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/always-funny/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_90",
+    "name": "Young Hollywood",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1032.DistroTv.in/en/1x1/208x208/test_pic1690465302786.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/young-hollywood/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_91",
+    "name": "Lone Star",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1055.DistroTv.in/en/1x1/208x208/test_pic1690459259008.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/lone-star/index.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_92",
+    "name": "Kaloopy",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1093.DistroTv.in/en/1x1/208x208/test_pic1688061154006.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_93",
+    "name": "Right Now Tv",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1094.DistroTv.in/en/1x1/208x208/test_pic1690453611533.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/right-now-tv/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_94",
+    "name": "Humor Mill",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1137.DistroTv.in/en/1x1/208x208/test_pic1690459327947.jpg",
+    "category": "Entertainment",
+    "url": "https://damkf751d85s1.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HumorMill-DistroTV/152.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_95",
+    "name": "fw.tv by Firework",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1236.DistroTv.in/en/1x1/208x208/test_pic1690460378670.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/fwtv/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_96",
+    "name": "Revry News",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1241.DistroTv.in/en/1x1/208x208/test_pic1690460444235.jpg",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/revry-news/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_97",
+    "name": "Revry Her",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1242.DistroTv.in/en/1x1/208x208/test_pic1690460483430.jpg",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/revry-her/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_98",
+    "name": "Bowery Classics",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2535.DistroTv.in/en/1x1/208x208/test_pic1690461110917.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bowery-classics/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_99",
+    "name": "Galxy TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1228.DistroTv.in/en/1x1/208x208/test_pic1690460178537.jpg",
+    "category": "Entertainment",
+    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_100",
+    "name": "GlewedTV The Vault",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1188.DistroTv.in/en/1x1/208x208/test_pic1690459453637.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/glewedtv-the-vault/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_101",
+    "name": "ENCORE+",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3196.DistroTv.in/en/1x1/208x208/test_pic1690462590530.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/encore/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_102",
+    "name": "Monarch",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/539.DistroTv.in/en/1x1/208x208/test_pic1690453973444.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/monarch/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_103",
+    "name": "Cinepride",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1224.DistroTv.in/en/1x1/208x208/test_pic1688061468189.jpg",
+    "category": "Entertainment",
+    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_104",
+    "name": "Revry",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1240.DistroTv.in/en/1x1/208x208/test_pic1684937447018.jpg",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/revry/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_105",
+    "name": "EPIC TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2804.DistroTv.in/hi/1x1/208x208/test_pic1697701359119.jpg",
+    "category": "Education",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/epic-tv/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_106",
+    "name": "Documentary+",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1679.DistroTv.in/en/1x1/208x208/test_pic1684936884293.jpg",
+    "category": "Education",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/documentary/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_107",
+    "name": "TED",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3305.DistroTv.in/en/1x1/208x208/test_pic1684937638965.jpg",
+    "category": "Education",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/ted/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_108",
+    "name": "Goalcast",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3080.DistroTv.in/en/1x1/208x208/test_pic1684937001382.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/goalcast/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_109",
+    "name": "True History",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2540.DistroTv.in/en/1x1/208x208/test_pic1684937685013.jpg",
+    "category": "Education",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/true-history/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_110",
+    "name": "MilitaryTimes",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1250.DistroTv.in/en/1x1/208x208/test_pic1684937299909.jpg",
+    "category": "Education",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sightline/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_111",
+    "name": "Sword & Shield",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1085.DistroTv.in/en/1x1/208x208/test_pic1690454116351.jpg",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sword-1/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_112",
+    "name": "Titanic TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/414.DistroTv.in/en/1x1/208x208/test_pic1690453843264.jpg",
+    "category": "Education",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/titanic-tv/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_113",
+    "name": "Everyday Heroes",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/630.DistroTv.in/en/1x1/208x208/test_pic1684936940536.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/everyday-heroes/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_114",
+    "name": "Garv Punjab Gurbani",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2531.DistroTv.in/en/1x1/208x208/test_pic1697785890370.jpg",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/garv-punjab-gurbani/index.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_115",
+    "name": "Swar Shree",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2532.DistroTv.in/en/1x1/208x208/test_pic1688061571036.jpg",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/swar-shree/index.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_116",
+    "name": "Hare Krsna",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2787.DistroTv.in/en/1x1/208x208/test_pic1684937080080.jpg",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/hare-krsna/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_117",
+    "name": "Bless TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2930.DistroTv.in/en/1x1/208x208/test_pic1684936628198.jpg",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bless-tv/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_118",
+    "name": "Gurkibani TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2951.DistroTv.in/en/1x1/208x208/test_pic1690461169461.jpg",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/gurkibani-tv/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_119",
+    "name": "Channel Divya",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4101.DistroTv.in/hi/1x1/208x208/test_pic1690463515894.png",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/channel-divya/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_120",
+    "name": "DroneTV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/5143.DistroTv.in/en/1x1/208x208/test_pic1716632233449.jpg",
+    "category": "Travel,Nature,Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/440.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_121",
+    "name": "SoniCentric",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3358.DistroTv.in/en/1x1/208x208/test_pic1690462808357.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sonicentric/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_122",
+    "name": "NatureStream.tv",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3074.DistroTv.in/en/1x1/208x208/test_pic1688061965574.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/naturestreamtv/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_123",
+    "name": "Quietude 4K",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1685.DistroTv.in/en/1x1/208x208/test_pic1690460899275.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/quietude/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_124",
+    "name": "Fireplace Lounge",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/653.DistroTv.in/en/1x1/208x208/test_pic1690465112707.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/fireplace-lounge/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_125",
+    "name": "Fish Tank",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/654.DistroTv.in/en/1x1/208x208/test_pic1690465137419.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/fish-tank/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_126",
+    "name": "Relaxing Rain",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/655.DistroTv.in/en/1x1/208x208/test_pic1690461384258.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/relaxing-rain/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_127",
+    "name": "Island Escape",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/656.DistroTv.in/en/1x1/208x208/test_pic1690465161048.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/island-escape/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_128",
+    "name": "Tranquil Thunderstorms",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/659.DistroTv.in/en/1x1/208x208/test_pic1690465012605.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tranquil-thunderstorms/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_129",
+    "name": "Autumn Escape",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/3174.DistroTv.in/en/1x1/208x208/test_pic1690453495430.jpg",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/autumn-escape/master.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_130",
+    "name": "FEVA TV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/4581.DistroTv.in/en/1x1/208x208/test_pic1697791024517.jpg",
+    "category": "Entertainment",
+    "url": "https://d21x3vavxu7p2x.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVATV/416.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_131",
+    "name": "KweliTV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1129.DistroTv.in/en/1x1/208x208/test_pic1690454066683.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kwelitv/24-25-3009.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_132",
+    "name": "AfroLandTV",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2653.DistroTv.in/en/1x1/208x208/test_pic1690451863030.jpg",
+    "category": "Entertainment",
+    "url": "https://api-ott.afrolandtv.com/loggingmediaurlpassthrough/a.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_133",
+    "name": "Afriwood Series",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2965.DistroTv.in/en/1x1/208x208/test_pic1690452973043.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/afriwood-series/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_134",
+    "name": "Bongo",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2966.DistroTv.in/en/1x1/208x208/test_pic1690453048177.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bongo/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_135",
+    "name": "Cinema Hausa",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2967.DistroTv.in/en/1x1/208x208/test_pic1684936736875.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cinema-hausa/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_136",
+    "name": "Diva",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2968.DistroTv.in/en/1x1/208x208/test_pic1684936855675.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/diva/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_137",
+    "name": "LOL",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2969.DistroTv.in/en/1x1/208x208/test_pic1690453274899.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/lol/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_138",
+    "name": "True African",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/2971.DistroTv.in/en/1x1/208x208/test_pic1690461194824.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/true-african/playlist.m3u8"
+  },
+  {
+    "id": "BLOODY_SWEET_139",
+    "name": "GlewedTV Spanish",
+    "logo": "https://qqcdnpictest.mxplay.com/pic/1189.DistroTv.in/es/1x1/208x208/test_pic1690459472816.jpg",
+    "category": "Entertainment",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/glewedtv-spanish/master.m3u8"
+  }
+]

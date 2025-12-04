@@ -129,47 +129,43 @@ const PlayerScreen = () => {
 
   // TV/Keyboard Event Handler
   useEffect(() => {
-    // Fallback for remote control events using Keyboard module
-    // This works for Android TV / Fire TV D-pad events
     const onKeyDown = (e: any) => {
       showControls();
-      // Map keys to actions
-      // Note: Key names might vary by device/platform
       const keyName = e.nativeEvent?.key;
       
-      if (keyName === 'ArrowUp' || keyName === 'DPadUp') {
+      // Log key for debugging (if we could see logs)
+      // console.log('Key pressed:', keyName);
+
+      if (['ArrowUp', 'DPadUp', 'Up'].includes(keyName)) {
         changeChannel('next');
-      } else if (keyName === 'ArrowDown' || keyName === 'DPadDown') {
+      } else if (['ArrowDown', 'DPadDown', 'Down'].includes(keyName)) {
         changeChannel('prev');
-      } else if (keyName === 'ArrowLeft' || keyName === 'DPadLeft') {
+      } else if (['ArrowLeft', 'DPadLeft', 'Left'].includes(keyName)) {
         if (!showChannelList) setShowChannelList(true);
-      } else if (keyName === 'ArrowRight' || keyName === 'DPadRight') {
+      } else if (['ArrowRight', 'DPadRight', 'Right'].includes(keyName)) {
         if (showChannelList) {
           setShowChannelList(false);
         } else {
-          // Instead of just showing toast, maybe toggle controls focus?
-          // For now, let's keep it simple or maybe open audio menu?
-          // Keeping original behavior for Right key (Audio Toast placeholder)
-          // But now we have a real button. Let's keep this as a shortcut.
           cycleAudioTrack();
         }
-      } else if (keyName === 'Select' || keyName === 'Enter' || keyName === 'DPadCenter' || keyName === ' ') {
-         // Toggle UI or select
+      } else if (['Select', 'Enter', 'DPadCenter', 'Center', ' '].includes(keyName)) {
          if (!showChannelList) {
-           // Just showing controls is enough (handled by showControls call above)
+           // Toggle UI
+           if (uiVisible) {
+             setUiVisible(false);
+           } else {
+             showControls();
+           }
          }
-      } else if (keyName === 'm' || keyName === 'M') {
+      } else if (['Menu', 'ContextMenu', 'm', 'M'].includes(keyName)) {
         toggleResizeMode();
       }
     };
 
-    // @ts-ignore - 'keydown' is valid for React Native Android TV / Web
+    // @ts-ignore
     const subscription = Keyboard.addListener('keydown', onKeyDown);
-
-    return () => {
-      subscription.remove();
-    };
-  }, [showChannelList, currentChannel]); 
+    return () => subscription.remove();
+  }, [showChannelList, currentChannel, uiVisible]); 
 
   const changeChannel = (direction: 'next' | 'prev') => {
     const currentIndex = channels.findIndex(c => c.id === currentChannel.id);
@@ -221,12 +217,14 @@ const PlayerScreen = () => {
   };
 
   const handleError = (e: any) => {
+    console.error("Video Playback Error:", e);
     setError(true);
     setLoading(false);
     
     // Fallback to test channel if not already playing it
     if (currentChannel.id !== TEST_CHANNEL.id) {
-      setCurrentChannel(TEST_CHANNEL);
+      // Optional: Auto-fallback
+      // setCurrentChannel(TEST_CHANNEL);
     }
   };
 
