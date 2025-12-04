@@ -34,16 +34,33 @@ const parseM3U = (content) => {
       const tvgLogo = getAttribute(meta, "tvg-logo");
       let groupTitle = getAttribute(meta, "group-title");
 
-      // Clean up category: "INDIAN | ENTERTAINMENT" -> "Entertainment"
+      // Filter: Only include TataPlay channels
+      if (!groupTitle || !groupTitle.toLowerCase().includes("tataplay")) {
+        return;
+      }
+
+      // Clean up category: "Tataplay🎭Action" -> "Action"
       if (groupTitle) {
+        // Remove "Tataplay" and any following non-alphanumeric characters (including emojis)
+        groupTitle = groupTitle
+          .replace(/^Tataplay/i, "")
+          .replace(/^[^\w\s]+/u, "")
+          .trim();
+
         if (groupTitle.includes("|")) {
           const parts = groupTitle.split("|");
           groupTitle = parts[parts.length - 1].trim();
         }
-        // Capitalize first letter, lowercase rest
-        groupTitle =
-          groupTitle.charAt(0).toUpperCase() +
-          groupTitle.slice(1).toLowerCase();
+
+        // If empty after cleanup (e.g. just "Tataplay"), default to General
+        if (!groupTitle) {
+          groupTitle = "General";
+        } else {
+          // Capitalize first letter, lowercase rest
+          groupTitle =
+            groupTitle.charAt(0).toUpperCase() +
+            groupTitle.slice(1).toLowerCase();
+        }
       } else {
         groupTitle = "General";
       }
@@ -71,6 +88,7 @@ const parseM3U = (content) => {
         category: groupTitle,
       };
     } else if (line.startsWith("http")) {
+      // Only add if we have a valid currentChannel (meaning it passed the filter)
       if (currentChannel.name) {
         currentChannel.url = line;
         channels.push(currentChannel);
@@ -84,12 +102,12 @@ const parseM3U = (content) => {
 
 // Read from local file instead of URL
 try {
-  const data = fs.readFileSync("playlist.txt", "utf8");
+  const data = fs.readFileSync("assets/playlist.m3u", "utf8");
   const channels = parseM3U(data);
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(channels, null, 2));
   console.log(
     `Successfully converted ${channels.length} channels to ${OUTPUT_FILE}`
   );
 } catch (err) {
-  console.error("Error reading playlist.txt:", err);
+  console.error("Error reading playlist.m3u:", err);
 }

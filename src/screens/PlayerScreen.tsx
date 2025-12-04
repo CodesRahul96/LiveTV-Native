@@ -13,12 +13,12 @@ import {
   Image,
   Animated,
 } from 'react-native';
-import { useVideoPlayer, VideoView, VideoContentFit } from 'expo-video';
+import { Video, ResizeMode, AVPlaybackStatus } from 'expo-av';
 import * as ScreenOrientation from 'expo-screen-orientation';
 import { useRoute, useNavigation } from '@react-navigation/native';
 import { Channel } from '../types';
 import { TEST_CHANNEL, useChannels } from '../data/channels';
-import { ArrowLeft, Volume2, Maximize, Monitor } from 'lucide-react-native';
+import { ArrowLeft, Volume2, Maximize } from 'lucide-react-native';
 import { saveLastChannel } from '../utils/storage';
 
 const PlayerScreen = () => {
@@ -30,20 +30,15 @@ const PlayerScreen = () => {
   
   const [currentChannel, setCurrentChannel] = useState<Channel>(channel);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
   const [showChannelList, setShowChannelList] = useState(false);
   const [showAudioToast, setShowAudioToast] = useState(false);
   const [audioTrackName, setAudioTrackName] = useState('Default');
-  const [contentFit, setContentFit] = useState<VideoContentFit>('contain');
+  const [resizeMode, setResizeMode] = useState<ResizeMode>(ResizeMode.CONTAIN);
+  
+  const videoRef = useRef<Video>(null);
   
   // Animation for toast
   const toastOpacity = useRef(new Animated.Value(0)).current;
-
-  // Initialize Video Player
-  const player = useVideoPlayer(currentChannel.url, player => {
-    player.loop = false;
-    player.play();
-  });
 
   useEffect(() => {
     // Lock to landscape on mount
@@ -58,31 +53,9 @@ const PlayerScreen = () => {
   useEffect(() => {
     // Reset state when channel changes
     setLoading(true);
-    setError(false);
     // Save the channel ID
     saveLastChannel(currentChannel.id);
-    
-    // Update player source
-    player.replaceAsync(currentChannel.url);
-    player.play();
-  }, [currentChannel, player]);
-
-  // Handle Player Events
-  useEffect(() => {
-    const statusSubscription = player.addListener('statusChange', ({ status, error }) => {
-      if (status === 'readyToPlay') {
-        setLoading(false);
-        setError(false);
-      }
-      if (error) {
-        handleError(error);
-      }
-    });
-
-    return () => {
-      statusSubscription.remove();
-    };
-  }, [player]);
+  }, [currentChannel]);
 
   // Auto-hide UI
   const [uiVisible, setUiVisible] = useState(true);
@@ -109,7 +82,7 @@ const PlayerScreen = () => {
         clearTimeout(controlsTimeoutRef.current);
       }
     };
-  }, [showChannelList]); // Re-run when showChannelList changes
+  }, [showChannelList]);
 
   // Hardware Back Button Handler
   useEffect(() => {
@@ -132,9 +105,6 @@ const PlayerScreen = () => {
     const onKeyDown = (e: any) => {
       showControls();
       const keyName = e.nativeEvent?.key;
-      
-      // Log key for debugging (if we could see logs)
-      // console.log('Key pressed:', keyName);
 
       if (['ArrowUp', 'DPadUp', 'Up'].includes(keyName)) {
         changeChannel('next');
@@ -150,7 +120,6 @@ const PlayerScreen = () => {
         }
       } else if (['Select', 'Enter', 'DPadCenter', 'Center', ' '].includes(keyName)) {
          if (!showChannelList) {
-           // Toggle UI
            if (uiVisible) {
              setUiVisible(false);
            } else {
@@ -182,18 +151,15 @@ const PlayerScreen = () => {
   };
 
   const toggleResizeMode = () => {
-    setContentFit(prev => {
-      if (prev === 'contain') return 'cover';
-      if (prev === 'cover') return 'fill'; // 'fill' is 'stretch' effectively
-      return 'contain';
+    setResizeMode(prev => {
+      if (prev === ResizeMode.CONTAIN) return ResizeMode.COVER;
+      if (prev === ResizeMode.COVER) return ResizeMode.STRETCH;
+      return ResizeMode.CONTAIN;
     });
     showControls();
   };
 
   const cycleAudioTrack = () => {
-    // Placeholder logic for audio track cycling
-    // In a real scenario, we would iterate player.audioTracks
-    // For now, we'll simulate it and show the toast
     setAudioTrackName(prev => prev === 'Default' ? 'Alternative' : 'Default');
     showAudioToastMessage();
     showControls();
@@ -216,10 +182,23 @@ const PlayerScreen = () => {
     ]).start(() => setShowAudioToast(false));
   };
 
+  const onPlaybackStatusUpdate = (status: AVPlaybackStatus) => {
+    if (!status.isLoaded) {
+      if (status.error) {
+        handleError(status.error);
+      }
+      return;
+    }
+
+    if (status.isPlaying) {
+      setLoading(false);
+    } else if (status.isBuffering) {
+      setLoading(true);
+    }
+  };
+
   const handleError = (e: any) => {
     console.error("Video Playback Error:", e);
-    // Do not show error state to user
-    // setError(true); 
     setLoading(false);
     
     // Fallback to test channel if not already playing it
@@ -238,10 +217,14 @@ const PlayerScreen = () => {
       ]}
       onPress={() => {
         setCurrentChannel(item);
-        setShowChannelList(false); // Close list on selection
+        setShowChannelList(false);
       }}
     >
-      <Image source={{ uri: item.logo }} style={styles.channelListLogo} />
+      {item.logo ? (
+        <Image source={{ uri: item.logo }} style={styles.channelListLogo} />
+      ) : (
+        <View style={[styles.channelListLogo, { backgroundColor: '#555' }]} />
+      )}
       <Text style={styles.channelListText} numberOfLines={1}>{item.name}</Text>
     </Pressable>
   );
@@ -252,11 +235,15 @@ const PlayerScreen = () => {
     <View style={styles.container}>
       <StatusBar hidden />
       
-      <VideoView
-        player={player}
+      <Video
+        ref={videoRef}
         style={styles.video}
-        contentFit={contentFit}
-        nativeControls={false}
+        source={{ uri: currentChannel.url }}
+        resizeMode={resizeMode}
+        shouldPlay
+        isLooping={false}
+        onPlaybackStatusUpdate={onPlaybackStatusUpdate}
+        useNativeControls={false}
       />
 
       <Pressable 
@@ -276,9 +263,7 @@ const PlayerScreen = () => {
         </View>
       )}
 
-      {/* Error UI removed as per request */}
-
-      {/* Channel List Overlay (Left Drawer) */}
+      {/* Channel List Overlay */}
       {showChannelList && (
         <View style={styles.channelListOverlay}>
           <Text style={styles.overlayTitle}>Channels</Text>
@@ -295,7 +280,7 @@ const PlayerScreen = () => {
         </View>
       )}
 
-      {/* Audio Toast (Right) */}
+      {/* Audio Toast */}
       {showAudioToast && (
         <Animated.View style={[styles.audioToast, { opacity: toastOpacity }]}>
           <Volume2 color="#fff" size={32} />
@@ -322,7 +307,7 @@ const PlayerScreen = () => {
             >
               <Maximize color="#fff" size={24} />
               <Text style={styles.controlText}>
-                {contentFit === 'contain' ? 'Fit' : contentFit === 'cover' ? 'Zoom' : 'Stretch'}
+                {resizeMode === ResizeMode.CONTAIN ? 'Fit' : resizeMode === ResizeMode.COVER ? 'Zoom' : 'Stretch'}
               </Text>
             </TouchableOpacity>
 
@@ -356,16 +341,6 @@ const styles = StyleSheet.create({
     position: 'absolute',
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  errorContainer: {
-    position: 'absolute',
-    backgroundColor: 'rgba(0,0,0,0.7)',
-    padding: 20,
-    borderRadius: 10,
-  },
-  errorText: {
-    color: '#fff',
-    fontSize: 16,
   },
   backButton: {
     position: 'absolute',

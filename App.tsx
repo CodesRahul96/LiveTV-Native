@@ -2,10 +2,13 @@ import React, { useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import * as ScreenOrientation from 'expo-screen-orientation';
-import { Platform } from 'react-native';
+import { Platform, LogBox } from 'react-native';
 import AppNavigator from './src/navigation/AppNavigator';
 
 import ErrorBoundary from './src/components/ErrorBoundary';
+
+// Ignore expo-av deprecation warning as we need it for better HLS support
+LogBox.ignoreLogs(['[expo-av]: Video component from `expo-av` is deprecated']);
 
 export default function App() {
   useEffect(() => {

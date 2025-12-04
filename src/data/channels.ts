@@ -31,8 +31,11 @@ export const useChannels = () => {
     if (!fetchPromise) {
       fetchPromise = (async () => {
         try {
-          console.log('Fetching channels from:', CHANNELS_JSON_URL);
-          const response = await fetch(CHANNELS_JSON_URL);
+          // Append timestamp to prevent caching
+          const urlWithTimestamp = `${CHANNELS_JSON_URL}?t=${Date.now()}`;
+          console.log('Fetching channels from:', urlWithTimestamp);
+          
+          const response = await fetch(urlWithTimestamp);
           if (!response.ok) {
             throw new Error(`Failed to fetch channels: ${response.statusText}`);
           }

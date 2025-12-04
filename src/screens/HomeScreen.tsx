@@ -109,11 +109,19 @@ const HomeScreen = () => {
         >
           {({ focused, hovered }: any) => (
             <>
-              <Image
-                source={{ uri: item.logo }}
-                style={styles.channelLogo}
-                resizeMode="contain"
-              />
+              {item.logo ? (
+                <Image
+                  source={{ uri: item.logo }}
+                  style={styles.channelLogo}
+                  resizeMode="contain"
+                />
+              ) : (
+                <View style={[styles.channelLogo, styles.placeholderLogo]}>
+                  <Text style={styles.placeholderText}>
+                    {item.name.substring(0, 2).toUpperCase()}
+                  </Text>
+                </View>
+              )}
               <Text
                 style={[
                   styles.channelName,
@@ -148,16 +156,15 @@ const HomeScreen = () => {
           horizontal
           showsHorizontalScrollIndicator={false}
           contentContainerStyle={styles.channelList}
-          initialNumToRender={5}
-          maxToRenderPerBatch={5}
+          initialNumToRender={4}
+          maxToRenderPerBatch={4}
           windowSize={3}
           removeClippedSubviews={true}
           getItemLayout={(data, index) => ({
             length: 156,
             offset: 156 * index,
             index,
-          }) // width + margin
-          }
+          })}
         />
       </View>
     ),
@@ -262,6 +269,16 @@ const styles = StyleSheet.create({
     color: '#fff',
     marginTop: 10,
     fontSize: 16,
+  },
+  placeholderLogo: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#333',
+  },
+  placeholderText: {
+    color: '#777',
+    fontSize: 24,
+    fontWeight: 'bold',
   },
 });
 
