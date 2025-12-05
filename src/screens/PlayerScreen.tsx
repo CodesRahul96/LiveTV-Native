@@ -144,16 +144,29 @@ const PlayerScreen = () => {
     return () => backHandler.remove();
   }, [showChannelList, navigation]);
 
-  // TV/Keyboard Event Handler
+  // TV Remote Event Handler
+  // @ts-ignore - useTVEventHandler is available in recent RN versions
+  const { useTVEventHandler } = require('react-native');
+  
+  const [lastRemoteEventTime, setLastRemoteEventTime] = useState(0);
+
+  // We use a try-catch block or conditional import in a real app, 
+  // but here we'll assume it's available or fallback gracefully if not (it won't crash, just won't hook).
+  // Actually, let's stick to the Keyboard listener for maximum compatibility across Phone/TV 
+  // UNLESS we are sure.
+  // Wait, the user specifically asked for Fire TV.
+  // Let's IMPROVE the Keyboard listener to be more robust instead of replacing it, 
+  // as useTVEventHandler might not be available in the types if not configured.
+  
+  // REVISED PLAN: Stick to Keyboard but add more key codes and logging.
+  
   useEffect(() => {
-    // Fallback for remote control events using Keyboard module
-    // This works for Android TV / Fire TV D-pad events
     const onKeyDown = (e: any) => {
       showControls();
-      // Map keys to actions
-      // Note: Key names might vary by device/platform
       const keyName = e.nativeEvent?.key;
-      
+      console.log('Key pressed:', keyName); // Debugging
+
+      // Fire TV / Android TV Key Mapping
       if (keyName === 'ArrowUp' || keyName === 'DPadUp') {
         changeChannel('next');
       } else if (keyName === 'ArrowDown' || keyName === 'DPadDown') {
@@ -164,28 +177,27 @@ const PlayerScreen = () => {
         if (showChannelList) {
           setShowChannelList(false);
         } else {
-          // Instead of just showing toast, maybe toggle controls focus?
-          // For now, let's keep it simple or maybe open audio menu?
-          // Keeping original behavior for Right key (Audio Toast placeholder)
-          // But now we have a real button. Let's keep this as a shortcut.
           cycleAudioTrack();
         }
-      } else if (keyName === 'Select' || keyName === 'Enter' || keyName === 'DPadCenter' || keyName === ' ') {
-         // Toggle UI or select
+      } else if (
+        keyName === 'Select' || 
+        keyName === 'Enter' || 
+        keyName === 'DPadCenter' || 
+        keyName === ' ' ||
+        keyName === 'MediaPlayPause'
+      ) {
          if (!showChannelList) {
-           // Just showing controls is enough (handled by showControls call above)
+           // Toggle controls or Play/Pause?
+           // For now, just show controls
          }
-      } else if (keyName === 'm' || keyName === 'M') {
+      } else if (keyName === 'Menu') {
+        // Fire TV Menu button
         toggleResizeMode();
       }
     };
 
-    // @ts-ignore - 'keydown' is valid for React Native Android TV / Web
     const subscription = Keyboard.addListener('keydown', onKeyDown);
-
-    return () => {
-      subscription.remove();
-    };
+    return () => subscription.remove();
   }, [showChannelList, currentChannel]); 
 
   const changeChannel = (direction: 'next' | 'prev') => {
@@ -402,12 +414,13 @@ const PlayerScreen = () => {
         </Animated.View>
       )}
 
-      {uiVisible && (
+      {/* On-Screen Controls (Mobile Only) */}
+      {!Platform.isTV && uiVisible && (
         <>
           <TouchableOpacity 
             style={styles.backButton}
             onPress={() => navigation.goBack()}
-            focusable={true}
+            focusable={false} // Disable focus on touch controls for TV
           >
             <ArrowLeft color="#fff" size={24} />
           </TouchableOpacity>
@@ -417,7 +430,7 @@ const PlayerScreen = () => {
             <TouchableOpacity 
               style={styles.controlButton} 
               onPress={toggleResizeMode}
-              focusable={true}
+              focusable={false}
             >
               <Maximize color="#fff" size={24} />
               <Text style={styles.controlText}>
@@ -428,7 +441,7 @@ const PlayerScreen = () => {
             <TouchableOpacity 
               style={styles.controlButton} 
               onPress={cycleAudioTrack}
-              focusable={true}
+              focusable={false}
             >
               <Volume2 color="#fff" size={24} />
               <Text style={styles.controlText}>Audio</Text>
@@ -437,7 +450,7 @@ const PlayerScreen = () => {
             <TouchableOpacity 
               style={styles.controlButton} 
               onPress={cycleVideoQuality}
-              focusable={true}
+              focusable={false}
             >
               <Settings color="#fff" size={24} />
               <Text style={styles.controlText}>Quality</Text>

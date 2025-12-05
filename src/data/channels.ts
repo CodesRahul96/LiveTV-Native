@@ -1,3 +1,4 @@
+import React from 'react';
 import { Channel, Category } from '../types';
 
 // Import channels from JSON file
@@ -14,25 +15,37 @@ export const TEST_CHANNEL: Channel = {
 };
 
 export const useChannels = () => {
+  const [loading, setLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    // Simulate loading delay for skeleton effect
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1500);
+    return () => clearTimeout(timer);
+  }, []);
+
   // Group channels by category
-  const categories: Category[] = MOCK_CHANNELS.reduce((acc, channel) => {
-    const existingCategory = acc.find((c) => c.name === channel.category);
-    if (existingCategory) {
-      existingCategory.channels.push(channel);
-    } else {
-      acc.push({
-        id: channel.category,
-        name: channel.category,
-        channels: [channel],
-      });
-    }
-    return acc;
-  }, [] as Category[]);
+  const categories: Category[] = React.useMemo(() => {
+    return MOCK_CHANNELS.reduce((acc, channel) => {
+      const existingCategory = acc.find((c) => c.name === channel.category);
+      if (existingCategory) {
+        existingCategory.channels.push(channel);
+      } else {
+        acc.push({
+          id: channel.category,
+          name: channel.category,
+          channels: [channel],
+        });
+      }
+      return acc;
+    }, [] as Category[]);
+  }, []);
 
   return {
     channels: MOCK_CHANNELS,
     categories,
-    loading: false,
+    loading,
     error: null,
   };
 };
