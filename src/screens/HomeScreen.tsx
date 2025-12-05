@@ -14,6 +14,7 @@ import { useChannels } from '../data/channels';
 import { Channel } from '../types';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import { getLastChannel } from '../utils/storage';
+import ChannelLogo from '../components/ChannelLogo';
 
 const HomeScreen = () => {
   const { categories } = useChannels();
@@ -53,10 +54,10 @@ const HomeScreen = () => {
       >
         {({ focused, hovered }: any) => (
           <>
-            <Image 
-              source={{ uri: item.logo }} 
+            <ChannelLogo 
+              uri={item.logo} 
+              name={item.name}
               style={styles.channelLogo} 
-              resizeMode="contain"
             />
             <Text
               style={[

@@ -18,10 +18,13 @@ import * as ScreenOrientation from 'expo-screen-orientation';
 import { useRoute, useNavigation } from '@react-navigation/native';
 import { Channel } from '../types';
 import { TEST_CHANNEL, useChannels } from '../data/channels';
-import { ArrowLeft, Volume2, Maximize, Monitor } from 'lucide-react-native';
+import { ArrowLeft, Volume2, Maximize, Monitor, Settings } from 'lucide-react-native';
 import { saveLastChannel } from '../utils/storage';
+import { useKeepAwake } from 'expo-keep-awake';
+import ChannelLogo from '../components/ChannelLogo';
 
 const PlayerScreen = () => {
+  useKeepAwake();
   const route = useRoute();
   const navigation = useNavigation();
   // @ts-ignore
@@ -34,13 +37,23 @@ const PlayerScreen = () => {
   const [showChannelList, setShowChannelList] = useState(false);
   const [showAudioToast, setShowAudioToast] = useState(false);
   const [audioTrackName, setAudioTrackName] = useState('Default');
+  const [showQualityToast, setShowQualityToast] = useState(false);
+  const [qualityName, setQualityName] = useState('Auto');
   const [contentFit, setContentFit] = useState<VideoContentFit>('contain');
   
   // Animation for toast
   const toastOpacity = useRef(new Animated.Value(0)).current;
+  const qualityToastOpacity = useRef(new Animated.Value(0)).current;
 
   // Initialize Video Player
-  const player = useVideoPlayer(currentChannel.url, player => {
+  const videoSource = useMemo(() => ({
+    uri: currentChannel.url,
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+  }), [currentChannel.url]);
+
+  const player = useVideoPlayer(videoSource, player => {
     player.loop = false;
     player.play();
   });
@@ -52,6 +65,10 @@ const PlayerScreen = () => {
     return () => {
       // Unlock on unmount
       ScreenOrientation.unlockAsync();
+      // Cleanup retry timeout
+      if (retryTimeoutRef.current) {
+        clearTimeout(retryTimeoutRef.current);
+      }
     };
   }, []);
 
@@ -62,8 +79,8 @@ const PlayerScreen = () => {
     // Save the channel ID
     saveLastChannel(currentChannel.id);
     
-    // Update player source
-    player.replaceAsync(currentChannel.url);
+    // Player source is handled by useVideoPlayer hook updates
+    // Just ensure we play
     player.play();
   }, [currentChannel, player]);
 
@@ -203,6 +220,20 @@ const PlayerScreen = () => {
     showControls();
   };
 
+  const cycleVideoQuality = () => {
+    // Placeholder logic for video quality cycling
+    // expo-video usually handles ABR automatically.
+    // Manual selection would require accessing player.availableVideoTracks if supported.
+    const qualities = ['Auto', '1080p', '720p', '480p'];
+    setQualityName(prev => {
+      const currentIndex = qualities.indexOf(prev);
+      const nextIndex = (currentIndex + 1) % qualities.length;
+      return qualities[nextIndex];
+    });
+    showQualityToastMessage();
+    showControls();
+  };
+
   const showAudioToastMessage = () => {
     setShowAudioToast(true);
     Animated.sequence([
@@ -220,21 +251,69 @@ const PlayerScreen = () => {
     ]).start(() => setShowAudioToast(false));
   };
 
+  const showQualityToastMessage = () => {
+    setShowQualityToast(true);
+    Animated.sequence([
+      Animated.timing(qualityToastOpacity, {
+        toValue: 1,
+        duration: 300,
+        useNativeDriver: true,
+      }),
+      Animated.delay(2000),
+      Animated.timing(qualityToastOpacity, {
+        toValue: 0,
+        duration: 300,
+        useNativeDriver: true,
+      }),
+    ]).start(() => setShowQualityToast(false));
+  };
+
+  const retryTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
   const handleError = (e: any) => {
+    console.log("Playback error:", e);
     setError(true);
     setLoading(false);
     
-    // Fallback to test channel if not already playing it
-    if (currentChannel.id !== TEST_CHANNEL.id) {
-      setCurrentChannel(TEST_CHANNEL);
+    // Attempt to retry once after 3 seconds before falling back
+    if (!retryTimeoutRef.current) {
+        retryTimeoutRef.current = setTimeout(() => {
+            console.log("Retrying playback...");
+            setError(false);
+            setLoading(true);
+            player.replaceAsync({
+                uri: currentChannel.url,
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                }
+            });
+            player.play();
+            retryTimeoutRef.current = null;
+        }, 3000);
+    } else {
+        // ...
     }
+  };
+
+  const manualRetry = () => {
+    if (retryTimeoutRef.current) clearTimeout(retryTimeoutRef.current);
+    retryTimeoutRef.current = null;
+    setError(false);
+    setLoading(true);
+    player.replaceAsync({
+        uri: currentChannel.url,
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+    });
+    player.play();
   };
 
   const renderChannelItem = ({ item }: { item: Channel }) => (
     <Pressable
-      style={({ focused }) => [
+      style={({ pressed }) => [
         styles.channelListItem,
-        focused && styles.channelListItemFocused,
+        pressed && styles.channelListItemFocused,
         item.id === currentChannel.id && styles.channelListItemActive
       ]}
       onPress={() => {
@@ -242,7 +321,7 @@ const PlayerScreen = () => {
         setShowChannelList(false); // Close list on selection
       }}
     >
-      <Image source={{ uri: item.logo }} style={styles.channelListLogo} />
+      <ChannelLogo uri={item.logo} name={item.name} style={styles.channelListLogo} />
       <Text style={styles.channelListText} numberOfLines={1}>{item.name}</Text>
     </Pressable>
   );
@@ -279,7 +358,10 @@ const PlayerScreen = () => {
 
       {error && (
         <View style={styles.errorContainer}>
-          <Text style={styles.errorText}>Playback Error. Retrying...</Text>
+          <Text style={styles.errorText}>Playback Error</Text>
+          <TouchableOpacity style={styles.retryButton} onPress={manualRetry}>
+            <Text style={styles.retryText}>Retry</Text>
+          </TouchableOpacity>
         </View>
       )}
 
@@ -296,6 +378,10 @@ const PlayerScreen = () => {
             getItemLayout={(data, index) => (
               {length: 60, offset: 60 * index, index}
             )}
+            initialNumToRender={10}
+            maxToRenderPerBatch={5}
+            windowSize={5}
+            removeClippedSubviews={true}
           />
         </View>
       )}
@@ -305,6 +391,14 @@ const PlayerScreen = () => {
         <Animated.View style={[styles.audioToast, { opacity: toastOpacity }]}>
           <Volume2 color="#fff" size={32} />
           <Text style={styles.audioToastText}>Audio: {audioTrackName}</Text>
+        </Animated.View>
+      )}
+
+      {/* Quality Toast (Right) */}
+      {showQualityToast && (
+        <Animated.View style={[styles.audioToast, { opacity: qualityToastOpacity, top: '60%' }]}>
+          <Settings color="#fff" size={32} />
+          <Text style={styles.audioToastText}>Quality: {qualityName}</Text>
         </Animated.View>
       )}
 
@@ -338,6 +432,15 @@ const PlayerScreen = () => {
             >
               <Volume2 color="#fff" size={24} />
               <Text style={styles.controlText}>Audio</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity 
+              style={styles.controlButton} 
+              onPress={cycleVideoQuality}
+              focusable={true}
+            >
+              <Settings color="#fff" size={24} />
+              <Text style={styles.controlText}>Quality</Text>
             </TouchableOpacity>
           </View>
         </>
@@ -469,6 +572,17 @@ const styles = StyleSheet.create({
     marginTop: 10,
     fontSize: 16,
     fontWeight: '600',
+  },
+  retryButton: {
+    marginTop: 10,
+    backgroundColor: '#fff',
+    paddingHorizontal: 20,
+    paddingVertical: 8,
+    borderRadius: 20,
+  },
+  retryText: {
+    color: '#000',
+    fontWeight: 'bold',
   },
 });
 
