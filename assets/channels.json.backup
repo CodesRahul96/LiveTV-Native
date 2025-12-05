@@ -1,0 +1,2680 @@
+[
+  {
+    "id": "abp_majha",
+    "name": "ABP Majha",
+    "url": "https://mumt05.tangotv.in/ABPMAJHA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000250.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "dd_sahyadri",
+    "name": "DD Sahyadri",
+    "url": "https://mumt01.tangotv.in/DDSAHYADRI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Dd_Sheyadri.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "fakt_marathi",
+    "name": "Fakt Marathi",
+    "url": "https://mumt02.tangotv.in/FAKTMARATHI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Fakt_Marathi_krKUH3M.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "fakt_marathi__720p___not_24_7_",
+    "name": "Fakt Marathi (720p) [Not 24/7]",
+    "url": "https://cdn-6.pishow.tv/live/10002/master.m3u8",
+    "logo": "https://i.imgur.com/y0VS4QN.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "goa_365",
+    "name": "Goa 365",
+    "url": "https://ktismaservers.in:3086/live/goa365live.m3u8",
+    "logo": "https://core.freetvindia.com/media/Goa_365.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "in_24_news",
+    "name": "In 24 News",
+    "url": "https://server.livelegitpro.in/in24news/in24news/index.fmp4.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/in24_News.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "jai_maharashtra",
+    "name": "Jai Maharashtra",
+    "url": "https://mumt03.tangotv.in/JAIMAHARASHTRA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000195.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "lokshahi_marathi",
+    "name": "Lokshahi Marathi",
+    "url": "https://mumt05.tangotv.in/LOKSAAHI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Lok_Shahi.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "maiboli",
+    "name": "Maiboli",
+    "url": "https://mumt01.tangotv.in/MAIBOLI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Maiboli.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "ndtv_marathi",
+    "name": "NDTV Marathi",
+    "url": "https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/chunklist_4.m3u8",
+    "logo": "https://core.freetvindia.com/media/NDTV_Marathi.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "news_marathi_24x7",
+    "name": "News Marathi 24X7",
+    "url": "https://live1.ottlive.co.in/newsmarathi/newsmarathi/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/News_Marathi247.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "prudent_news",
+    "name": "Prudent News",
+    "url": "https://prudentmcdn.rixcast.com/prudentm.m3u8",
+    "logo": "https://core.freetvindia.com/media/prudent_news_goa.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "pudhari_news",
+    "name": "Pudhari News",
+    "url": "https://origin1.freetvindia.com/live/PUDHARINEWS.m3u8",
+    "logo": "https://core.freetvindia.com/media/Pudhari_News_HeQUaWg.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "rdx_goa",
+    "name": "RDX Goa",
+    "url": "https://g5nl6xoalpq6-hls-live.5centscdn.com/rdxgoa/d0dbe915091d400bd8ee7f27f0791303.sdp/chunks_dvr.m3u8",
+    "logo": "https://core.freetvindia.com/media/RDx_Goa.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "saam_tv",
+    "name": "Saam TV",
+    "url": "https://mumt02.tangotv.in/SAAMTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Saam_TV_vGtXy1k.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "sangeet_marathi",
+    "name": "Sangeet Marathi",
+    "url": "https://mumt02.tangotv.in/SANGEETMARATHI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/sanjeet_marathi.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "sangeet_marathi__720p_",
+    "name": "Sangeet Marathi (720p)",
+    "url": "https://cdn-3.pishow.tv/live/1229/master.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sangeet_Marathi.jpg/512px-Sangeet_Marathi.jpg",
+    "category": "Undefined"
+  },
+  {
+    "id": "shemaroo_marathi_bana",
+    "name": "Shemaroo Marathi Bana",
+    "url": "https://mumt02.tangotv.in/SHEMAROOMARATHIBANA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000116.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "soneri_cinema",
+    "name": "Soneri Cinema",
+    "url": "https://mumt04.tangotv.in/SONERICINEMA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/1056_FreeTV_Soneri_Cinema.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "sony_marathi__1080p_",
+    "name": "Sony Marathi (1080p)",
+    "url": "https://nxtlive.net/sliv/stream.php?e=.m3u8&id=985980256",
+    "logo": "https://i.imgur.com/uiDnvqt.png",
+    "category": "Undefined"
+  },
+  {
+    "id": "92",
+    "name": "TV9 Marathi",
+    "url": "https://tv9live.cdn.runn.tv/ptnr-RunnTV/title-TV9_Marathi_Non_SSAI/v1/vglive-sk-692706/main.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/TV9MAR/Mobile/thumbnail/ae52c8c0-1da5-4083-998d-64b094f441b2.png",
+    "category": "News"
+  },
+  {
+    "id": "tv9_marathi",
+    "name": "TV9 Marathi",
+    "url": "https://mumt01.tangotv.in/TV9MARATHI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000171.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "tv9_marathi__720p_",
+    "name": "TV9 Marathi (720p)",
+    "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8",
+    "logo": "https://i.imgur.com/5AshBho.png",
+    "category": "Undefined"
+  },
+  {
+    "id": "zee_24_taas",
+    "name": "Zee 24 Taas",
+    "url": "https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8",
+    "logo": "https://core.freetvindia.com/media/Zee_24_Taas.png",
+    "category": "Marathi"
+  },
+  {
+    "id": "1st_india_news",
+    "name": "1st India News",
+    "url": "https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000535.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "4tv_news",
+    "name": "4TV News",
+    "url": "https://mumt05.tangotv.in/4TVNEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000208.png",
+    "category": "Others"
+  },
+  {
+    "id": "99tv_telugu",
+    "name": "99TV Telugu",
+    "url": "https://mumt02.tangotv.in/99TVTELUGU/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/99_TV.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "abp_ananda",
+    "name": "ABP Ananda",
+    "url": "https://mumt05.tangotv.in/ABPANANDA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000252.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "65",
+    "name": "ABP Asmita",
+    "url": "https://abpnews.cdn.runn.tv/2042876/asmita/master.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/ABPASM/Mobile/thumbnail/8574857e-c550-4838-97b9-9b971c1d8976.png",
+    "category": "News"
+  },
+  {
+    "id": "abp_asmita",
+    "name": "ABP Asmita",
+    "url": "https://mumt02.tangotv.in/ABPASMITA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000251.png",
+    "category": "Gujarati"
+  },
+  {
+    "id": "abp_ganga",
+    "name": "ABP Ganga",
+    "url": "https://mumt05.tangotv.in/ABPGANGA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000143.png",
+    "category": "Bhojpuri"
+  },
+  {
+    "id": "64",
+    "name": "ABP Majha",
+    "url": "https://abpnews.cdn.runn.tv/2042872/majha/master.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/ABPMAJ/Mobile/thumbnail/f07ad06d-c6ef-4154-a888-baeb3455205b.png",
+    "category": "News"
+  },
+  {
+    "id": "abp_majha__360p_",
+    "name": "ABP Majha (360p)",
+    "url": "https://in1.sunilprasad.com.np/yuppLive/abp-majha/master.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/ABP_Majha_logo.svg/512px-ABP_Majha_logo.svg.png",
+    "category": "News"
+  },
+  {
+    "id": "20",
+    "name": "ABP NEWS",
+    "url": "https://abpnews.cdn.runn.tv/2042871-b/abpnews/master.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/ABPNEW/Web/thumbnail/logo_web.png",
+    "category": "News"
+  },
+  {
+    "id": "abp_news",
+    "name": "ABP News",
+    "url": "https://origin1.freetvindia.com/live/ABPNEWS.m3u8",
+    "logo": "https://core.freetvindia.com/media/ABP_NEWS_HINDI.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "abzy_dhakad",
+    "name": "ABZY Dhakad",
+    "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/Abzy_Dhakad.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "abzy_movies",
+    "name": "ABZY Movies",
+    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/ABZY_Movies.png",
+    "category": "Hindi Movies"
+  },
+  {
+    "id": "amv_news_network",
+    "name": "AMV News Network",
+    "url": "https://mumt02.tangotv.in/AMVNETWORK/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/AMV_Network.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "anb_news_national",
+    "name": "ANB News National",
+    "url": "https://mumt05.tangotv.in/ANBNEWSNATIONAL/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/ANB_NEWS.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "apn",
+    "name": "APN",
+    "url": "https://mumt01.tangotv.in/APN/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000262.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "aaj_tak",
+    "name": "Aaj Tak",
+    "url": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_720p/chunks.m3u8",
+    "logo": "https://core.freetvindia.com/media/Aaj_tak_news.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "aakash_aath",
+    "name": "Aakash Aath",
+    "url": "https://mumt03.tangotv.in/AAKASHAATH/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Aakash_Aath.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "54",
+    "name": "Aap ki Adalat",
+    "url": "https://indiatv.cdn.runn.tv/v1/vglive-sk-912213/main.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/APKADT/Web/thumbnail/cdba5a41-acf5-4b89-ae0a-ddb2fb8820a6.png",
+    "category": "News"
+  },
+  {
+    "id": "aaseervatham_tv",
+    "name": "Aaseervatham TV",
+    "url": "https://mumt04.tangotv.in/AASEERVATHAMTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000120.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "aastha",
+    "name": "Aastha",
+    "url": "https://origin1.freetvindia.com/live/AASTHA.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000511.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "aastha_bhajan",
+    "name": "Aastha Bhajan",
+    "url": "https://mumt05.tangotv.in/AASTHABHAJAN/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000021.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "aastha_gujarati",
+    "name": "Aastha Gujarati",
+    "url": "https://mumt05.tangotv.in/AASTHATELUGU/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000554.png",
+    "category": "Gujarati"
+  },
+  {
+    "id": "aastha_kannada",
+    "name": "Aastha Kannada",
+    "url": "https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8",
+    "logo": "https://core.freetvindia.com/media/Aastha_Kannada.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "all_time_movies",
+    "name": "All Time Movies",
+    "url": "https://mumt03.tangotv.in/ALLTIMEMOVIES/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000637.png",
+    "category": "Hindi Movies"
+  },
+  {
+    "id": "amrita_tv",
+    "name": "Amrita TV",
+    "url": "https://mumt02.tangotv.in/AMRITATV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000400.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "angel_tv",
+    "name": "Angel TV",
+    "url": "https://mumt01.tangotv.in/ANGELTVHD/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000279.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "anjan_tv",
+    "name": "Anjan TV",
+    "url": "https://mumt02.tangotv.in/ANJANTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000140.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "argus",
+    "name": "Argus",
+    "url": "https://mumt05.tangotv.in/ARGUSNEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000273.png",
+    "category": "Odia"
+  },
+  {
+    "id": "asianet_news",
+    "name": "Asianet News",
+    "url": "https://mumt05.tangotv.in/ASIANETNEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Asianet_News.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "assam_talks",
+    "name": "Assam Talks",
+    "url": "https://mumt05.tangotv.in/ASSAMTALKS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000525.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "awakening_tv",
+    "name": "Awakening TV",
+    "url": "https://mumt03.tangotv.in/AWAKENINGTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Awakening.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "ayush_tv",
+    "name": "Ayush TV",
+    "url": "https://mumt02.tangotv.in/AYUSHTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000530.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "62",
+    "name": "B4U Bhojpuri",
+    "url": "https://b4u.cdn.runn.tv/B4U_Bhojpuri/master.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/B4UBHO/Mobile/thumbnail/7904ddf9-245b-42bf-ba57-dc482fbb41f7.png",
+    "category": "Movies"
+  },
+  {
+    "id": "b4u_bhojpuri",
+    "name": "B4U Bhojpuri",
+    "url": "https://mumt05.tangotv.in/B4UBHOJPURI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/B4U_Bhojpuri.png",
+    "category": "Bhojpuri"
+  },
+  {
+    "id": "61",
+    "name": "B4U Kadak",
+    "url": "https://b4u.cdn.runn.tv/B4U_Kadak/master.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/B4UKAD/Web/thumbnail/4b80eee0-6cf3-4448-983d-cf7da7e9a44d.png",
+    "category": "Movies"
+  },
+  {
+    "id": "b4u_kadak",
+    "name": "B4U Kadak",
+    "url": "https://origin1.freetvindia.com/live/B4UKADAK.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000005.png",
+    "category": "Hindi Movies"
+  },
+  {
+    "id": "59",
+    "name": "B4U Movies",
+    "url": "https://b4u.cdn.runn.tv/B4U_Movies/master.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/B4UMOV/Mobile/thumbnail/da5513b7-b46e-4a45-9c56-08a4f2fc7d86.png",
+    "category": "Movies"
+  },
+  {
+    "id": "b4u_movies",
+    "name": "B4U Movies",
+    "url": "https://origin1.freetvindia.com/live/B4UMOVIES.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000001.png",
+    "category": "Hindi Movies"
+  },
+  {
+    "id": "bs_tv",
+    "name": "BS TV",
+    "url": "https://mumt02.tangotv.in/BSTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000220.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "bvg",
+    "name": "BVG",
+    "url": "https://mumt05.tangotv.in/BVG/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/bvg.png",
+    "category": "Infotainment & Lifestyle"
+  },
+  {
+    "id": "bansal_news",
+    "name": "Bansal News",
+    "url": "https://mumt02.tangotv.in/BANSALNEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000405.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "bhakti_sagar",
+    "name": "Bhakti Sagar",
+    "url": "https://mumt05.tangotv.in/BHAKTISAGAR/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000161.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "bharat_express",
+    "name": "Bharat Express",
+    "url": "https://mumt02.tangotv.in/BHARATEXPRESS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Bharat_Express.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "bharat_samachar",
+    "name": "Bharat Samachar",
+    "url": "https://mumt03.tangotv.in/BHARATSAMACHAR/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/bharat_samachar.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "bhojpuri_cinema",
+    "name": "Bhojpuri Cinema",
+    "url": "https://mumt05.tangotv.in/BHOJPURICINEMA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000042.png",
+    "category": "Bhojpuri"
+  },
+  {
+    "id": "cnbc_tv_awaaz",
+    "name": "CNBC TV Awaaz",
+    "url": "https://nw18live.cdn.jio.com/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/CNBC_Awaj.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "cnbc_tv_bajaar",
+    "name": "CNBC TV Bajaar",
+    "url": "https://nw18live.cdn.jio.com/bpk-tv/CNBC_Bazaar_NW18_MOB/output01/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/CNBC_Bazaar.png",
+    "category": "Gujarati"
+  },
+  {
+    "id": "cnbc_tv18",
+    "name": "CNBC TV18",
+    "url": "https://nw18live.cdn.jio.com/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/CNBC_TV18.png",
+    "category": "English News & Business"
+  },
+  {
+    "id": "cvr_health",
+    "name": "CVR Health",
+    "url": "https://mumt04.tangotv.in/CVRHEALTH/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000213.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "cvr_news_english",
+    "name": "CVR News English",
+    "url": "https://mumt03.tangotv.in/CVRNEWSENGLISH/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/CVR_English.png",
+    "category": "English News & Business"
+  },
+  {
+    "id": "cvr_news_telugu",
+    "name": "CVR News Telugu",
+    "url": "https://mumt04.tangotv.in/CVRNEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000212.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "cvr_spiritual_om",
+    "name": "CVR Spiritual OM",
+    "url": "https://mumt01.tangotv.in/CVRSPRITUALOM/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/CVR_Spiritual_om.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "calvary_tv",
+    "name": "Calvary TV",
+    "url": "https://mumt04.tangotv.in/CALVARYTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000385.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "80",
+    "name": "Cartoon TV",
+    "url": "https://streams2.sofast.tv/ptnr-runntv/title-CARTOON_TV/sofastplayout/3e3230ae-4664-4ba3-9ea7-15c06471d5ce_0_HLS/manifest.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/CARCAR/Mobile/thumbnail/54317851-3356-4b71-85af-f36b5c0250ae.png",
+    "category": "Kids"
+  },
+  {
+    "id": "channel_win",
+    "name": "Channel Win",
+    "url": "https://mumt05.tangotv.in/CHANNELWIN/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000626.png",
+    "category": "Others"
+  },
+  {
+    "id": "chhaya_chitram_telugu",
+    "name": "Chhaya Chitram Telugu",
+    "url": "http://210.89.51.165:80/hlslive/Admin/RSPD031/live/PlayOut9/master_1.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/Chhaya_Chitram_Telugu.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "2",
+    "name": "Cineshorts Premiere",
+    "url": "https://playout.runn.tv/playout/v1/stream/p_cinshf/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_CINSHF/Web/thumbnail/logo_web.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "82",
+    "name": "Cricket Gold USA",
+    "url": "https://streams2.sofast.tv/ptnr-runntv/title-CricketGold/sofastplayout/CricketGold/manifest.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/CRIUSA/Mobile/thumbnail/88e00abc-1b7b-45a9-b2e9-5bbed8a756e8.png",
+    "category": "Sports"
+  },
+  {
+    "id": "dd_assam",
+    "name": "DD Assam",
+    "url": "https://mumt05.tangotv.in/DDASSAM/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/DD_Assam.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "dd_bangla",
+    "name": "DD Bangla",
+    "url": "https://mumt05.tangotv.in/DDBANGLA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000058.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "dd_bharati",
+    "name": "DD Bharati",
+    "url": "https://mumt01.tangotv.in/DDBHARATI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000488.png",
+    "category": "Infotainment & Lifestyle"
+  },
+  {
+    "id": "dd_bihar",
+    "name": "DD Bihar",
+    "url": "https://mumt03.tangotv.in/DDBIHAR/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/DD_Bihar.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "dd_chandana",
+    "name": "DD Chandana",
+    "url": "https://mumt05.tangotv.in/DDCHANDANA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/DD_Chandana.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "dd_girnar",
+    "name": "DD Girnar",
+    "url": "https://mumt01.tangotv.in/DDGIRNAR/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/DD_Girnar.png",
+    "category": "Gujarati"
+  },
+  {
+    "id": "dd_goa__504p_",
+    "name": "DD Goa (504p)",
+    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/e5b9db1cc184406bb97159da2f120f91/index.m3u8",
+    "logo": "https://yt3.googleusercontent.com/TMl5_x4s5QmOQczAtF9Yc4S-l2APomVtQy_diHuDvxLaF70UwFzXgfwTNw8j1adNPKBItex1o5k=s900-c-k-c0x00ffffff-no-rj",
+    "category": "General"
+  },
+  {
+    "id": "dd_india",
+    "name": "DD India",
+    "url": "https://mumt05.tangotv.in/DDINDIA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000359.png",
+    "category": "English News & Business"
+  },
+  {
+    "id": "dd_kisan",
+    "name": "DD Kisan",
+    "url": "https://mumt04.tangotv.in/DDKISAN/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000063.png",
+    "category": "Infotainment & Lifestyle"
+  },
+  {
+    "id": "dd_madhya_pradesh",
+    "name": "DD Madhya Pradesh",
+    "url": "https://mumt04.tangotv.in/DDMADHYAPRADESH/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/DD_Madhyapradesh.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "dd_malayalam",
+    "name": "DD Malayalam",
+    "url": "https://mumt02.tangotv.in/DDMALAYALAM/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/DD_Malayalam_eJEprmw.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "dd_manipur",
+    "name": "DD Manipur",
+    "url": "https://mumt03.tangotv.in/DDMANIPUR/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/DD_Manipur.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "dd_nagaland",
+    "name": "DD Nagaland",
+    "url": "https://mumt01.tangotv.in/DDNAGALAND/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/DD_Nagaland.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "dd_national_hd",
+    "name": "DD National HD",
+    "url": "https://mumt01.tangotv.in/DDNATIONALHD/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000351.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "dd_news",
+    "name": "DD News",
+    "url": "https://mumt04.tangotv.in/DDNEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000352.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "dd_rajasthan",
+    "name": "DD Rajasthan",
+    "url": "https://mumt05.tangotv.in/DDRAJASTHAN/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/DD_Rajasthan.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "dd_sahyadri_1",
+    "name": "DD Sahyadri",
+    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/66dcc3ebe182447ba42837e746cf0c7c/index.m3u8",
+    "logo": "https://i.imgur.com/svjI6U6.png",
+    "category": "General"
+  },
+  {
+    "id": "dd_sports",
+    "name": "DD Sports",
+    "url": "https://mumt02.tangotv.in/DDSPORTS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000373.png",
+    "category": "Sports"
+  },
+  {
+    "id": "dd_tamil",
+    "name": "DD TAMIL",
+    "url": "https://mumt04.tangotv.in/DDTAMIL/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000190.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "dd_tripura",
+    "name": "DD Tripura",
+    "url": "https://mumt01.tangotv.in/DDTRIPURA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/DD_Tripura.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "dd_urdu",
+    "name": "DD Urdu",
+    "url": "https://mumt05.tangotv.in/DDURDU/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/DD_urdu_2Y1e95n.png",
+    "category": "Infotainment & Lifestyle"
+  },
+  {
+    "id": "dd_utrakhsnd",
+    "name": "DD Utrakhsnd",
+    "url": "https://mumt03.tangotv.in/DDUTTRAKHAND/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/DD_Utrakhand.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "dw",
+    "name": "DW",
+    "url": "https://mumt05.tangotv.in/DWTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000073.png",
+    "category": "English News & Business"
+  },
+  {
+    "id": "dabangg",
+    "name": "Dabangg",
+    "url": "https://mumt01.tangotv.in/DABANGG/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000016.png",
+    "category": "Bhojpuri"
+  },
+  {
+    "id": "dangal",
+    "name": "Dangal",
+    "url": "https://origin1.freetvindia.com/live/DANGAL.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000043.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "dangal_2",
+    "name": "Dangal 2",
+    "url": "https://origin1.freetvindia.com/live/DANGAL2.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000111.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "darshan24",
+    "name": "Darshan24",
+    "url": "https://mumt05.tangotv.in/DARSHAN24/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000547.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "dharm_sandesh",
+    "name": "Dharm Sandesh",
+    "url": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000553.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "divya",
+    "name": "Divya",
+    "url": "https://origin1.freetvindia.com/live/DIVYA.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000012.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "93",
+    "name": "Divya Bhajan",
+    "url": "https://pitaaratv.cdn.runn.tv/ptnr-RUNNTV/title-Divya_Bhajan_NONSSAI/v1/vglive-sk-987805/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/DIVBHA/Mobile/thumbnail/c545dbe3-3a90-41dd-addf-2012badf35a4.png",
+    "category": "Spiritual"
+  },
+  {
+    "id": "83",
+    "name": "Drive",
+    "url": "https://streams2.sofast.tv/ptnr-runntv/title-DRIVE__SPEED/sofastplayout/2f833f43-9e48-4a6e-88a8-8d99c32eb898_0_HLS/manifest.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/DRIDRI/Mobile/thumbnail/61491ba4-e10b-41dc-aafc-da010990a4fc.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "et_now",
+    "name": "ET Now",
+    "url": "https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/etnow/etnow_master.m3u8",
+    "logo": "https://core.freetvindia.com/media/etnow.png",
+    "category": "English News & Business"
+  },
+  {
+    "id": "et_now_swadesh",
+    "name": "ET Now Swadesh",
+    "url": "https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/etswadesh/etswadesh_master.m3u8",
+    "logo": "https://core.freetvindia.com/media/ETnow_Swadesh.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "enterr10_bangla",
+    "name": "Enterr10 Bangla",
+    "url": "https://mumt02.tangotv.in/ENTERR10BANGLA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000151.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "84",
+    "name": "Fight TV",
+    "url": "https://streams2.sofast.tv/ptnr-runntv/title-FIGHT-TV-ENG/sofastplayout/2c1b92e0-9ef4-41b1-9713-ba53b562e94c_0_HLS/manifest.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/FIGFIG/Mobile/thumbnail/d6897b5a-de4d-4655-943a-106aafa7d130.png",
+    "category": "Sports"
+  },
+  {
+    "id": "filmachi_bhojpuri",
+    "name": "Filmachi Bhojpuri",
+    "url": "https://epiconvh.akamaized.net/live/filamchi/master_1080.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/filmachi_bhojpuri.png",
+    "category": "Bhojpuri"
+  },
+  {
+    "id": "food_food",
+    "name": "Food Food",
+    "url": "https://mumt03.tangotv.in/FOODFOOD/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Food_Food.png",
+    "category": "Infotainment & Lifestyle"
+  },
+  {
+    "id": "gs_tv",
+    "name": "GS TV",
+    "url": "https://mumt05.tangotv.in/GSTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000264.png",
+    "category": "Gujarati"
+  },
+  {
+    "id": "85",
+    "name": "Goal TV",
+    "url": "https://streams2.sofast.tv/ptnr-runntv/title-Goal_TV/sofastplayout/WiseM3U8_1/master.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/GOAGOA/Mobile/thumbnail/6bb1bd7a-25c7-47fd-aa07-43c3155e73a8.png",
+    "category": "Sports"
+  },
+  {
+    "id": "goldmines",
+    "name": "Goldmines",
+    "url": "https://origin1.freetvindia.com/live/GoldMines.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000243.png",
+    "category": "Hindi Movies"
+  },
+  {
+    "id": "goldmines_movies",
+    "name": "Goldmines Movies",
+    "url": "https://origin1.freetvindia.com/live/GoldminesMovies.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000604.png",
+    "category": "Hindi Movies"
+  },
+  {
+    "id": "goldmines_bollywood",
+    "name": "Goldmines bollywood",
+    "url": "https://origin1.freetvindia.com/live/GOLDMINESBOLLYWOOD.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000658.png",
+    "category": "Hindi Movies"
+  },
+  {
+    "id": "good_news_today",
+    "name": "Good News Today",
+    "url": "https://tezlive-amd.akamaized.net/hls/live/2016145/gnt/gntlive/live_720p/chunks.m3u8",
+    "logo": "https://core.freetvindia.com/media/gnt.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "goodness_tv",
+    "name": "Goodness TV",
+    "url": "https://mumt02.tangotv.in/GOODNESSTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000224.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "goodnews_tv",
+    "name": "Goodnews TV",
+    "url": "https://mumt05.tangotv.in/GOODNEWSTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000223.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "grace_tv",
+    "name": "Grace TV",
+    "url": "https://mumt03.tangotv.in/GRACETV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Grace_TV.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "94",
+    "name": "Green Gold TV",
+    "url": "https://greengold.cdn.runn.tv/greengold/stream/grngld/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/GREGLD/Mobile/thumbnail/3db87275-f469-4f9d-8ee5-b6cd5fa3a039.png",
+    "category": "Kids"
+  },
+  {
+    "id": "hi_dost",
+    "name": "HI Dost",
+    "url": "https://mumt03.tangotv.in/HIDOST/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/hi_dost.png",
+    "category": "Misc"
+  },
+  {
+    "id": "hmtv",
+    "name": "HMTV",
+    "url": "https://mumt04.tangotv.in/HMTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000210.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "har_khabar",
+    "name": "Har Khabar",
+    "url": "https://mumt01.tangotv.in/HARKHABAR/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000494.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "hare_krsna",
+    "name": "Hare Krsna",
+    "url": "https://mumt05.tangotv.in/HAREKRSNA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000197.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "hindi_khabar",
+    "name": "Hindi Khabar",
+    "url": "https://mumt04.tangotv.in/HINDIKHABAR/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000081.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "hindu_dharmam",
+    "name": "Hindu Dharmam",
+    "url": "https://mumt01.tangotv.in/HINDUDHARMAM/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000175.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "hollywood_black___white",
+    "name": "Hollywood Black & White",
+    "url": "http://210.89.51.165:80/hlslive/Admin/RSPD031/live/HollywoodBW/master_1.m3u8",
+    "logo": "https://core.freetvindia.com/media/529_FreeTV_Hollywood_Classic_BW.png",
+    "category": "English Entertainment"
+  },
+  {
+    "id": "hollywood_color",
+    "name": "Hollywood Color",
+    "url": "http://210.89.51.165:80/hlslive/Admin/RSPD031/live/HollywoodCLR/master_1.m3u8",
+    "logo": "https://core.freetvindia.com/media/528_FreeTV_Hollywood_classic_CLR.png",
+    "category": "English Entertainment"
+  },
+  {
+    "id": "86",
+    "name": "Hoop TV",
+    "url": "https://streams2.sofast.tv/ptnr-runntv/title-Hoop_TV/WiseM3U8_28/sofast/cleanhls/master.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/HOOHOO/Mobile/thumbnail/9eedcb6c-542b-4153-b5f9-524f0b6b0e5e.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "hope_channel_india",
+    "name": "Hope Channel India",
+    "url": "https://mumt01.tangotv.in/HOPECHANNELINDIA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/hope_channel.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "hornbill_tv",
+    "name": "Hornbill TV",
+    "url": "https://mumt01.tangotv.in/HORNBILLTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Hornbill_TV.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "19",
+    "name": "INDIA TV",
+    "url": "https://indiatv.cdn.runn.tv/v1/vglive-sk-274906/main.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/INDIA_TV/Web/thumbnail/863443d2-7b28-41a2-8593-a59e0e431a85.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "ind_24",
+    "name": "Ind 24",
+    "url": "https://mumt02.tangotv.in/IND24/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000101.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "india_24x7",
+    "name": "India 24X7",
+    "url": "https://itassist.one/livetv/india24x7/video.m3u8",
+    "logo": "https://core.freetvindia.com/media/india24x7.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "india_ahead",
+    "name": "India Ahead",
+    "url": "https://mumt05.tangotv.in/INDIAAHEAD/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/India_Ahead.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "india_tv",
+    "name": "India TV",
+    "url": "https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index_3.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000024.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "india_tv_speed_news",
+    "name": "India TV Speed News",
+    "url": "https://poclive-indiatvnews.akamaized.net/hlslive/Admin/px0219297/live/janya/chunklist_0.m3u8",
+    "logo": "https://core.freetvindia.com/media/indiatv_speed_news.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "55",
+    "name": "India TV Yoga",
+    "url": "https://indiatv.cdn.runn.tv/v1/vglive-sk-385006/main.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/INDTVY/Web/thumbnail/aecf3b8e-1ad3-40b0-a997-c68cf372cb81.png",
+    "category": "Spiritual"
+  },
+  {
+    "id": "india_talkies",
+    "name": "India Talkies",
+    "url": "http://210.89.51.165:80/hlslive/Admin/RSPD031/live/IndiaTalkies/master_1.m3u8",
+    "logo": "https://core.freetvindia.com/media/FreeTV_India_Talkies.png",
+    "category": "Hindi Movies"
+  },
+  {
+    "id": "india_today",
+    "name": "India Today",
+    "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8",
+    "logo": "https://core.freetvindia.com/media/India_Today.png",
+    "category": "English News & Business"
+  },
+  {
+    "id": "jan_tv",
+    "name": "JAN TV",
+    "url": "https://mumt03.tangotv.in/JANTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/Jan_TV.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "jai_hind",
+    "name": "Jai Hind",
+    "url": "https://mumt03.tangotv.in/JAIHIND/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000401.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "janam_tv",
+    "name": "Janam TV",
+    "url": "https://mumt03.tangotv.in/JANAMTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Janam_TV.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "janam_tv_tamil",
+    "name": "Janam TV Tamil",
+    "url": "https://mumt01.tangotv.in/JANAMTVTAMIL/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/Janamtv_Tamil.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "jantantra",
+    "name": "Jantantra",
+    "url": "https://mumt05.tangotv.in/JANTANTRA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Jantantra_tv.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "jeevan_tv",
+    "name": "Jeevan TV",
+    "url": "https://mumt04.tangotv.in/JEEVANTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000154.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "jinvani",
+    "name": "Jinvani",
+    "url": "https://mumt03.tangotv.in/JINVANI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000271.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "jonack",
+    "name": "Jonack",
+    "url": "https://cdn.smartstream.video/smartstream-us/jonakk/jonakk/playlist.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/jonacktv.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "kabaddi_24x7",
+    "name": "Kabaddi 24X7",
+    "url": "https://mumt02.tangotv.in/KABADDI24X7/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/kabaddi_24x7.png",
+    "category": "Sports"
+  },
+  {
+    "id": "kairali",
+    "name": "Kairali",
+    "url": "https://mumt01.tangotv.in/KAIRALI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/kairali.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "kairali_news",
+    "name": "Kairali News",
+    "url": "https://mumt01.tangotv.in/KAIRALINEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/kairali_news.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "kalinga_tv",
+    "name": "Kalinga TV",
+    "url": "https://mumt01.tangotv.in/KALINGATV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000275.png",
+    "category": "Odia"
+  },
+  {
+    "id": "kappa_tv",
+    "name": "Kappa TV",
+    "url": "https://mumt03.tangotv.in/KAPPATV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000186.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "kashish_news",
+    "name": "Kashish News",
+    "url": "https://server.thelegitpro.in/kashishnews/kashishnews/index.fmp4.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/Kashish_News.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "kaumudy_tv",
+    "name": "Kaumudy TV",
+    "url": "https://mumt04.tangotv.in/KAUMUDYTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000155.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "kerala_vision",
+    "name": "Kerala Vision",
+    "url": "https://mumt03.tangotv.in/KERALAVISION/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000113.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "khabar_fast",
+    "name": "Khabar Fast",
+    "url": "https://mumt04.tangotv.in/KHABARFAST/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000461.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "khabrain_abhi_tak",
+    "name": "Khabrain Abhi Tak",
+    "url": "https://mumt05.tangotv.in/KHABRAINABHITAK/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/khabre_abhi_tak.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "khushboo_tv_bangla",
+    "name": "Khushboo TV Bangla",
+    "url": "https://mumt01.tangotv.in/KHUSHBOOTVBANGLA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000112.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "mbc_tv",
+    "name": "MBC TV",
+    "url": "https://mumt03.tangotv.in/MBCTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000381.png",
+    "category": "Odia"
+  },
+  {
+    "id": "mh_one",
+    "name": "MH One",
+    "url": "https://origin1.freetvindia.com/live/MHONE.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000259.png",
+    "category": "Hindi Movies"
+  },
+  {
+    "id": "mk_tunes",
+    "name": "MK Tunes",
+    "url": "https://mumt01.tangotv.in/MKTUNES/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/MK_Tune.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "mkn_news",
+    "name": "MKN News",
+    "url": "https://mumt04.tangotv.in/MKNNEWSHINDI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/MKN_NEWS_hindi.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "87",
+    "name": "MMA TV",
+    "url": "https://streams2.sofast.tv/ptnr-runntv/title-MMA/vglive-sk-462904/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/MMAATV/Mobile/thumbnail/aa2ac48f-d5f3-4ad9-9025-19579e98b30e.png",
+    "category": "Sports"
+  },
+  {
+    "id": "madha_tv",
+    "name": "Madha TV",
+    "url": "https://mumt02.tangotv.in/MADHATV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Madha.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "maha_movie",
+    "name": "Maha Movie",
+    "url": "https://mumt02.tangotv.in/MAHAMOVIE/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000463.png",
+    "category": "Hindi Movies"
+  },
+  {
+    "id": "mahaa_news",
+    "name": "Mahaa News",
+    "url": "https://mumt02.tangotv.in/MAHAANEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Maha_News.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "makkal_tv",
+    "name": "Makkal TV",
+    "url": "https://mumt01.tangotv.in/MAKKALTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000177.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "malai_murasu_seithigal",
+    "name": "Malai Murasu Seithigal",
+    "url": "https://mumt04.tangotv.in/MALAIMURASUSEITHIGAL/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000388.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "malar_tv",
+    "name": "Malar TV",
+    "url": "https://mumt04.tangotv.in/MALARTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Malar_Tv.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "manorama_news",
+    "name": "Manorama News",
+    "url": "https://mumt01.tangotv.in/MANORAMANEWSNORTH/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000138.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "manoranjan_grand",
+    "name": "Manoranjan Grand",
+    "url": "https://mumt02.tangotv.in/MANORANJANGRAND/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000109.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "manoranjan_movies",
+    "name": "Manoranjan Movies",
+    "url": "https://mumt04.tangotv.in/MANORANJANMOVIES/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Manoranjan_movies.png",
+    "category": "Hindi Movies"
+  },
+  {
+    "id": "manoranjan_prime",
+    "name": "Manoranjan Prime",
+    "url": "https://mumt02.tangotv.in/MANORANJANPRIME/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000487.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "manoranjan_tv",
+    "name": "Manoranjan TV",
+    "url": "https://cdn-1.pishow.tv/live/1013/master.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/Manoranjan_TV.png",
+    "category": "Misc"
+  },
+  {
+    "id": "90",
+    "name": "Masha and the Bear",
+    "url": "https://amg01954-amg01954c2-runntv-india-9913.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01954-animaccordltd-mashaandthebeareng-runntvindia/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/MASBEA/Mobile/thumbnail/394ff63c-0f7e-4000-a098-3e9f081e555c.png",
+    "category": "Kids"
+  },
+  {
+    "id": "mathimugam_tholaikatchi",
+    "name": "Mathimugam Tholaikatchi",
+    "url": "https://mumt01.tangotv.in/MATHIMUGAMTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Madhimugam_tv.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "mathrubhumi_news",
+    "name": "Mathrubhumi News",
+    "url": "https://mumt02.tangotv.in/MATHRUBHUMINEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Matrubhumi_news.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "media_one_tv",
+    "name": "Media One TV",
+    "url": "https://mumt01.tangotv.in/MEDIAONETV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000408.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "media9_news",
+    "name": "Media9 News",
+    "url": "http://tv.media9news.com:8080/hls/media9.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/media9.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "mojo_tv",
+    "name": "Mojo TV",
+    "url": "https://mumt02.tangotv.in/MOJOTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000376.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "moon_tv",
+    "name": "Moon TV",
+    "url": "https://mumt03.tangotv.in/MOONTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000181.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "munsif_tv_urdu",
+    "name": "Munsif TV Urdu",
+    "url": "https://live1.ottlive.co.in/munsiftv/munsiftv/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/munshif_TV.png",
+    "category": "Others"
+  },
+  {
+    "id": "ndtv_24x7",
+    "name": "NDTV 24x7",
+    "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8",
+    "logo": "https://core.freetvindia.com/media/NDTV_24x7.png",
+    "category": "English News & Business"
+  },
+  {
+    "id": "ndtv_india",
+    "name": "NDTV India",
+    "url": "https://origin1.freetvindia.com/live/NDTVINDIA.m3u8",
+    "logo": "https://core.freetvindia.com/media/NDTV_india.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "ndtv_mpcg",
+    "name": "NDTV MPCG",
+    "url": "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8",
+    "logo": "https://core.freetvindia.com/media/NDTV_MP_Chhatishgarh.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "ndtv_profit",
+    "name": "NDTV Profit",
+    "url": "https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_4.m3u8",
+    "logo": "https://core.freetvindia.com/media/NDTV_Profit.png",
+    "category": "English News & Business"
+  },
+  {
+    "id": "ndtv_rajasthan",
+    "name": "NDTV Rajasthan",
+    "url": "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/chunklist_3.m3u8",
+    "logo": "https://core.freetvindia.com/media/NDTV_Rajasthan.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "ne_news",
+    "name": "NE News",
+    "url": "https://mumt05.tangotv.in/NENEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/NE_News.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "news9",
+    "name": "NEWS9",
+    "url": "https://vg-tv9live.akamaized.net/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-573213/679220d8-59d5-4dc0-8bb9-fd2bde1b989a/3.m3u8",
+    "logo": "https://core.freetvindia.com/media/news9_live_QkLeE1F.png",
+    "category": "English News & Business"
+  },
+  {
+    "id": "40",
+    "name": "NH BollyFlix",
+    "url": "https://nh-runntv-blyflx.cdn.runn.tv/nhstdz/stream/blyflx/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/BLYFLX/Web/thumbnail/a3b425cc-d6bd-4618-b78f-27c875df5da5.png",
+    "category": "Movies"
+  },
+  {
+    "id": "39",
+    "name": "NH BollyGold",
+    "url": "https://nh-runntv-blygld.cdn.runn.tv/nhstdz/stream/blygld/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/BLYGLD/Web/thumbnail/d4eada62-e3ab-48b9-afe7-44942db7cf00.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "nktv_plus",
+    "name": "NKTV Plus",
+    "url": "https://mumt05.tangotv.in/NKTVPLUS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000650.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "nktv_plus_bangla",
+    "name": "NKTV Plus Bangla",
+    "url": "https://mumt05.tangotv.in/NKTVPLUSBANGLA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000651.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "nambikkai_tv",
+    "name": "Nambikkai TV",
+    "url": "https://mumt05.tangotv.in/NAMBIKAITV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Nambikai_TV.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "nandighosha_tv",
+    "name": "Nandighosha TV",
+    "url": "https://mumt05.tangotv.in/NANDIGHOSHATV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000276.png",
+    "category": "Odia"
+  },
+  {
+    "id": "nazara_tv",
+    "name": "Nazara TV",
+    "url": "https://mumt03.tangotv.in/NAZARA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/NazaraTv.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "network_10",
+    "name": "Network 10",
+    "url": "https://mumt01.tangotv.in/NETWORK10/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000104.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "news_1_india",
+    "name": "News 1 India",
+    "url": "https://mumt02.tangotv.in/NEWS1INDIA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000122.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "news_11_bharat",
+    "name": "News 11 Bharat",
+    "url": "https://mumt02.tangotv.in/NEWS11BHARAT/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000098.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "news_hour",
+    "name": "News Hour",
+    "url": "https://mumt01.tangotv.in/NEWS24/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000495.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "news_j",
+    "name": "News J",
+    "url": "https://mumt01.tangotv.in/NEWSJ/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000228.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "31",
+    "name": "News Nation",
+    "url": "https://newsnation.cdn.runn.tv/nnnational/index.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/NEWNAT/Web/thumbnail/NEWS NATION Channel Logo.png",
+    "category": "News"
+  },
+  {
+    "id": "news_nation",
+    "name": "News Nation",
+    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000020.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "news_state_mp___chg",
+    "name": "News State MP & CHG",
+    "url": "https://mumt01.tangotv.in/NEWSSTATEMPCG/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/News_State_MPCG.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "news_state_maharashtra_goa__576p_",
+    "name": "News State Maharashtra Goa (576p)",
+    "url": "http://202.164.50.194:8000/play/a020/index.m3u8",
+    "logo": "https://i.imgur.com/Wl8WMq1.jpg",
+    "category": "News"
+  },
+  {
+    "id": "36",
+    "name": "News State UP/UK",
+    "url": "https://newsnation.cdn.runn.tv/nnup/index.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/NNATUK/Web/thumbnail/aa098647-c807-4387-9be0-61289f46ad44.png",
+    "category": "News"
+  },
+  {
+    "id": "news18_kerala__1080p___geo_blocked_",
+    "name": "News18 Kerala (1080p) [Geo-blocked]",
+    "url": "https://nw18live.cdn.jio.com/bpk-tv/News18_Kerala_NW18_MOB/output01/index.m3u8",
+    "logo": "https://i.imgur.com/AsIdc9P.png",
+    "category": "News"
+  },
+  {
+    "id": "news24",
+    "name": "News24",
+    "url": "https://mumt03.tangotv.in/NEWS24/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/news24.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "news24_mp_cg",
+    "name": "News24 MP/CG",
+    "url": "https://mumt04.tangotv.in/NEWS24MPCG/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000004.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "news7_tamil",
+    "name": "News7 Tamil",
+    "url": "https://mumt02.tangotv.in/NEWS7TAMIL/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000225.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "44",
+    "name": "News9",
+    "url": "https://tv9live.cdn.runn.tv/title-News9_Non_SSAI/v1/vglive-sk-791223/main.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/TV9NEWS9/Web/thumbnail/f39177fb-49a6-4104-9ccc-db5ee3354e73.png",
+    "category": "News"
+  },
+  {
+    "id": "1",
+    "name": "NuNu TV",
+    "url": "https://playout.runn.tv/playout/v1/stream/p_nunutv/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_NUNUTV/Web/thumbnail/logo_mobile.png",
+    "category": "Kids"
+  },
+  {
+    "id": "otv_live_24x7",
+    "name": "OTV Live 24x7",
+    "url": "https://mumt03.tangotv.in/OTVLIVE24X7/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/otv_odia.png",
+    "category": "Odia"
+  },
+  {
+    "id": "34",
+    "name": "OnlyMyHealth",
+    "url": "https://playout.runn.tv/playout/v1/stream/jagran/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/JAGRAN/Web/thumbnail/988b33e9-8db1-44ee-82e7-6ba6aaf0d753.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "oscar_movies_bhojpuri",
+    "name": "Oscar Movies Bhojpuri",
+    "url": "https://mumt05.tangotv.in/OSCARMOVIESBHOJPURI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000028.png",
+    "category": "Bhojpuri"
+  },
+  {
+    "id": "padharo_sa___rajasthani",
+    "name": "Padharo SA - Rajasthani",
+    "url": "https://mumt03.tangotv.in/PADHAROSA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/padharosa.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "paigham_television",
+    "name": "Paigham Television",
+    "url": "http://210.89.51.165:80/hlslive/Admin/RSPD031/live/Paigam/master_1.m3u8",
+    "logo": "https://core.freetvindia.com/media/1655_FreeTV_Paigam.png",
+    "category": "Others"
+  },
+  {
+    "id": "pasand_tv",
+    "name": "Pasand TV",
+    "url": "https://mumt01.tangotv.in/PASANDTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/pasandtv_logos.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "peace_of_mind",
+    "name": "Peace of Mind",
+    "url": "https://mumt03.tangotv.in/PEACEOFMIND/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000008.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "pear_tv",
+    "name": "Pear TV",
+    "url": "https://mumt01.tangotv.in/PEARTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Pear_tv.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "peppers",
+    "name": "Peppers",
+    "url": "https://mumt02.tangotv.in/PEPPERS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000415.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "38",
+    "name": "Pitaara Comedy",
+    "url": "https://pitaaratv.cdn.runn.tv/ptnr-RunnTV/title-Pitaara_Comedy/v1/vglive-sk-217489/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/PITCOM/Web/thumbnail/7dbe24ad-ae8e-4f50-a44c-dd7b2ea97ccc.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "37",
+    "name": "Pitaara TV",
+    "url": "https://pitaaratv.cdn.runn.tv/ptnr-RunnTV/title-PitaaraTV_NonSSAI/v1/vglive-sk-326599/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/PITARA/Web/thumbnail/f80dc323-cd86-4001-ae97-f22f66da030b.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "4",
+    "name": "Pocket Films",
+    "url": "https://pktflm.cdn.runn.tv/runntv/stream/p_pktflm/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_PKTFLM/Web/thumbnail/logo_web.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "polimer_news",
+    "name": "Polimer News",
+    "url": "https://mumt05.tangotv.in/POLIMERNEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/Polimernews.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "polimer_tv",
+    "name": "Polimer TV",
+    "url": "https://mumt04.tangotv.in/POLIMERTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/PolimerTV.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "power_vision",
+    "name": "Power Vision",
+    "url": "https://mumt02.tangotv.in/POWERVISION/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000410.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "prag_news",
+    "name": "Prag News",
+    "url": "https://mumt05.tangotv.in/PRAGNEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Prag_News.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "public_movies",
+    "name": "Public Movies",
+    "url": "https://mumt04.tangotv.in/PUBLICMOVIES/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000185.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "public_tv",
+    "name": "Public TV",
+    "url": "https://mumt04.tangotv.in/PUBLICTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000182.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "pudhari_news__576p_",
+    "name": "Pudhari News (576p)",
+    "url": "http://202.164.50.194:8000/play/a04f/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/d/dd/Pudhari_ePaper_logo.jpg",
+    "category": "News"
+  },
+  {
+    "id": "pulari_tv",
+    "name": "Pulari TV",
+    "url": "https://royalstarindia.co.in/pularitv_hls/pularitv.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/pularitv.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "puthiya_thalaimurai",
+    "name": "Puthiya Thalaimurai",
+    "url": "https://mumt02.tangotv.in/PUTHIYATHALAIMURAI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/puthiya_thalai.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "puthuyugam_tv",
+    "name": "PuthuYugam TV",
+    "url": "https://mumt04.tangotv.in/PUTHUYUGAMTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000270.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "r_plus",
+    "name": "R Plus",
+    "url": "https://mumt05.tangotv.in/RPLUS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000145.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "r_plus_gold",
+    "name": "R Plus Gold",
+    "url": "https://mumt03.tangotv.in/RPLUSGOLD/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/RPlus_gold.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "raftaar_media",
+    "name": "Raftaar Media",
+    "url": "https://mumt04.tangotv.in/RAFTAARMEDIA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000384.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "raj_musix_kannada",
+    "name": "Raj Musix Kannada",
+    "url": "https://mumt01.tangotv.in/RAJMUSIXKANDA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Raj_musix_kannada.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "raj_musix_malyalam",
+    "name": "Raj Musix Malyalam",
+    "url": "https://mumt04.tangotv.in/RAJMUSIXMALAYALAM/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Raj_Musix_Malayalam.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "raj_musix_telugu",
+    "name": "Raj Musix Telugu",
+    "url": "https://mumt02.tangotv.in/RAJMUSIXTELUGU/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Raj_Musix_telugu.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "raj_news_kannada",
+    "name": "Raj News Kannada",
+    "url": "https://mumt03.tangotv.in/RAJNEWSKANDA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Raj_News_Kannada.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "raj_news_malyalam",
+    "name": "Raj News Malyalam",
+    "url": "https://mumt04.tangotv.in/RAJNEWSMALAYALAM/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Raj_News_Malayalam.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "raj_news_telugu",
+    "name": "Raj News Telugu",
+    "url": "https://mumt04.tangotv.in/RAJNEWSTELUGU/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Raj_news_Telugu_0YYrRzJ.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "rajya_24_news",
+    "name": "Rajya 24 News",
+    "url": "https://itassist.one/rajya24news/rajya24/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Rajya_24_1.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "rapchik",
+    "name": "Rapchik",
+    "url": "https://mumt01.tangotv.in/RAPCHIK/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/rapchik.png",
+    "category": "Bhojpuri"
+  },
+  {
+    "id": "rengoni",
+    "name": "Rengoni",
+    "url": "https://mumt05.tangotv.in/RENGONI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000566.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "reporter_tv",
+    "name": "Reporter TV",
+    "url": "https://mumt02.tangotv.in/REPORTERTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Reporter_tv.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "republic_bangla",
+    "name": "Republic Bangla",
+    "url": "https://vg-republictvlive.akamaized.net/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/5da6ccdf-da5e-451d-a66f-e9fdfa4243d0/2.m3u8",
+    "logo": "https://core.freetvindia.com/media/R_Bangla.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "republic_bharat",
+    "name": "Republic Bharat",
+    "url": "https://mumt02.tangotv.in/REPUBLICBHARAT/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000013.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "republic_kannada",
+    "name": "Republic Kannada",
+    "url": "https://mumt04.tangotv.in/REPUBLICKANNADA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000412.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "republic_tv",
+    "name": "Republic TV",
+    "url": "https://mumt05.tangotv.in/REPUBLICTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000069.png",
+    "category": "English News & Business"
+  },
+  {
+    "id": "rongeen_tv",
+    "name": "Rongeen TV",
+    "url": "https://mumt05.tangotv.in/RONGEENTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000108.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "rupasi_bangla",
+    "name": "Rupasi Bangla",
+    "url": "https://mumt05.tangotv.in/RUPASIBANGLA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Rupashi_Bangla.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "svbc_2_tamil",
+    "name": "SVBC 2 Tamil",
+    "url": "https://mumt03.tangotv.in/SVBC2TAMIL/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/SVBC2.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "svbc_3_kannada",
+    "name": "SVBC 3 Kannada",
+    "url": "https://mumt01.tangotv.in/SVBC3KANNADA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/SVBC3_Kannada.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "svbc_4_hindi",
+    "name": "SVBC 4 Hindi",
+    "url": "https://mumt05.tangotv.in/SVBC4HINDI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000366.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "svbc_telugu",
+    "name": "SVBC Telugu",
+    "url": "https://mumt04.tangotv.in/SVBCTELUGU/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000204.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "saam_tv_1",
+    "name": "Saam TV",
+    "url": "https://cdn-3.pishow.tv/live/437/master.m3u8",
+    "logo": "https://i.imgur.com/SNsjJjt.png",
+    "category": "Undefined"
+  },
+  {
+    "id": "sach_bedhadak",
+    "name": "Sach Bedhadak",
+    "url": "https://mumt04.tangotv.in/SACHBEDHADAK/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000517.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "sadhana_plus_news",
+    "name": "Sadhana Plus News",
+    "url": "https://mumt03.tangotv.in/SADHNAPLUSNEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000189.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "sadhna_gold",
+    "name": "Sadhna Gold",
+    "url": "https://mumt03.tangotv.in/SADHNAGOLD/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/sadhana_Gold.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "sadhna_news_mp",
+    "name": "Sadhna News MP",
+    "url": "https://mumt04.tangotv.in/SADHNEWSPMRAJ/video.m3u8",
+    "logo": "https://core.freetvindia.com/media/Sadhna_News_MPRAJ.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "sadhna_tv",
+    "name": "Sadhna TV",
+    "url": "https://mumt05.tangotv.in/SADHNATV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000018.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "safari_tv",
+    "name": "Safari TV",
+    "url": "https://mumt04.tangotv.in/SAFARITV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000409.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "sairam_tv",
+    "name": "Sairam TV",
+    "url": "https://mumt04.tangotv.in/SAIRAMTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Sairam.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "sakshi_tv",
+    "name": "Sakshi TV",
+    "url": "https://mumt02.tangotv.in/SAKSHITV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Sakshi_TV.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "samrat_tv",
+    "name": "Samrat TV",
+    "url": "https://itassist.one/LIVEOTT/kahbar24x7/video.m3u8",
+    "logo": "https://core.freetvindia.com/media/samrattv.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "sandesh_news",
+    "name": "Sandesh News",
+    "url": "https://mumt01.tangotv.in/SANDESHNEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000378.png",
+    "category": "Gujarati"
+  },
+  {
+    "id": "sangeet_bangla",
+    "name": "Sangeet Bangla",
+    "url": "https://mumt05.tangotv.in/SANGEETBANGLA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Sangeet_Bangla.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "sangeet_bhojpuri",
+    "name": "Sangeet Bhojpuri",
+    "url": "https://mumt01.tangotv.in/SANGEETBHOJPURI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/sangeet_bhojpuri.png",
+    "category": "Bhojpuri"
+  },
+  {
+    "id": "sansad_tv_hd_1",
+    "name": "Sansad TV HD 1",
+    "url": "https://mumt04.tangotv.in/SANSADTVHD1/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Sansadtv_hd1.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "sansad_tv_hd_2",
+    "name": "Sansad TV HD 2",
+    "url": "https://mumt04.tangotv.in/SANSADTVHD2/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Sansadtv_hd2.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "sanskar",
+    "name": "Sanskar",
+    "url": "https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000616.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "santvani",
+    "name": "Santvani",
+    "url": "https://mumt05.tangotv.in/SANTVANI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000136.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "sarv_dharm_sangam",
+    "name": "Sarv Dharm Sangam",
+    "url": "https://mumt05.tangotv.in/SARVDHARMSANGAM/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000037.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "sathiyam_tv",
+    "name": "Sathiyam TV",
+    "url": "https://mumt02.tangotv.in/SATHIYAMTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000515.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "satsang",
+    "name": "Satsang",
+    "url": "https://mumt05.tangotv.in/SATSANG/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000038.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "shalom_tv_global",
+    "name": "Shalom TV Global",
+    "url": "https://d28xtgmk9tfk6b.cloudfront.net/master_720.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/Shalom.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "shalom_tv_india",
+    "name": "Shalom Tv India",
+    "url": "https://mumt01.tangotv.in/SHALOMTVINDIA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000153.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "15",
+    "name": "Shemaroo Bollywood",
+    "url": "https://smr-runntv-blywd.cdn.runn.tv/shemaroo/stream/smrbol/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_SMRBOL/Web/thumbnail/logo_web.png",
+    "category": "Movies"
+  },
+  {
+    "id": "shemaroo_josh",
+    "name": "Shemaroo JOSH",
+    "url": "https://mumt04.tangotv.in/Shemaroojosh/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/shemaroo_josh.png",
+    "category": "Misc"
+  },
+  {
+    "id": "shemaroo_tv",
+    "name": "Shemaroo TV",
+    "url": "https://origin1.freetvindia.com/live/SHEMAROOTV.m3u8",
+    "logo": "https://core.freetvindia.com/media/Shemaroo_TV_6RRpF5Z.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "shemaroo_umang",
+    "name": "Shemaroo Umang",
+    "url": "https://mumt04.tangotv.in/SHEMAROOUMANG/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Shemaroo_Umang.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "shubh_tv",
+    "name": "Shubh TV",
+    "url": "https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index_8.m3u8",
+    "logo": "https://core.freetvindia.com/media/Shubh_Cinema.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "shubhsandesh_tv",
+    "name": "Shubhsandesh TV",
+    "url": "https://mumt03.tangotv.in/SHUBHSANDESH/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000218.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "siri_kannada_all_time",
+    "name": "Siri Kannada All Time",
+    "url": "https://mumt02.tangotv.in/SIRIKANNADAALLTIME/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000121.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "soham",
+    "name": "Soham",
+    "url": "https://mumt03.tangotv.in/SOHAMTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000621.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "sonar_bangla",
+    "name": "Sonar Bangla",
+    "url": "http://210.89.51.165:80/hlslive/Admin/RSPD031/live/SonarBangla/master_1.m3u8",
+    "logo": "https://core.freetvindia.com/media/1518_FreeTV_Sonar_Bangla.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "56",
+    "name": "Speed News",
+    "url": "https://indiatv.cdn.runn.tv/v1/vglive-sk-479089/main.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/SPDNWS/Web/thumbnail/4548a0b5-230a-4d7d-a6a8-97b48954c8be.png",
+    "category": "News"
+  },
+  {
+    "id": "spondon",
+    "name": "Spondon",
+    "url": "https://mumt05.tangotv.in/SPONDON/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000652.png",
+    "category": "Assamese"
+  },
+  {
+    "id": "sports_squad_haryana",
+    "name": "Sports Squad Haryana",
+    "url": "https://mumt01.tangotv.in/SPORTSSQUADHARYANA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Sports_Squad_Hariyana.png",
+    "category": "Sports"
+  },
+  {
+    "id": "sri_sankara_tv",
+    "name": "Sri Sankara TV",
+    "url": "https://mumt05.tangotv.in/SRISANKARA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Sri_Sankara.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "studio_n_news",
+    "name": "Studio N News",
+    "url": "https://mumt03.tangotv.in/STUDIONNEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Studio_N_News.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "studio_one_plus",
+    "name": "Studio One Plus",
+    "url": "https://mumt04.tangotv.in/STUDIOONEPLUS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000263.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "studio_yuva",
+    "name": "Studio Yuva",
+    "url": "https://mumt01.tangotv.in/STUDIOYUVA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Studio_Yuva.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "subharti_tv",
+    "name": "Subharti TV",
+    "url": "https://mumt04.tangotv.in/SUBHARTITV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000389.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "subhavaartha_tv",
+    "name": "Subhavaartha TV",
+    "url": "https://mumt05.tangotv.in/SUBHAVAARTHATV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Subhvaartha_TV.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "sudarshan_news",
+    "name": "Sudarshan News",
+    "url": "https://mumt04.tangotv.in/SUDARSHANNEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000087.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "super_yatch_tv",
+    "name": "Super Yatch TV",
+    "url": "https://sy.wns.live/hls/stream.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/superyatchtv.png",
+    "category": "English Entertainment / Infotainment & Lifestyle"
+  },
+  {
+    "id": "29",
+    "name": "Superfine Films",
+    "url": "https://supflm.cdn.runn.tv/runntv/stream/p_supjio/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_SUPJIO/Web/thumbnail/62d65198-5f33-4640-9ebf-d80d94d23507.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "swaraj_express_smbc",
+    "name": "Swaraj Express SMBC",
+    "url": "https://cdn-2.pishow.tv/live/477/master.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/swaraj_Express_SMBC.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "tv_24",
+    "name": "TV 24",
+    "url": "https://mumt01.tangotv.in/TV24/index.m3u8?filter.tracks=v1a1",
+    "logo": "https://core.freetvindia.com/media/tv24_live.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "tv5_kannada",
+    "name": "TV5 Kannada",
+    "url": "https://mumt02.tangotv.in/TV5KANNADA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000174.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "tv5_news",
+    "name": "TV5 News",
+    "url": "https://mumt02.tangotv.in/TV5NEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/TV_News5.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "tv9_bangla",
+    "name": "TV9 Bangla",
+    "url": "https://mumt05.tangotv.in/TV9BANGLA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000244.png",
+    "category": "Bangla"
+  },
+  {
+    "id": "45",
+    "name": "TV9 Bharatvarsh",
+    "url": "https://tv9live.cdn.runn.tv/title-TV9_Bharathvarsh_Non_SSAI/v1/vglive-sk-301666/main.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/TV9BHA/Web/thumbnail/4eaef931-e0a5-449e-90aa-aa4da623b0c0.png",
+    "category": "News"
+  },
+  {
+    "id": "tv9_bharatvarsh",
+    "name": "TV9 Bharatvarsh",
+    "url": "https://origin1.freetvindia.com/live/TV9BHARATVARSH.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000015.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "tv9_gujarati",
+    "name": "TV9 Gujarati",
+    "url": "https://mumt03.tangotv.in/TV9GUJARATI/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000047.png",
+    "category": "Gujarati"
+  },
+  {
+    "id": "tv9_kannada",
+    "name": "TV9 Kannada",
+    "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9kanmo6oiq/liveabr/pub-iotv9kanmo6oiq/live_720p/chunks.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000613.png",
+    "category": "Kannada"
+  },
+  {
+    "id": "91",
+    "name": "TV9 Telugu",
+    "url": "https://tv9live.cdn.runn.tv/ptnr-RunnTV/title-TV9_Telugu_Non_SSAI/v1/vglive-sk-121537/main.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/TV9TEL/Mobile/thumbnail/8266b9a7-0c86-4afd-b655-0740ec7605c2.png",
+    "category": "News"
+  },
+  {
+    "id": "tv9_telugu",
+    "name": "TV9 Telugu",
+    "url": "https://mumt04.tangotv.in/TV9TELUGU/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/9005123451000339.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "tamil_ratnam",
+    "name": "Tamil Ratnam",
+    "url": "http://210.89.51.165:80/hlslive/Admin/RSPD031/live/TamilRatna/master_1.m3u8",
+    "logo": "https://core.freetvindia.com/media/1152FreeTV_Tamil_Ratnam.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "tamilan_television",
+    "name": "Tamilan Television",
+    "url": "https://mumt02.tangotv.in/TAMILANTELEVISION/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000236.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "tehzeeb_tv",
+    "name": "Tehzeeb TV",
+    "url": "https://mumt05.tangotv.in/TEHZEEBTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000265.png",
+    "category": "Others"
+  },
+  {
+    "id": "6",
+    "name": "Terribly Tiny Tales",
+    "url": "https://playout.runn.tv/playout/v1/stream/p_tttflm/playlist.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_TTTFLM/Web/thumbnail/logo_web.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "thanthi_tv",
+    "name": "Thanthi TV",
+    "url": "https://mumt03.tangotv.in/THANTHITV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Thanti_TV_Nl4jmtR.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "the_q",
+    "name": "The Q",
+    "url": "https://mumt05.tangotv.in/THEQ/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000115.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "times_now",
+    "name": "Times Now",
+    "url": "https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/timesnow/live_720p/chunks.m3u8",
+    "logo": "https://core.freetvindia.com/media/Times_Now.png",
+    "category": "English News & Business"
+  },
+  {
+    "id": "times_now_navbharat",
+    "name": "Times Now Navbharat",
+    "url": "https://origin1.freetvindia.com/live/TIMESNOWNAVBHARAT.m3u8",
+    "logo": "https://core.freetvindia.com/media/Timesnow_navbharat.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "total_tv",
+    "name": "Total TV",
+    "url": "https://mumt04.tangotv.in/TOTALTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000391.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "unique_tv",
+    "name": "Unique TV",
+    "url": "https://mumt05.tangotv.in/UNIQUETV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/UniqueTV.png",
+    "category": "Hindi GEC"
+  },
+  {
+    "id": "v6_news",
+    "name": "V6 News",
+    "url": "https://mumt05.tangotv.in/V6NEWS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000209.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "vaanavil_tv",
+    "name": "Vaanavil TV",
+    "url": "https://mumt01.tangotv.in/VAANAVILTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000277.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "valicham_plus",
+    "name": "Valicham Plus",
+    "url": "https://mumt05.tangotv.in/VALICHAMPLUS/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/valichamplus.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "vanitha",
+    "name": "Vanitha",
+    "url": "https://mumt01.tangotv.in/VANITHA/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/vanitha_tv.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "vasanth_tv",
+    "name": "Vasanth TV",
+    "url": "https://mumt04.tangotv.in/VASANTHTV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Vasanth_TV.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "vedic",
+    "name": "Vedic",
+    "url": "https://mumt05.tangotv.in/VEDIC/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000363.png",
+    "category": "Devotional"
+  },
+  {
+    "id": "vendhar_tv",
+    "name": "Vendhar TV",
+    "url": "https://origin1.freetvindia.com/live/VENDHARTV.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000255.png",
+    "category": "Tamil"
+  },
+  {
+    "id": "vissa_tv",
+    "name": "Vissa TV",
+    "url": "https://mumt02.tangotv.in/VISSATV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/Vissa_TV.png",
+    "category": "Telugu"
+  },
+  {
+    "id": "we_tv",
+    "name": "We TV",
+    "url": "https://mumt01.tangotv.in/WETV/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/We_Tv.png",
+    "category": "Malayalam"
+  },
+  {
+    "id": "wow_cinema_one",
+    "name": "Wow Cinema One",
+    "url": "https://mumt02.tangotv.in/WOWCINEMAONE/index.m3u8",
+    "logo": "https://core.freetvindia.com/media/wow_cinemaone.png",
+    "category": "Hindi Movies"
+  },
+  {
+    "id": "88",
+    "name": "XTREM Sports",
+    "url": "https://streams2.sofast.tv/ptnr-runntv/title-XTREM-SPORTS-ENG/sofastplayout/dd07c1bf-9b89-4e56-b819-224b2bbcd807_0_HLS/manifest.m3u8",
+    "logo": "https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/XTRSPO/Mobile/thumbnail/c72df825-0310-4388-bdc4-26855d832871.png",
+    "category": "Sports"
+  },
+  {
+    "id": "zainabia_channel",
+    "name": "Zainabia Channel",
+    "url": "https://zainabia.livebox.co.in/ZainabiaChannelhls/channel.m3u8",
+    "logo": "https://core.freetvindia.com/media/channels/9005123451000627.png",
+    "category": "Others"
+  },
+  {
+    "id": "zee_bharat",
+    "name": "Zee Bharat",
+    "url": "https://d1hp2yai3k4ork.cloudfront.net/index_4.m3u8",
+    "logo": "https://core.freetvindia.com/media/zee_hindustan.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "zee_business",
+    "name": "Zee Business",
+    "url": "https://dwby15d04agvq.cloudfront.net/index_5.m3u8",
+    "logo": "https://core.freetvindia.com/media/Z_Business.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "zee_news",
+    "name": "Zee News",
+    "url": "https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8",
+    "logo": "https://core.freetvindia.com/media/Z_News.png",
+    "category": "Hindi News"
+  },
+  {
+    "id": "zee-tv-sd",
+    "name": "Zee TV SD",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/yHNSuG1V.png",
+    "category": "Entertainment",
+    "licenseKey": "ed068cf84f0640ccbc7c0e395c0a272e:bb722190f2bb446391020411a7d0828b"
+  },
+  {
+    "id": "and-tv-sd",
+    "name": "And TV SD",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png",
+    "category": "Entertainment",
+    "licenseKey": "26df86eeebb04d7fbc45c948f76e81fd:5f3a23f1a73c4c96ababce5fffe7b06b"
+  },
+  {
+    "id": "zee-anmol",
+    "name": "Zee Anmol",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmol/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/QjKdER9Z.png",
+    "category": "Entertainment",
+    "licenseKey": "4023613457774cbeb71a62c339970e63:1c3e9fce5f014542be9cd1f749181204"
+  },
+  {
+    "id": "zee-cinema-sd",
+    "name": "Zee Cinema SD",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinema/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/qss9gFuH.png",
+    "category": "Movies",
+    "licenseKey": "43513b13f4b542e39c9265921dfc1726:b0b2678bcd274c37b888a6c987d502ed"
+  },
+  {
+    "id": "zee-bollywood",
+    "name": "Zee Bollywood",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/EqDlflgi.png",
+    "category": "Movies",
+    "licenseKey": "e61523260c614746b25b9a5523fe9a39:72ddbf37f76f49acbb8e140e7279e7a1"
+  },
+  {
+    "id": "zee-anoml-cinema",
+    "name": "Zee Anmol Cinema",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmolcinema/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/diYkUOnX.png",
+    "category": "Movies",
+    "licenseKey": "812411cba8bc42c79eb2b19cd78ad3f3:468a0b8d3d5d42d8a5c41bb875390a74"
+  },
+  {
+    "id": "gen-h7gmlc46w",
+    "name": "And Pictures SD",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/HivVrdof.png",
+    "category": "Movies",
+    "licenseKey": "8dea532cabfe4f71ba20f62310e7949f:7a214a974e4f4d1d9bb66364d5f0cb92"
+  },
+  {
+    "id": "gen-8mby0ivwa",
+    "name": "DD National",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Ddnational/default/Ddbharti.m3u8",
+    "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/ftklpj.png",
+    "category": "Entertainment"
+  },
+  {
+    "id": "gen-lzu9fdv5p",
+    "name": "NDTV India",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Ndtvindia2/default/manifest.mpd",
+    "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/iqfloc.png",
+    "category": "News"
+  },
+  {
+    "id": "gen-uhnz6nmtb",
+    "name": "News Nation",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Newsnation/default/newsnation.m3u8",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/LKNgfzia.png",
+    "category": "News",
+    "licenseKey": "d78c01625c3f4ed98912609799298544:b91bb882f9624872ada6125006fe5c73"
+  },
+  {
+    "id": "zee-anoml-cinema_1",
+    "name": "Zee Hindustan",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeehindustan/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/TknReKLD.png",
+    "category": "News",
+    "licenseKey": "10616d7c4bee41f1825bd805c6295172:dc85f2112f63477fb39fc149493c49be"
+  },
+  {
+    "id": "zee-anoml-cinema_2",
+    "name": "Zee Business",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebusiness/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/vExrDK9r.png",
+    "category": "News",
+    "licenseKey": "bef87892e58c446d893b16a848703b70:51959fcbc8fe4091b570ba254bf749ae"
+  },
+  {
+    "id": "zee-kannada",
+    "name": "Zee Kannada HD",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeekannada/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/1PrOGXAh.png",
+    "category": "Regional",
+    "licenseKey": "50e714b65ead453cbfab9b20bed5c79d:bc08e108b9ee4f65b99cb9dad9532f3f"
+  },
+  {
+    "id": "zee-anoml-cinema_3",
+    "name": "Zee Telugu HD",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetelgu/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/6vNzRaRK.png",
+    "category": "Regional",
+    "licenseKey": "1ce5cd75a6ad44a38a7d1b8dbaf9c330:657fc8e7d533456cb0644fe03458a4b2"
+  },
+  {
+    "id": "zee-anoml-cinema_4",
+    "name": "Zee Bangla HD",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/9XHWylqs.png",
+    "category": "Regional",
+    "licenseKey": "1df83e058b864da896c9288eef63b113:fc32f26239054b56aab48225305598fe"
+  },
+  {
+    "id": "zee-anoml-cinema_5",
+    "name": "Zee Marathi",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeemarathi/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/4bimlHJj.png",
+    "category": "Regional",
+    "licenseKey": "2a8d6c938ea647248f7a10eedc39f097:7d81feb84ed84bd88fdc5ca9de3c16da"
+  },
+  {
+    "id": "zee-bihar-jharkhand",
+    "name": "Zee Bihar Jharkhand",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebiharjharkhand/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/5zkMvEbF.png",
+    "category": "Regional",
+    "licenseKey": "e1ec6098b5014ac7aae0b37f72d5e85e:c04950f25d8e4107a96e828e7911e53b"
+  },
+  {
+    "id": "gen-rhocjl560",
+    "name": "Zee Sarthak",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeesarthak/default/devil.m",
+    "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/zee-sarthak.png",
+    "category": "Regional"
+  },
+  {
+    "id": "zee-anoml-cinema_6",
+    "name": "Zee Bangla Cinema",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglacinema/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/gLSSl4nG.png",
+    "category": "Movies",
+    "licenseKey": "fbbfd9ce4bbe4d818b16df7dfe89f05b:1e96d0f88ef740e982d6f6105721c8bc"
+  },
+  {
+    "id": "zee-anoml-cinema_7",
+    "name": "Zee Talkies",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetalkies/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/VGfIqjrc.png",
+    "category": "Movies",
+    "licenseKey": "f081f32756374c3d8265e1a1e029614e:356a3a6d8ce34d49a84ad464b20b1a3e"
+  },
+  {
+    "id": "discovery-kids",
+    "name": "Discovery Kids",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverykids2/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/RzedYhFG.png",
+    "category": "Kids",
+    "licenseKey": "601f58d4b7094d2baf78c85d1d9cb6c9:609e0cc03198455fa36fd2cc3e7f940d"
+  },
+  {
+    "id": "discovey",
+    "name": "Discovery",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/UyI5ljKM.png",
+    "category": "Education",
+    "licenseKey": "b70a8cf9450c4d6484b4ac4d3c6761c0:0908be844260409cbac180bf0181da40"
+  },
+  {
+    "id": "discovery-science",
+    "name": "Discovery Science",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryscience2/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/vIA7TExn.png",
+    "category": "Education",
+    "licenseKey": "5458f45efedb4d6f8aa6ac76c85b621b:dbf8a0a306a64525ba3012fd225370c0"
+  },
+  {
+    "id": "discovery-investigation",
+    "name": "Discovery Investigation",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Investigationdiscovery2/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/mHhlDCiL.png",
+    "category": "Education",
+    "licenseKey": "2828ea6f6a984505b0454da0c03f68b9:5d3b7195086544c2807aa8c1544e7379"
+  },
+  {
+    "id": "discovery-science_1",
+    "name": "Discovery Turbo",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/6eCv1iuk.png",
+    "category": "Education",
+    "licenseKey": "c011525969e44b99a86059dbb3cdf4e8:6700a5d93203417b8585f7de7dd1a09b"
+  },
+  {
+    "id": "tlc",
+    "name": "TLC",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Tlc2/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/FOvFsIgt.png",
+    "category": "Lifestyle",
+    "licenseKey": "e48e7373d6be47ecab83a20849f6823e:513ce07a2ee24ffdbe667eff5a9d46a8"
+  },
+  {
+    "id": "zoom2",
+    "name": "Zoom",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/jLvKrs62.png",
+    "category": "Lifestyle",
+    "licenseKey": "86edec9e3b7d4042a4d4a1ca personally14f847ee:9def4315f0004019a3705bcb3cf30ca3"
+  },
+  {
+    "id": "gen-u5mgujk66",
+    "name": "Fakt Marathi",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Faktmarathi/default/Faktmarathi.m3u8",
+    "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/zwombd.png",
+    "category": "Regional"
+  },
+  {
+    "id": "shorts-tv-active",
+    "name": "Shorts TV Active",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Shortstv2/default/manifest.mpd",
+    "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/lcMc75Xr.png",
+    "category": "Entertainment",
+    "licenseKey": "b994480f788d41ddbc805862ac469416:78a6a0fc1758483595da7113e58e4467"
+  },
+  {
+    "id": "gen-m0vmvpmj6",
+    "name": "DD Bharati",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Ddbharti/default/Ddbharti.m3u8",
+    "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/drciav.png",
+    "category": "Education"
+  },
+  {
+    "id": "gen-i38eon9oj",
+    "name": "Sansad TV HD",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sansadtvhd/default/Sansadtvhd.m3u8",
+    "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/ptcgyh.png",
+    "category": "News"
+  },
+  {
+    "id": "gen-xb4dz8es1",
+    "name": "Sansad TV SD",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sansadtvsd/default/Sansadtvsd.m3u8",
+    "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/oshzts.png",
+    "category": "News"
+  }
+]

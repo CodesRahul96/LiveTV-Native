@@ -22,7 +22,16 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.codesrahul.livetv"
+      "package": "com.codesrahul.livetv",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "ACCESS_WIFI_STATE",
+        "WAKE_LOCK",
+        "FOREGROUND_SERVICE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +41,17 @@
         "projectId": "e0073166-31c2-42c1-9153-8e65fdc4c64f"
       }
     },
-    "plugins": ["expo-video"]
+    "plugins": [
+      "expo-video",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "largeHeap": true,
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
   }
 }

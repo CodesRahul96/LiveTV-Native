@@ -4,6 +4,7 @@ export interface Channel {
   url: string;
   logo: string;
   category: string;
+  licenseKey?: string;
 }
 
 export interface Category {

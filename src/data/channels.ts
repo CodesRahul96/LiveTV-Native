@@ -4,7 +4,33 @@ import { Channel, Category } from '../types';
 // Import channels from JSON file
 import channelsData from '../../assets/channels.json';
 
-const MOCK_CHANNELS: Channel[] = channelsData as Channel[];
+const ALLOWED_LANGUAGES = [
+  'Marathi', 
+  'Hindi', 
+  'English', 
+  'Entertainment', 
+  'Movies', 
+  'Kids', 
+  'Education', 
+  'Lifestyle', 
+  'News', 
+  'Regional',
+  'Bhojpuri',
+  'Gujarati',
+  'Odia',
+  'Assamese',
+  'Bangla',
+  'Tamil',
+  'Telugu',
+  'Malayalam',
+  'Kannada',
+  'Sports',
+  'Devotional'
+];
+
+const MOCK_CHANNELS: Channel[] = (channelsData as Channel[]).filter(channel => 
+  ALLOWED_LANGUAGES.some(cat => channel.category.includes(cat) || cat === channel.category)
+);
 
 export const TEST_CHANNEL: Channel = {
   id: 'test-fallback',

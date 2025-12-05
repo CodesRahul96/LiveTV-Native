@@ -12,6 +12,7 @@ import {
   Pressable,
   Image,
   Animated,
+  Platform,
 } from 'react-native';
 import { useVideoPlayer, VideoView, VideoContentFit } from 'expo-video';
 import * as ScreenOrientation from 'expo-screen-orientation';
@@ -37,24 +38,75 @@ const PlayerScreen = () => {
   const [showChannelList, setShowChannelList] = useState(false);
   const [showAudioToast, setShowAudioToast] = useState(false);
   const [audioTrackName, setAudioTrackName] = useState('Default');
-  const [showQualityToast, setShowQualityToast] = useState(false);
-  const [qualityName, setQualityName] = useState('Auto');
-  const [contentFit, setContentFit] = useState<VideoContentFit>('contain');
+  const [hasMultipleAudioTracks, setHasMultipleAudioTracks] = useState(false);
+  // Removed quality state
+  const [contentFit, setContentFit] = useState<VideoContentFit>('fill');
   
   // Animation for toast
+  // Animation for toast
   const toastOpacity = useRef(new Animated.Value(0)).current;
-  const qualityToastOpacity = useRef(new Animated.Value(0)).current;
+  // Removed quality toast opacity
 
   // Initialize Video Player
-  const videoSource = useMemo(() => ({
-    uri: currentChannel.url,
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+  // Helper helper to convert Hex to Base64Url
+  const hexToBase64Url = (hex: string) => {
+    try {
+      // Remove any non-hex characters
+      const cleanHex = hex.replace(/[^0-9a-fA-F]/g, '');
+      if (cleanHex.length % 2 !== 0) return '';
+      
+      const binary = cleanHex.match(/.{1,2}/g)?.map(byte => String.fromCharCode(parseInt(byte, 16))).join('') || '';
+      return btoa(binary).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    } catch (e) {
+      console.log("Error converting hex to base64", e);
+      return '';
     }
-  }), [currentChannel.url]);
+  };
+
+  const videoSource = useMemo(() => {
+    // User requested to remove User-Agent (let player use default)
+    const headers: Record<string, string> = {}; 
+
+    let drm = undefined;
+    if (currentChannel.licenseKey) {
+      const parts = currentChannel.licenseKey.split(':');
+      if (parts.length === 2) {
+        const kidHex = parts[0];
+        const keyHex = parts[1];
+        
+        const kid = hexToBase64Url(kidHex);
+        const k = hexToBase64Url(keyHex);
+
+        if (kid && k) {
+            const clearKeyJson = JSON.stringify({
+                keys: [{ kty: 'oct', k, kid }],
+                type: 'temporary'
+            });
+            // Use local license server instead of data URI to avoid protocol errors on Android
+            // Android Emulator loopback: 10.0.2.2
+            // Physical device: needs machine IP (we default to 10.0.2.2 for now as mostly emulator usage is implied with 'java.net')
+            const host = Platform.OS === 'android' ? '10.0.2.2' : 'localhost';
+            const licenseServer = `http://${host}:3000/license?keys=${encodeURIComponent(btoa(clearKeyJson))}`;
+            
+            drm = {
+                type: 'clearkey',
+                licenseServer
+            } as any;
+            console.log("DRM Configured for", currentChannel.name);
+        }
+      }
+    }
+
+    return {
+      uri: currentChannel.url,
+      headers, // Empty now
+      drm
+    };
+  }, [currentChannel.url, currentChannel.licenseKey]);
 
   const player = useVideoPlayer(videoSource, player => {
     player.loop = false;
+    player.staysActiveInBackground = true;
     player.play();
   });
 
@@ -90,6 +142,13 @@ const PlayerScreen = () => {
       if (status === 'readyToPlay') {
         setLoading(false);
         setError(false);
+        // Check for multiple audio tracks
+        // @ts-ignore
+        if (player.audioTracks && player.audioTracks.length > 1) {
+          setHasMultipleAudioTracks(true);
+        } else {
+          setHasMultipleAudioTracks(false);
+        }
       }
       if (error) {
         handleError(error);
@@ -191,12 +250,12 @@ const PlayerScreen = () => {
            // For now, just show controls
          }
       } else if (keyName === 'Menu') {
-        // Fire TV Menu button
-        toggleResizeMode();
+        // Fire TV Menu button - Removed resize toggle
+        // toggleResizeMode();
       }
     };
 
-    const subscription = Keyboard.addListener('keydown', onKeyDown);
+    const subscription = Keyboard.addListener('keydown' as any, onKeyDown);
     return () => subscription.remove();
   }, [showChannelList, currentChannel]); 
 
@@ -214,14 +273,7 @@ const PlayerScreen = () => {
     setCurrentChannel(channels[newIndex]);
   };
 
-  const toggleResizeMode = () => {
-    setContentFit(prev => {
-      if (prev === 'contain') return 'cover';
-      if (prev === 'cover') return 'fill'; // 'fill' is 'stretch' effectively
-      return 'contain';
-    });
-    showControls();
-  };
+
 
   const cycleAudioTrack = () => {
     // Placeholder logic for audio track cycling
@@ -232,19 +284,7 @@ const PlayerScreen = () => {
     showControls();
   };
 
-  const cycleVideoQuality = () => {
-    // Placeholder logic for video quality cycling
-    // expo-video usually handles ABR automatically.
-    // Manual selection would require accessing player.availableVideoTracks if supported.
-    const qualities = ['Auto', '1080p', '720p', '480p'];
-    setQualityName(prev => {
-      const currentIndex = qualities.indexOf(prev);
-      const nextIndex = (currentIndex + 1) % qualities.length;
-      return qualities[nextIndex];
-    });
-    showQualityToastMessage();
-    showControls();
-  };
+
 
   const showAudioToastMessage = () => {
     setShowAudioToast(true);
@@ -263,22 +303,7 @@ const PlayerScreen = () => {
     ]).start(() => setShowAudioToast(false));
   };
 
-  const showQualityToastMessage = () => {
-    setShowQualityToast(true);
-    Animated.sequence([
-      Animated.timing(qualityToastOpacity, {
-        toValue: 1,
-        duration: 300,
-        useNativeDriver: true,
-      }),
-      Animated.delay(2000),
-      Animated.timing(qualityToastOpacity, {
-        toValue: 0,
-        duration: 300,
-        useNativeDriver: true,
-      }),
-    ]).start(() => setShowQualityToast(false));
-  };
+
 
   const retryTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -296,7 +321,7 @@ const PlayerScreen = () => {
             player.replaceAsync({
                 uri: currentChannel.url,
                 headers: {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                    'User-Agent': '' // Empty or just remove key? The tool requires replacement content.
                 }
             });
             player.play();
@@ -314,9 +339,7 @@ const PlayerScreen = () => {
     setLoading(true);
     player.replaceAsync({
         uri: currentChannel.url,
-        headers: {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
+        headers: {}
     });
     player.play();
   };
@@ -406,56 +429,37 @@ const PlayerScreen = () => {
         </Animated.View>
       )}
 
-      {/* Quality Toast (Right) */}
-      {showQualityToast && (
-        <Animated.View style={[styles.audioToast, { opacity: qualityToastOpacity, top: '60%' }]}>
-          <Settings color="#fff" size={32} />
-          <Text style={styles.audioToastText}>Quality: {qualityName}</Text>
-        </Animated.View>
-      )}
+
 
       {/* On-Screen Controls (Mobile Only) */}
-      {!Platform.isTV && uiVisible && (
+      {/* On-Screen Controls (Mobile Only) */}
+      {uiVisible && (
         <>
-          <TouchableOpacity 
-            style={styles.backButton}
-            onPress={() => navigation.goBack()}
-            focusable={false} // Disable focus on touch controls for TV
-          >
-            <ArrowLeft color="#fff" size={24} />
-          </TouchableOpacity>
+          {!Platform.isTV && (
+            <TouchableOpacity 
+              style={styles.backButton}
+              onPress={() => navigation.goBack()}
+              focusable={false} // Disable focus on touch controls for TV
+            >
+              <ArrowLeft color="#fff" size={24} />
+            </TouchableOpacity>
+          )}
 
           {/* Player Controls Bar */}
-          <View style={styles.controlsBar}>
-            <TouchableOpacity 
-              style={styles.controlButton} 
-              onPress={toggleResizeMode}
-              focusable={false}
-            >
-              <Maximize color="#fff" size={24} />
-              <Text style={styles.controlText}>
-                {contentFit === 'contain' ? 'Fit' : contentFit === 'cover' ? 'Zoom' : 'Stretch'}
-              </Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity 
-              style={styles.controlButton} 
-              onPress={cycleAudioTrack}
-              focusable={false}
-            >
-              <Volume2 color="#fff" size={24} />
-              <Text style={styles.controlText}>Audio</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity 
-              style={styles.controlButton} 
-              onPress={cycleVideoQuality}
-              focusable={false}
-            >
-              <Settings color="#fff" size={24} />
-              <Text style={styles.controlText}>Quality</Text>
-            </TouchableOpacity>
-          </View>
+          {!Platform.isTV && (
+            <View style={styles.controlsBar}>
+              {hasMultipleAudioTracks && (
+                <TouchableOpacity 
+                  style={styles.controlButton} 
+                  onPress={cycleAudioTrack}
+                  focusable={false}
+                >
+                  <Volume2 color="#fff" size={24} />
+                  <Text style={styles.controlText}>Audio</Text>
+                </TouchableOpacity>
+              )}
+            </View>
+          )}
         </>
       )}
     </View>

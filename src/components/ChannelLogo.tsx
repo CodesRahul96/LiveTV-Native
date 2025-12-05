@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Image, View, Text, StyleSheet, ImageStyle, StyleProp } from 'react-native';
+import { Image } from 'expo-image';
+import { View, Text, StyleSheet, ImageStyle, StyleProp } from 'react-native';
 
 interface ChannelLogoProps {
   uri?: string;
@@ -41,8 +42,10 @@ const ChannelLogo: React.FC<ChannelLogoProps> = ({ uri, name, style }) => {
     <Image
       source={{ uri }}
       style={[styles.image, style]}
-      resizeMode="contain"
+      contentFit="contain"
+      transition={200}
       onError={() => setError(true)}
+      cachePolicy="memory-disk"
     />
   );
 };

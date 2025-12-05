@@ -15,7 +15,7 @@ import { useChannels } from '../data/channels';
 import { Channel } from '../types';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import { getLastChannel } from '../utils/storage';
-import ChannelLogo from '../components/ChannelLogo';
+import ChannelItem from '../components/ChannelItem';
 import SkeletonLoader from '../components/SkeletonLoader';
 import { Grid, List as ListIcon } from 'lucide-react-native';
 
@@ -48,72 +48,26 @@ const HomeScreen = () => {
   };
 
   const renderChannel = useCallback(({ item }: { item: Channel }) => {
-    const isLastPlayed = focusedChannelId === item.id;
-
     return (
-      <Pressable
-        style={({ pressed, hovered, focused }: any) => [
-          styles.channelCard,
-          (focused || hovered || isLastPlayed) && styles.channelCardFocused,
-          pressed && { opacity: 0.7 }
-        ]}
-        onPress={() => handleChannelPress(item)}
-        onFocus={() => setFocusedChannelId(item.id)}
-      >
-        {({ focused, hovered }: any) => (
-          <>
-            <ChannelLogo 
-              uri={item.logo} 
-              name={item.name}
-              style={styles.channelLogo} 
-            />
-            <Text
-              style={[
-                styles.channelName,
-                (focused || hovered || isLastPlayed) && styles.channelNameFocused
-              ]}
-              numberOfLines={1}
-            >
-              {item.name}
-            </Text>
-          </>
-        )}
-      </Pressable>
+      <ChannelItem
+        item={item}
+        isFocused={focusedChannelId === item.id}
+        onPress={handleChannelPress}
+        onFocus={(id) => setFocusedChannelId(id)}
+        mode="list"
+      />
     );
   }, [focusedChannelId]);
 
   const renderGridChannel = useCallback(({ item }: { item: Channel }) => {
-    const isLastPlayed = focusedChannelId === item.id;
-
     return (
-      <Pressable
-        style={({ pressed, hovered, focused }: any) => [
-          styles.gridCard,
-          (focused || hovered || isLastPlayed) && styles.channelCardFocused,
-          pressed && { opacity: 0.7 }
-        ]}
-        onPress={() => handleChannelPress(item)}
-        onFocus={() => setFocusedChannelId(item.id)}
-      >
-        {({ focused, hovered }: any) => (
-          <>
-            <ChannelLogo 
-              uri={item.logo} 
-              name={item.name}
-              style={styles.channelLogo} 
-            />
-            <Text
-              style={[
-                styles.channelName,
-                (focused || hovered || isLastPlayed) && styles.channelNameFocused
-              ]}
-              numberOfLines={1}
-            >
-              {item.name}
-            </Text>
-          </>
-        )}
-      </Pressable>
+      <ChannelItem
+        item={item}
+        isFocused={focusedChannelId === item.id}
+        onPress={handleChannelPress}
+        onFocus={(id) => setFocusedChannelId(id)}
+        mode="grid"
+      />
     );
   }, [focusedChannelId]);
 
@@ -131,6 +85,7 @@ const HomeScreen = () => {
         maxToRenderPerBatch={5}
         windowSize={3}
         removeClippedSubviews={true}
+        extraData={focusedChannelId}
       />
     </View>
   ), [renderChannel]);
@@ -189,6 +144,7 @@ const HomeScreen = () => {
           maxToRenderPerBatch={6}
           windowSize={3}
           removeClippedSubviews={true}
+          extraData={focusedChannelId}
         />
       )}
     </SafeAreaView>
@@ -241,44 +197,6 @@ const styles = StyleSheet.create({
   },
   channelList: {
     paddingHorizontal: 16,
-  },
-  channelCard: {
-    marginRight: 16,
-    width: 140,
-    padding: 4,
-    borderRadius: 12,
-    borderWidth: 2,
-    borderColor: 'transparent',
-  },
-  gridCard: {
-    width: GRID_ITEM_WIDTH,
-    padding: 4,
-    borderRadius: 12,
-    borderWidth: 2,
-    borderColor: 'transparent',
-    marginBottom: 8,
-  },
-  channelCardFocused: {
-    borderColor: '#ff6b6b',
-    transform: [{ scale: 1.05 }],
-    backgroundColor: '#1a1a1a',
-    zIndex: 1,
-  },
-  channelLogo: {
-    width: '100%',
-    height: 80,
-    borderRadius: 8,
-    backgroundColor: '#222',
-    marginBottom: 8,
-  },
-  channelName: {
-    fontSize: 14,
-    color: '#ccc',
-    textAlign: 'center',
-  },
-  channelNameFocused: {
-    color: '#fff',
-    fontWeight: 'bold',
   },
 });
 
