@@ -9,38 +9,149 @@ const parseM3U = (data) => {
   const lines = data.split("\n");
   const channels = [];
   let currentChannel = {};
+  let nextLicenseKey = null;
+
+  const isAllowed = (name, category, language) => {
+    const lowerName = (name || "").toLowerCase();
+    const lowerCat = (category || "").toLowerCase();
+    const lowerLang = (language || "").toLowerCase();
+
+    // 1. Language Check
+    const allowedLangs = ["marathi", "hindi", "english", "mr", "hi", "en"];
+    const hasAllowedLang =
+      allowedLangs.includes(lowerLang) ||
+      allowedLangs.some((l) => lowerName.includes(l) || lowerCat.includes(l));
+
+    // 2. Category Check
+    const allowedGenres = [
+      "news",
+      "sports",
+      "music",
+      "movies",
+      "movie",
+      "cinema",
+      "kids",
+      "kid",
+      "cartoon",
+      "animation",
+      "documentary",
+      "infotainment",
+      "knowledge",
+      "science",
+      "history",
+    ];
+    const hasAllowedGenre = allowedGenres.some(
+      (g) => lowerCat.includes(g) || lowerName.includes(g)
+    );
+
+    // Forbidden Languages (Strict remove)
+    const forbiddenLangs = [
+      "tamil",
+      "telugu",
+      "kannada",
+      "malayalam",
+      "bengali",
+      "gujarati",
+      "punjabi",
+      "urdu",
+      "nepali",
+      "odia",
+      "bhojpuri",
+      "assamese",
+    ];
+    const hasForbiddenLang = forbiddenLangs.some(
+      (l) => lowerName.includes(l) || lowerCat.includes(l) || lowerLang === l
+    );
+
+    if (hasForbiddenLang) return false;
+
+    // Forbidden Keywords (Religious/Devotional)
+    const forbiddenKeywords = [
+      "devotional",
+      "religious",
+      "bhakti",
+      "aastha",
+      "sanskar",
+      "spiritual",
+      "darshan",
+      "satsang",
+      "ishwar",
+      "vedic",
+      "god",
+      "bhajan",
+      "aarti",
+      "katha",
+      "gurbani",
+      "divya",
+      "peace",
+    ];
+    const isReligious = forbiddenKeywords.some(
+      (k) => lowerName.includes(k) || lowerCat.includes(k)
+    );
+
+    if (isReligious) return false;
+
+    // If it matches genre, we lean towards keeping it unless it's a forbidden language
+    return hasAllowedGenre;
+  };
 
   for (let line of lines) {
     line = line.trim();
-    if (line.startsWith("#EXTINF:")) {
+    if (line.startsWith("#KODIPROP:inputstream.adaptive.license_key=")) {
+      nextLicenseKey = line.split("=")[1];
+    } else if (line.startsWith("#EXTINF:")) {
       // Parse attributes
       const tvgIdMatch = line.match(/tvg-id="([^"]*)"/);
-      const tvgNameMatch = line.match(/tvg-name="([^"]*)"/); // Prefer tvg-name if available
+      const tvgNameMatch = line.match(/tvg-name="([^"]*)"/);
       const tvgLogoMatch = line.match(/tvg-logo="([^"]*)"/);
       const groupTitleMatch = line.match(/group-title="([^"]*)"/);
+      const tvgLanguageMatch = line.match(/tvg-language="([^"]*)"/);
 
       // Parse name (after last comma)
       const nameParts = line.split(",");
       let name = nameParts[nameParts.length - 1].trim();
 
-      // Prefer tvg-name if explicitly set
-      if (tvgNameMatch && tvgNameMatch[1]) {
-        // Sometimes tvg-name is better formatted
-        // But let's stick to the display name after comma if valid, or tvg-name
-      }
-
       // Extract category from group-title (remove "PlayboxTV⭕" prefix if present)
       let category = groupTitleMatch ? groupTitleMatch[1] : "Uncategorized";
       category = category.replace("PlayboxTV⭕", "");
 
-      currentChannel = {
-        id: tvgIdMatch
-          ? tvgIdMatch[1]
-          : `gen-${Math.random().toString(36).substr(2, 9)}`,
-        name: name,
-        logo: tvgLogoMatch ? tvgLogoMatch[1] : "",
-        category: category,
-      };
+      // Check language
+      const language = tvgLanguageMatch
+        ? tvgLanguageMatch[1].toLowerCase()
+        : "";
+
+      // Normalization
+      if (
+        language === "mr" ||
+        language === "marathi" ||
+        (name + category).toLowerCase().includes("marathi")
+      ) {
+        if (!category.includes("Marathi")) category = `Marathi ${category}`;
+      } else if (
+        language === "hi" ||
+        language === "hindi" ||
+        (name + category).toLowerCase().includes("hindi")
+      ) {
+        if (category === "Music") category = "Hindi Music";
+        if (category === "Movies") category = "Hindi Movies";
+        if (category === "Kids") category = "Hindi Kids";
+      }
+
+      if (isAllowed(name, category, language)) {
+        currentChannel = {
+          id: tvgIdMatch
+            ? tvgIdMatch[1]
+            : `gen-${Math.random().toString(36).substr(2, 9)}`,
+          name: name,
+          logo: tvgLogoMatch ? tvgLogoMatch[1] : "",
+          category: category,
+          language: language,
+          licenseKey: nextLicenseKey,
+        };
+      } else {
+        currentChannel = {}; // Clear if excluded
+      }
+      nextLicenseKey = null; // Reset
     } else if (line.startsWith("http")) {
       if (currentChannel.name) {
         // Remove pipe | and everything after it (User-Agent headers etc)
@@ -51,6 +162,17 @@ const parseM3U = (data) => {
       }
     }
   }
+
+  // Sort channels: Marathi first
+  channels.sort((a, b) => {
+    const isAMarathi = a.language === "mr" || a.category.includes("Marathi");
+    const isBMarathi = b.language === "mr" || b.category.includes("Marathi");
+
+    if (isAMarathi && !isBMarathi) return -1;
+    if (!isAMarathi && isBMarathi) return 1;
+    return 0;
+  });
+
   return channels;
 };
 

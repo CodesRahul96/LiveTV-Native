@@ -28,6 +28,7 @@ const PlayerScreen = () => {
   useKeepAwake();
   const route = useRoute();
   const navigation = useNavigation();
+  const flatListRef = useRef<FlatList>(null);
   // @ts-ignore
   const { channel } = route.params;
   const { channels } = useChannels();
@@ -180,6 +181,16 @@ const PlayerScreen = () => {
 
   useEffect(() => {
     showControls();
+    if (showChannelList) {
+      // Scroll to current channel when list opens
+      const index = channels.findIndex(c => c.id === currentChannel.id);
+      if (index !== -1) {
+        // Small timeout to allow layout to settle
+        setTimeout(() => {
+            flatListRef.current?.scrollToIndex({ index, animated: false, viewPosition: 0.5 });
+        }, 100);
+      }
+    }
     return () => {
       if (controlsTimeoutRef.current) {
         clearTimeout(controlsTimeoutRef.current);
@@ -409,14 +420,19 @@ const PlayerScreen = () => {
             renderItem={renderChannelItem}
             keyExtractor={item => item.id}
             contentContainerStyle={styles.channelListContent}
-            initialScrollIndex={channels.findIndex(c => c.id === currentChannel.id)}
             getItemLayout={(data, index) => (
-              {length: 60, offset: 60 * index, index}
+              {length: 65, offset: 65 * index, index}
             )}
-            initialNumToRender={10}
-            maxToRenderPerBatch={5}
-            windowSize={5}
+            initialNumToRender={15}
+            maxToRenderPerBatch={10}
+            windowSize={10}
             removeClippedSubviews={true}
+            onScrollToIndexFailed={(info) => {
+              setTimeout(() => {
+                flatListRef.current?.scrollToIndex({ index: info.index, animated: true });
+              }, 500);
+            }}
+            ref={flatListRef}
           />
         </View>
       )}
