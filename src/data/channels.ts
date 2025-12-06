@@ -44,11 +44,7 @@ export const useChannels = () => {
   const [loading, setLoading] = React.useState(true);
 
   React.useEffect(() => {
-    // Simulate loading delay for skeleton effect
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 1500);
-    return () => clearTimeout(timer);
+    setLoading(false);
   }, []);
 
   // Group channels by category
