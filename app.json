@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TVwala",
-    "slug": "LiveTVNative",
+    "name": "Exclusive TV",
+    "slug": "ExclusiveTV",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/icon.png",
@@ -22,7 +22,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.codesrahul.livetv",
+      "package": "com.exclusive.tv",
       "permissions": [
         "READ_EXTERNAL_STORAGE",
         "WRITE_EXTERNAL_STORAGE",

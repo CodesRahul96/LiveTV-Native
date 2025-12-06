@@ -29,7 +29,7 @@
   {
     "id": "pishow-10002",
     "name": "FAKT MARATHI",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/fakt-marathi-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Fakt_Marathi.png",
     "category": "Marathi",
     "language": "mr",
     "licenseKey": null,
@@ -38,7 +38,7 @@
   {
     "id": "697303762",
     "name": "Fakt Marathi",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/fakt-marathi-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Fakt_Marathi.png",
     "category": "Marathi",
     "language": "mr",
     "licenseKey": null,
@@ -56,7 +56,7 @@
   {
     "id": "manual-88018",
     "name": "Star Pravah",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/star-pravah-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Pravah.png",
     "category": "Marathi",
     "language": "mr",
     "licenseKey": null,
@@ -74,7 +74,7 @@
   {
     "id": "pishow-6",
     "name": "9X JHAKAAS",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/9x-jhakaas-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9x_Jhakaas.png",
     "category": "Marathi Music",
     "language": "mr",
     "licenseKey": null,
@@ -92,7 +92,7 @@
   {
     "id": "942931571",
     "name": "Maiboli",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/113968.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Maiboli.png",
     "category": "Marathi Music",
     "language": "mr",
     "licenseKey": null,
@@ -110,7 +110,7 @@
   {
     "id": "696876346",
     "name": "Sangeet Marathi",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/696876346.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sangeet_Marathi.png",
     "category": "Marathi Music",
     "language": "mr",
     "licenseKey": null,
@@ -119,7 +119,7 @@
   {
     "id": "942918750",
     "name": "ABP Majha",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/abp-majha-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ABP_Majha.png",
     "category": "Marathi News",
     "language": "mr",
     "licenseKey": null,
@@ -146,7 +146,7 @@
   {
     "id": "pishow-437",
     "name": "SAAM TV",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/saam-tv-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Saam_Tv.png",
     "category": "Marathi News",
     "language": "mr",
     "licenseKey": null,
@@ -174,7 +174,7 @@
     "id": "manual-90760",
     "name": "Cineplex",
     "logo": "https://ui-avatars.com/api/?name=Cineplex&background=random&color=fff&size=128",
-    "category": "Hindi",
+    "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18296/.ts"
@@ -200,7 +200,7 @@
   {
     "id": "manual-10838",
     "name": "Colors HD",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/colors-hd-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Colors_HD.png",
     "category": "Hindi",
     "language": "hi",
     "licenseKey": null,
@@ -218,7 +218,7 @@
   {
     "id": "manual-10195",
     "name": "Epic",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/epic-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Epic_HD.png",
     "category": "Hindi",
     "language": "hi",
     "licenseKey": null,
@@ -254,7 +254,7 @@
   {
     "id": "manual-72492",
     "name": "Rishtey",
-    "logo": "https://ui-avatars.com/api/?name=Rishtey&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Rishtey.png",
     "category": "Hindi",
     "language": "hi",
     "licenseKey": null,
@@ -282,7 +282,7 @@
     "id": "manual-26903",
     "name": "Sony Max",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/sony-max-in.png",
-    "category": "Hindi",
+    "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
     "url": "https://streamer2.nexgen.bz/SONYMAX/index.m3u8"
@@ -291,7 +291,7 @@
     "id": "manual-99278",
     "name": "Sony Max 2",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/sony-max-2-in.png",
-    "category": "Hindi",
+    "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18841/.ts"
@@ -308,7 +308,7 @@
   {
     "id": "manual-24456",
     "name": "Star Bharat",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/star-bharat-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Bharat.png",
     "category": "Hindi",
     "language": "hi",
     "licenseKey": null,
@@ -326,8 +326,8 @@
   {
     "id": "manual-79185",
     "name": "Star Gold",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/star-gold-in.png",
-    "category": "Hindi",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold.png",
+    "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
     "url": "http://51.15.7.9:2905/stargold/index.m3u8"
@@ -335,8 +335,8 @@
   {
     "id": "manual-68827",
     "name": "Star Gold 2",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/star-gold-2-in.png",
-    "category": "Hindi",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_2.png",
+    "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
     "url": "http://51.15.7.9:2905/stargold2/index.m3u8"
@@ -344,8 +344,8 @@
   {
     "id": "manual-43521",
     "name": "Star Gold Select",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/star-gold-select-in.png",
-    "category": "Hindi",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_Select.png",
+    "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18429/.ts"
@@ -354,15 +354,15 @@
     "id": "manual-325665",
     "name": "Star Movies 2",
     "logo": "https://ui-avatars.com/api/?name=Star+Movies+2&background=random&color=fff&size=128",
-    "category": "Hindi",
-    "language": "hi",
+    "category": "English Movies",
+    "language": "en",
     "licenseKey": null,
     "url": "http://51.15.7.9:2905/starmovies/index.m3u8"
   },
   {
     "id": "manual-88295",
     "name": "Star Plus",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/star-plus-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Plus.png",
     "category": "Hindi",
     "language": "hi",
     "licenseKey": null,
@@ -399,7 +399,7 @@
     "id": "manual-46939",
     "name": "Zee Bollymovies",
     "logo": "https://ui-avatars.com/api/?name=Zee+Bollymovies&background=random&color=fff&size=128",
-    "category": "Hindi",
+    "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18861/.ts"
@@ -408,8 +408,8 @@
     "id": "manual-76876",
     "name": "Zee Cafe",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/zee-cafe-in.png",
-    "category": "Hindi",
-    "language": "hi",
+    "category": "English",
+    "language": "en",
     "licenseKey": null,
     "url": "http://51.15.7.9:2905/cafe/index.m3u8"
   },
@@ -417,7 +417,7 @@
     "id": "manual-61288",
     "name": "Zee Cinema",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/zee-cinema-in.png",
-    "category": "Hindi",
+    "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
     "url": "https://streamer2.nexgen.bz/ZEECINEMA/index.m3u8"
@@ -452,7 +452,7 @@
   {
     "id": "pishow-419",
     "name": "B4U MOVIES",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/b4u-movies-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/B4U_Movies.png",
     "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
@@ -462,8 +462,8 @@
     "id": "698364200",
     "name": "Bflixs Movies",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/698364200.jpeg",
-    "category": "Hindi Movies",
-    "language": "hi",
+    "category": "English Movies",
+    "language": "en",
     "licenseKey": null,
     "url": "http://longstream-06.ajaah.com/PlayBoxTV/BflixMovies/playlist.m3u8"
   },
@@ -488,7 +488,7 @@
   {
     "id": "pishow-1013",
     "name": "MANORANJAN TV",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-1013.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Manoranjan_TV.png",
     "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
@@ -515,8 +515,8 @@
   {
     "id": "PBha-10605",
     "name": "9X JALWA",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/9x-jalwa-in.png",
-    "category": "Hindi Music",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9X_Jalwa.png",
+    "category": "Music",
     "language": "hi",
     "licenseKey": null,
     "url": "https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8"
@@ -524,8 +524,8 @@
   {
     "id": "942935106",
     "name": "9X Jalwa",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/9x-jalwa-in.png",
-    "category": "Hindi Music",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9X_Jalwa.png",
+    "category": "Music",
     "language": "hi",
     "licenseKey": null,
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23111&ads.content_duration=18000&ads.episode_id=102313&ads.show_id=3613&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CBollywood%2CMusic%20Video%2CAsian&ads.showRating=TV-G&ads.episodeRating=TV-G&ads.language=hi&ads.showtitle=9X%20Jalwa&ads.episodetitle=9X%20Jalwa&ads.keywords=9X%20Jalwa%2CMusic%2CBollywood%2Cdesi&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
@@ -533,8 +533,8 @@
   {
     "id": "PBha-10591",
     "name": "9XM",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/9xm-in.png",
-    "category": "Hindi Music",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9XM.png",
+    "category": "Music",
     "language": "hi",
     "licenseKey": null,
     "url": "https://wiselp.wiseplayout.com/9XM/master.m3u8"
@@ -542,8 +542,8 @@
   {
     "id": "942925984",
     "name": "9XM",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/9xm-in.png",
-    "category": "Hindi Music",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9XM.png",
+    "category": "Music",
     "language": "hi",
     "licenseKey": null,
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23111&ads.content_duration=18000&ads.episode_id=102312&ads.show_id=3612&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CBollywood%2CMusic%20Video%2CAsian&ads.showRating=TV-G&ads.episodeRating=TV-G&ads.language=hi&ads.showtitle=9XM&ads.episodetitle=9XM&ads.keywords=9X%20Media%2CMusic%2Cdesi&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
@@ -551,8 +551,8 @@
   {
     "id": "pishow-415",
     "name": "B4U MUSIC",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/b4u-music-in.png",
-    "category": "Hindi Music",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/B4U_Music.png",
+    "category": "Music",
     "language": "hi",
     "licenseKey": null,
     "url": "https://cdn-2.pishow.tv/live/415/master.m3u8"
@@ -560,8 +560,8 @@
   {
     "id": "PBha-10545",
     "name": "B4U Music",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/b4u-music-in.png",
-    "category": "Hindi Music",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/B4U_Music.png",
+    "category": "Music",
     "language": "hi",
     "licenseKey": null,
     "url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8"
@@ -569,7 +569,7 @@
   {
     "id": "695735787",
     "name": "E24",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/e24-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/E_24.png",
     "category": "Hindi Music",
     "language": "hi",
     "licenseKey": null,
@@ -588,7 +588,7 @@
     "id": "PBha-10651",
     "name": "MASTI",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/PBha-10651.jpg",
-    "category": "Hindi Music",
+    "category": "Music",
     "language": "hi",
     "licenseKey": null,
     "url": "https://sablive-ddpb.akamaized.net/mastii/playlist.m3u8"
@@ -596,8 +596,8 @@
   {
     "id": "pishow-226",
     "name": "MUSIC INDIA",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-226.jpg",
-    "category": "Hindi Music",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Music_India.png",
+    "category": "Music",
     "language": "hi",
     "licenseKey": null,
     "url": "https://cdn-2.pishow.tv/live/226/master.m3u8"
@@ -606,7 +606,7 @@
     "id": "942920423",
     "name": "Mastiii - India's No.1 Music and Youth Channel",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/56052.jpg",
-    "category": "Hindi Music",
+    "category": "Music",
     "language": "hi",
     "licenseKey": null,
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23199&ads.content_duration=18000&ads.episode_id=56052&ads.show_id=1744&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CBollywood%2CMusic%20Video%2CAsian&ads.showRating=TV-PG&ads.episodeRating=TV-PG&ads.language=hi&ads.showtitle=Mastiii%20-%20India%27s%20No.1%20Music%20and%20Youth%20Channel&ads.episodetitle=Mastiii%20-%20India%27s%20No.1%20Music%20and%20Youth%20Channel&ads.keywords=mastiii%2Chindi%2Cdesi&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
@@ -614,8 +614,8 @@
   {
     "id": "818501230",
     "name": "PTC MUSIC",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/818501230.png",
-    "category": "Hindi Music",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/PTC_Music.png",
+    "category": "Music",
     "language": "hi",
     "licenseKey": null,
     "url": "https://cdn-3.pishow.tv/live/1501/master.m3u8"
@@ -624,7 +624,7 @@
     "id": "735873708",
     "name": "R Music",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/735873708.jpeg",
-    "category": "Hindi Music",
+    "category": "Music",
     "language": "hi",
     "licenseKey": null,
     "url": "https://cloud.dndcommunication.in/rmusic/rmusic/index.m3u8"
@@ -633,7 +633,7 @@
     "id": "942929739",
     "name": "Shemaroo Filmigaane",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/123698.jpg",
-    "category": "Hindi Music",
+    "category": "Hindi",
     "language": "hi",
     "licenseKey": null,
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-filmigaane/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23141&ads.content_duration=18000&ads.episode_id=123698&ads.show_id=4997&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CBollywood%2CAsian&ads.showRating=TV-G&ads.episodeRating=TV-G&ads.language=hi&ads.showtitle=Shemaroo%20Filmigaane&ads.episodetitle=Shemaroo%20Filmigaane&ads.keywords=shemaroo%20Filmigaane%2Cshemaroo%20music%2Cshemaroo%20classic%20songs%2Clata%20Mangeshkar%20songs%2Cshankar%20Jaikishan%20songs%2Cold%20hindi%20songs%2Crajesh%20Khanna%20songs%2CKishor%20kumar%20songs%2Cromantic%20songs%2Casha%20Bhosle%20songs%2Claxmikant%20Pyarelal%20songs%2CBollywood%20songs%2Cbest%20hindi%20songs%2Ctop%2010%20hindi%20songs%2Clove%20songs%2Cmohd%20rafi%20songs%2CKishor%20kumar%20romantic%20songs%2CDilip%20kumar%20songs&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
@@ -642,7 +642,7 @@
     "id": "942931996",
     "name": "YRF Music",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/126108.jpg",
-    "category": "Hindi Music",
+    "category": "Music",
     "language": "hi",
     "licenseKey": null,
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23146&ads.content_duration=18000&ads.episode_id=126108&ads.show_id=5049&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CBollywood%2CAsian&ads.showRating=TV-PG&ads.episodeRating=TV-PG&ads.language=hi&ads.showtitle=YRF%20Music&ads.episodetitle=YRF%20Music&ads.keywords=YRF%20Music%2CNew%20Music%20Releases%2CTop%20Hits%2CLatest%20Music%2CHindi%20Songs%2CNew%20Songs%2CBollywood%20Songs%2CIndian%20Songs%2CNew%20Movie%20Songs%2CHindi%20Music&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
@@ -651,8 +651,8 @@
     "id": "manual-96279",
     "name": "Colors Infinity",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/colors-infinity-in.png",
-    "category": "English",
-    "language": "en",
+    "category": "Hindi",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18838/.ts"
   },
@@ -660,7 +660,7 @@
     "id": "manual-40609",
     "name": "MNX",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/mnx-in.png",
-    "category": "English",
+    "category": "English Movies",
     "language": "en",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18936/.ts"
@@ -669,7 +669,7 @@
     "id": "manual-57442",
     "name": "Movies Now",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/movies-now-in.png",
-    "category": "English",
+    "category": "English Movies",
     "language": "en",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18935/.ts"
@@ -678,7 +678,7 @@
     "id": "manual-73222",
     "name": "Sony Pix",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/sony-pix-in.png",
-    "category": "English",
+    "category": "English Movies",
     "language": "en",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18495/.ts"
@@ -687,7 +687,7 @@
     "id": "manual-87238",
     "name": "Sony Pix",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/sony-pix-in.png",
-    "category": "English",
+    "category": "English Movies",
     "language": "en",
     "licenseKey": null,
     "url": "http://51.15.7.9:2905/pix/index.m3u8"
@@ -696,7 +696,7 @@
     "id": "manual-346569",
     "name": "Sony Pix 2",
     "logo": "https://ui-avatars.com/api/?name=Sony+Pix+2&background=random&color=fff&size=128",
-    "category": "English",
+    "category": "English Movies",
     "language": "en",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18495/.ts"
@@ -704,8 +704,8 @@
   {
     "id": "manual-66569",
     "name": "Star Movies",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/star-movies-in.png",
-    "category": "English",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Movies.png",
+    "category": "English Movies",
     "language": "en",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18301/.ts"
@@ -714,7 +714,7 @@
     "id": "manual-91966",
     "name": "Star Movies Select",
     "logo": "https://ui-avatars.com/api/?name=Star+Movies+Select&background=random&color=fff&size=128",
-    "category": "English",
+    "category": "English Movies",
     "language": "en",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18548/.ts"
@@ -723,8 +723,8 @@
     "id": "manual-62681",
     "name": "Start Movies Select",
     "logo": "https://ui-avatars.com/api/?name=Start+Movies+Select&background=random&color=fff&size=128",
-    "category": "English",
-    "language": "en",
+    "category": "Hindi Movies",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18548/.ts"
   },
@@ -740,7 +740,7 @@
   {
     "id": "manual-33894",
     "name": "Hungama",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/hungama-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Hungama.png",
     "category": "Kids",
     "language": "en",
     "licenseKey": null,
@@ -759,7 +759,7 @@
     "id": "PBha-10647",
     "name": "ABZY Movies",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/abzy-movies-in.png",
-    "category": "Entertainment",
+    "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
     "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/index.m3u8"
@@ -768,8 +768,8 @@
     "id": "pishow-235",
     "name": "DHAMAKA MOVIES",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-235.jpg",
-    "category": "Entertainment",
-    "language": "en",
+    "category": "Hindi Movies",
+    "language": "hi",
     "licenseKey": null,
     "url": "https://cdn-1.pishow.tv/live/235/master.m3u8"
   },
@@ -777,7 +777,7 @@
     "id": "PBha-10553",
     "name": "PITAARA MOVIES",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/PBha-10553.jpg",
-    "category": "Entertainment",
+    "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
     "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/500a6b45f5ae41dda445d912b59eaa09/index.m3u8"
@@ -812,7 +812,7 @@
   {
     "id": "pishow-32",
     "name": "DD ARUNPRABHA",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-32.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_Arunprabha.png",
     "category": "Infotainment",
     "language": "as",
     "licenseKey": null,
@@ -821,7 +821,7 @@
   {
     "id": "pishow-37",
     "name": "DD BANGLA",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-37.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_Bangla.png",
     "category": "Infotainment",
     "language": "none",
     "licenseKey": null,
@@ -830,7 +830,7 @@
   {
     "id": "pishow-10",
     "name": "DD BHARATI",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/dd-bharati-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_bharati.png",
     "category": "Infotainment",
     "language": "hi",
     "licenseKey": null,
@@ -839,7 +839,7 @@
   {
     "id": "pishow-35",
     "name": "DD BIHAR",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/dd-bihar-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_Bihar.png",
     "category": "Infotainment",
     "language": "hi",
     "licenseKey": null,
@@ -866,7 +866,7 @@
   {
     "id": "pishow-16",
     "name": "DD KASHIR",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-16.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_Kashir.png",
     "category": "Infotainment",
     "language": "none",
     "licenseKey": null,
@@ -875,7 +875,7 @@
   {
     "id": "pishow-9",
     "name": "DD KISAN",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/dd-kisan-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_Kisan.png",
     "category": "Infotainment",
     "language": "hi",
     "licenseKey": null,
@@ -884,7 +884,7 @@
   {
     "id": "pishow-31",
     "name": "DD MADHYA PRADESH",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/dd-madhya-pradesh-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_Madhya_Pradesh.png",
     "category": "Infotainment",
     "language": "hi",
     "licenseKey": null,
@@ -956,7 +956,7 @@
   {
     "id": "pishow-239",
     "name": "TEHZEEB TV",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/tehzeeb-tv-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/TEHZEEB_TV.png",
     "category": "Infotainment",
     "language": "ur",
     "licenseKey": null,
@@ -1064,7 +1064,7 @@
   {
     "id": "manual-65658",
     "name": "Star Sports 1",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/star-sports-1-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_1.png",
     "category": "Sports",
     "language": "en",
     "licenseKey": null,
@@ -1110,8 +1110,8 @@
     "id": "manual-56217",
     "name": "Gemini Music",
     "logo": "https://ui-avatars.com/api/?name=Gemini+Music&background=random&color=fff&size=128",
-    "category": "Telugu",
-    "language": "te",
+    "category": "Music",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18857/.ts"
   },
@@ -1119,8 +1119,8 @@
     "id": "manual-15351",
     "name": "Maa Movies",
     "logo": "https://ui-avatars.com/api/?name=Maa+Movies&background=random&color=fff&size=128",
-    "category": "Telugu",
-    "language": "te",
+    "category": "Hindi Movies",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18817/.ts"
   },
@@ -1128,15 +1128,15 @@
     "id": "manual-82737",
     "name": "Maa Music",
     "logo": "https://ui-avatars.com/api/?name=Maa+Music&background=random&color=fff&size=128",
-    "category": "Telugu",
-    "language": "te",
+    "category": "Music",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18816/.ts"
   },
   {
     "id": "manual-95604",
     "name": "Raj News Telugu",
-    "logo": "https://ui-avatars.com/api/?name=Raj+News+Telugu&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Raj_News_Telugu.png",
     "category": "Telugu",
     "language": "te",
     "licenseKey": null,
@@ -1164,8 +1164,8 @@
     "id": "manual-65014",
     "name": "Star Sports 1 Telugu HD",
     "logo": "https://ui-avatars.com/api/?name=Star+Sports+1+Telugu+HD&background=random&color=fff&size=128",
-    "category": "Telugu",
-    "language": "te",
+    "category": "Sports",
+    "language": "en",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18881/.ts"
   },
@@ -1173,8 +1173,8 @@
     "id": "manual-27066",
     "name": "Star Sports Telugu",
     "logo": "https://ui-avatars.com/api/?name=Star+Sports+Telugu&background=random&color=fff&size=128",
-    "category": "Telugu",
-    "language": "te",
+    "category": "Sports",
+    "language": "en",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18881/.ts"
   },
@@ -1190,7 +1190,7 @@
   {
     "id": "manual-16568",
     "name": "Colors Tamil",
-    "logo": "https://ui-avatars.com/api/?name=Colors+Tamil&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Tamil.png",
     "category": "Tamil",
     "language": "ta",
     "licenseKey": null,
@@ -1199,9 +1199,9 @@
   {
     "id": "manual-72732",
     "name": "Jaya Max",
-    "logo": "https://ui-avatars.com/api/?name=Jaya+Max&background=random&color=fff&size=128",
-    "category": "Tamil",
-    "language": "ta",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Jaya_Max.png",
+    "category": "Hindi Movies",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18829/.ts"
   },
@@ -1236,15 +1236,15 @@
     "id": "manual-18162",
     "name": "Star Sports Tamil",
     "logo": "https://ui-avatars.com/api/?name=Star+Sports+Tamil&background=random&color=fff&size=128",
-    "category": "Tamil",
-    "language": "ta",
+    "category": "Sports",
+    "language": "en",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18844/.ts"
   },
   {
     "id": "manual-94884",
     "name": "Sun Life",
-    "logo": "https://ui-avatars.com/api/?name=Sun+Life&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Life.png",
     "category": "Tamil",
     "language": "ta",
     "licenseKey": null,
@@ -1254,15 +1254,15 @@
     "id": "manual-35321",
     "name": "Sun Music",
     "logo": "https://ui-avatars.com/api/?name=Sun+Music&background=random&color=fff&size=128",
-    "category": "Tamil",
-    "language": "ta",
+    "category": "Music",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18821/.ts"
   },
   {
     "id": "manual-13900",
     "name": "Sun News",
-    "logo": "https://ui-avatars.com/api/?name=Sun+News&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_News.png",
     "category": "Tamil",
     "language": "ta",
     "licenseKey": null,
@@ -1280,7 +1280,7 @@
   {
     "id": "manual-17154",
     "name": "Vijay Super",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/vijay-super-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Vijay_Super.png",
     "category": "Tamil",
     "language": "ta",
     "licenseKey": null,
@@ -1341,20 +1341,11 @@
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18238/.ts"
   },
   {
-    "id": "099260397",
-    "name": "CNA",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/099260397.jpeg",
-    "category": "Global News",
-    "language": "en",
-    "licenseKey": null,
-    "url": "http://d2e1asnsl7br7b.cloudfront.net/4c152bfc7ad2463d928bfbec0990eaeb/index.m3u8"
-  },
-  {
     "id": "manual-11403",
     "name": "Colors Gujarathi",
     "logo": "https://ui-avatars.com/api/?name=Colors+Gujarathi&background=random&color=fff&size=128",
-    "category": "Gujarati",
-    "language": "gu",
+    "category": "Hindi",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18230/.ts"
   },
@@ -1370,7 +1361,7 @@
   {
     "id": "manual-93571",
     "name": "Colors Kannada Cinema",
-    "logo": "https://ui-avatars.com/api/?name=Colors+Kannada+Cinema&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Kannada_Cinema.png",
     "category": "Kannada",
     "language": "kn",
     "licenseKey": null,
@@ -1379,16 +1370,16 @@
   {
     "id": "manual-78115",
     "name": "Colors Super",
-    "logo": "https://ui-avatars.com/api/?name=Colors+Super&background=random&color=fff&size=128",
-    "category": "Kannada",
-    "language": "kn",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Super.png",
+    "category": "Hindi",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18445/.ts"
   },
   {
     "id": "manual-24242",
     "name": "Raj News Kannada",
-    "logo": "https://ui-avatars.com/api/?name=Raj+News+Kannada&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Raj_News_Kannada.png",
     "category": "Kannada",
     "language": "kn",
     "licenseKey": null,
@@ -1416,8 +1407,8 @@
     "id": "manual-98219",
     "name": "Uday Movies",
     "logo": "https://ui-avatars.com/api/?name=Uday+Movies&background=random&color=fff&size=128",
-    "category": "Kannada",
-    "language": "kn",
+    "category": "Hindi Movies",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18938/.ts"
   },
@@ -1425,8 +1416,8 @@
     "id": "manual-41225",
     "name": "Uday Music",
     "logo": "https://ui-avatars.com/api/?name=Uday+Music&background=random&color=fff&size=128",
-    "category": "Kannada",
-    "language": "kn",
+    "category": "Music",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18941/.ts"
   },
@@ -1451,7 +1442,7 @@
   {
     "id": "manual-67416",
     "name": "Raj News Malayalam",
-    "logo": "https://ui-avatars.com/api/?name=Raj+News+Malayalam&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Raj_News_Malayalam.png",
     "category": "Malayalam",
     "language": "ml",
     "licenseKey": null,
@@ -1460,7 +1451,7 @@
   {
     "id": "manual-64216",
     "name": "Surya Comedy",
-    "logo": "https://ui-avatars.com/api/?name=Surya+Comedy&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Surya_Comedy.png",
     "category": "Malayalam",
     "language": "ml",
     "licenseKey": null,
@@ -1469,18 +1460,18 @@
   {
     "id": "manual-30239",
     "name": "Surya Movies",
-    "logo": "https://ui-avatars.com/api/?name=Surya+Movies&background=random&color=fff&size=128",
-    "category": "Malayalam",
-    "language": "ml",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Surya_Movies.png",
+    "category": "Hindi Movies",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18932/.ts"
   },
   {
     "id": "manual-95826",
     "name": "Surya Music",
-    "logo": "https://ui-avatars.com/api/?name=Surya+Music&background=random&color=fff&size=128",
-    "category": "Malayalam",
-    "language": "ml",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Surya_Music.png",
+    "category": "Music",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18450/.ts"
   },
@@ -1505,9 +1496,9 @@
   {
     "id": "695291646",
     "name": "Oscar Movies",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/oscar-movies-in.png",
-    "category": "Movies",
-    "language": "bho",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Osar_Movies.png",
+    "category": "Hindi Movies",
+    "language": "hi",
     "licenseKey": null,
     "url": "http://longstream-06.ajaah.com/PlayBoxTV/OscarMoviesBhojpuri/playlist.m3u8"
   },
@@ -1542,8 +1533,8 @@
     "id": "942939022",
     "name": "4ACETV CLASSIC HITS",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/137063.jpg",
-    "category": "Music",
-    "language": "en",
+    "category": "Hindi Movies",
+    "language": "hi",
     "licenseKey": null,
     "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/MH8JAMWTLW2AQV5RA55S/hls3/now,-1m/m.m3u8?ads.channel_name=4ACETV+CLASSIC+HITS&ads.content_id=SON102&ads.coppa=0&ads.provider=Onajobi+LTD&ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23195&ads.content_duration=18000&ads.episode_id=137063&ads.show_id=5250&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CClassic%20Hits%2CMusic%20Video%2CEnglish&ads.showRating=TV-G&ads.episodeRating=TV-G&ads.language=en&ads.showtitle=4ACETV%20CLASSIC%20HITS&ads.episodetitle=4ACETV%20CLASSIC%20HITS&ads.keywords=music%2Cclassic&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
   },
@@ -1559,7 +1550,7 @@
   {
     "id": "pishow-1613",
     "name": "9X TASHAN",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/9x-tashan-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9X_Tashan.png",
     "category": "Music",
     "language": "pa",
     "licenseKey": null,
@@ -1568,7 +1559,7 @@
   {
     "id": "PBha-10607",
     "name": "9X TASHAN",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/9x-tashan-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9X_Tashan.png",
     "category": "Music",
     "language": "pa",
     "licenseKey": null,
@@ -1577,7 +1568,7 @@
   {
     "id": "698018216",
     "name": "9X Tashan",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/9x-tashan-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9X_Tashan.png",
     "category": "Music",
     "language": "pu",
     "licenseKey": null,
@@ -1586,7 +1577,7 @@
   {
     "id": "698423057",
     "name": "9X Tashan",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/9x-tashan-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9X_Tashan.png",
     "category": "Music",
     "language": "pa",
     "licenseKey": null,
@@ -1676,7 +1667,7 @@
   {
     "id": "pishow-1123",
     "name": "KAPPA TV",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-1123.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Kappa_TV.png",
     "category": "Music",
     "language": "ml",
     "licenseKey": null,
@@ -1695,8 +1686,8 @@
     "id": "942926263",
     "name": "Kids TV Español Latino - Canciones Infantiles",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/97419.jpg",
-    "category": "Music",
-    "language": "es",
+    "category": "Sports",
+    "language": "en",
     "licenseKey": null,
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-espanol/master_es.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23186&ads.content_duration=18000&ads.episode_id=97419&ads.show_id=3458&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CFamily%2FChildren%2CAnimation%20%26%20Anime%2CSpanish&ads.showRating=TV-Y&ads.episodeRating=TV-G&ads.language=es&ads.showtitle=Kids%20TV%20Espa%C3%B1ol%20Latino%20-%20Canciones%20Infantiles&ads.episodetitle=Kids%20TV%20Espa%C3%B1ol%20Latino%20-%20Canciones%20Infantiles&ads.keywords=Kids%2CKidsTV%2CNursery%20Rhymes%2CSongs%2CEspanol%2CSpanish%2CCanciones%20infantiles%2Ccanciones%20para%20beb%C3%A9s&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
   },
@@ -1722,8 +1713,8 @@
     "id": "pishow-1253",
     "name": "MK SIX",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-1253.png",
-    "category": "Music",
-    "language": "ta",
+    "category": "Sports",
+    "language": "en",
     "licenseKey": null,
     "url": "https://cdn-3.pishow.tv/live/1253/master.m3u8"
   },
@@ -1757,7 +1748,7 @@
   {
     "id": "818016520",
     "name": "PTC CHAKDE",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/818016520.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/PTC_Chak_De.png",
     "category": "Music",
     "language": "pa",
     "licenseKey": null,
@@ -1766,7 +1757,7 @@
   {
     "id": "698906578",
     "name": "PTC Chak De",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/698906578.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/PTC_Chak_De.png",
     "category": "Music",
     "language": "pa",
     "licenseKey": null,
@@ -1775,7 +1766,7 @@
   {
     "id": "pishow-441",
     "name": "PUBLIC MUSIC",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-441.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Public_Music.png",
     "category": "Music",
     "language": "kn",
     "licenseKey": null,
@@ -1856,7 +1847,7 @@
   {
     "id": "pishow-391",
     "name": "10 TV",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-391.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/10_TV.png",
     "category": "News",
     "language": "te",
     "licenseKey": null,
@@ -1910,7 +1901,7 @@
   {
     "id": "PBha-10608",
     "name": "AAJ TAK",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/aaj-tak-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -1928,7 +1919,7 @@
   {
     "id": "487338259",
     "name": "ABC News",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/487338259.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ABC_News.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -1937,7 +1928,7 @@
   {
     "id": "707770651",
     "name": "ABP Ganga",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/abp-ganga-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ABP_Ganga.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -1964,7 +1955,7 @@
   {
     "id": "349589424",
     "name": "ANB News",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/349589424.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ANBNews.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2000,7 +1991,7 @@
   {
     "id": "560376842",
     "name": "Ab Star News",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/560376842.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ABSTAR_News.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2027,7 +2018,7 @@
   {
     "id": "pishow-1051",
     "name": "BANSAL NEWS",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/bansal-news-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Bansal_News.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2036,7 +2027,7 @@
   {
     "id": "pishow-1139",
     "name": "BHARAT EXPRESS",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-1139.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Bharat_Express.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2081,7 +2072,7 @@
   {
     "id": "685664003",
     "name": "Bharat 24",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/685664003.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Bharat_24.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2090,7 +2081,7 @@
   {
     "id": "695548516",
     "name": "Bharat 24",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/695548516.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Bharat_24.png",
     "category": "News",
     "language": "na",
     "licenseKey": null,
@@ -2099,7 +2090,7 @@
   {
     "id": "021185003",
     "name": "Buletin India",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/021185003.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Buletin_India.png",
     "category": "News",
     "language": "gu",
     "licenseKey": null,
@@ -2108,7 +2099,7 @@
   {
     "id": "pishow-1627",
     "name": "CHARDIKLA TIME TV",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/chardikla-time-tv-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Chardikla_Time_TV.png",
     "category": "News",
     "language": "pa",
     "licenseKey": null,
@@ -2136,7 +2127,7 @@
     "id": "560576470",
     "name": "Colors News",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/560576470.jpeg",
-    "category": "News",
+    "category": "Hindi",
     "language": "hi",
     "licenseKey": null,
     "url": "https://legitpro.co.in/cnews/cnews/index.m3u8"
@@ -2153,7 +2144,7 @@
   {
     "id": "PBha-10542",
     "name": "DD Bharati",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/dd-bharati-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_bharati.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2162,7 +2153,7 @@
   {
     "id": "pishow-23",
     "name": "DD INDIA",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/dd-india-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_India.png",
     "category": "News",
     "language": "en",
     "licenseKey": null,
@@ -2171,7 +2162,7 @@
   {
     "id": "PBha-10539",
     "name": "DD INDIA",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/dd-india-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_India.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2189,7 +2180,7 @@
   {
     "id": "pishow-12",
     "name": "DD NEWS",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/dd-news-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_News.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2207,7 +2198,7 @@
   {
     "id": "PBha-10541",
     "name": "DD News",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/dd-news-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_News.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2216,9 +2207,9 @@
   {
     "id": "PBha-10569",
     "name": "DD SPORTS",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/dd-sports-in.png",
-    "category": "News",
-    "language": "hi",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DD_Sports.png",
+    "category": "Sports",
+    "language": "en",
     "licenseKey": null,
     "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8"
   },
@@ -2234,7 +2225,7 @@
   {
     "id": "398342045",
     "name": "DY365",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/398342045.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DY_365.png",
     "category": "News",
     "language": "as",
     "licenseKey": null,
@@ -2243,7 +2234,7 @@
   {
     "id": "pishow-10001",
     "name": "DY365",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-10001.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DY_365.png",
     "category": "News",
     "language": "as",
     "licenseKey": null,
@@ -2252,7 +2243,7 @@
   {
     "id": "375180410",
     "name": "Express News Bharat",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/375180410.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ENB.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2261,7 +2252,7 @@
   {
     "id": "PBha-10546",
     "name": "GOOD NEWS TODAY",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/PBha-10546.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Tez.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2270,7 +2261,7 @@
   {
     "id": "PBha-10932",
     "name": "Gangaur",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/PBha-10932.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Gangaur.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2288,7 +2279,7 @@
   {
     "id": "pishow-1041",
     "name": "HINDI KHABAR",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/hindi-khabar-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Hindi_Khabar.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2297,9 +2288,9 @@
   {
     "id": "pishow-280",
     "name": "HMTV",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-280.jpg",
-    "category": "News",
-    "language": "te",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/HM_TV.png",
+    "category": "Music",
+    "language": "hi",
     "licenseKey": null,
     "url": "https://cdn-1.pishow.tv/live/280/master.m3u8"
   },
@@ -2315,7 +2306,7 @@
   {
     "id": "pishow-411",
     "name": "I NEWS",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-411.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/I_News.png",
     "category": "News",
     "language": "te",
     "licenseKey": null,
@@ -2324,7 +2315,7 @@
   {
     "id": "pishow-220",
     "name": "IBC 24",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ibc-24-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/IBC-24.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2333,7 +2324,7 @@
   {
     "id": "PBha-10594",
     "name": "IBC24",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/PBha-10594.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/IBC-24.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2351,8 +2342,8 @@
   {
     "id": "PBha-10547",
     "name": "INDIA TODAY",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/india-today-in.png",
-    "category": "News",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/India_Today.png",
+    "category": "English News",
     "language": "en",
     "licenseKey": null,
     "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/d4435039c7d1433d9b9d0b6cdc9dd4ff/index.m3u8"
@@ -2360,7 +2351,7 @@
   {
     "id": "pishow-1043",
     "name": "INDIA TV",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/india-tv-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/India_TV.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2369,7 +2360,7 @@
   {
     "id": "PBha-10829",
     "name": "India News",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/india-news-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/India_news.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2378,7 +2369,7 @@
   {
     "id": "pishow-10004",
     "name": "JAN TV",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/jan-tv-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Jan_TV.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2405,7 +2396,7 @@
   {
     "id": "775645524",
     "name": "Jansetu News",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/775645524.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Jan_Setu_TV.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2414,7 +2405,7 @@
   {
     "id": "pishow-1469",
     "name": "KAIRALI NEWS",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-1469.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Kairali_People_TV.png",
     "category": "News",
     "language": "en",
     "licenseKey": null,
@@ -2423,7 +2414,7 @@
   {
     "id": "pishow-1471",
     "name": "KASHISH NEWS",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/kashish-news-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Kashish_News.png",
     "category": "News",
     "language": "en",
     "licenseKey": null,
@@ -2441,7 +2432,7 @@
   {
     "id": "349456337",
     "name": "Kashish News",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/kashish-news-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Kashish_News.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2486,7 +2477,7 @@
   {
     "id": "PBha-10593",
     "name": "NDTV INDIA",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-india-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/NDTV_India.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2504,7 +2495,7 @@
   {
     "id": "PBha-10590",
     "name": "NEWS 18 INDIA",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/news-18-india-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/IBN_7.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2522,7 +2513,7 @@
   {
     "id": "pishow-1279",
     "name": "NEWS J",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-1279.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/News_J.png",
     "category": "News",
     "language": "ta",
     "licenseKey": null,
@@ -2531,7 +2522,7 @@
   {
     "id": "pishow-10011",
     "name": "NEWS LIVE",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-10011.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Newslive.png",
     "category": "News",
     "language": "en",
     "licenseKey": null,
@@ -2540,7 +2531,7 @@
   {
     "id": "pishow-1493",
     "name": "NEWS NATION",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/news-nation-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/News_Nation.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2549,7 +2540,7 @@
   {
     "id": "PBha-10552",
     "name": "NEWS NATION",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/news-nation-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/News_Nation.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2567,7 +2558,7 @@
   {
     "id": "pishow-383",
     "name": "NTV",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-383.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/NTV.png",
     "category": "News",
     "language": "te",
     "licenseKey": null,
@@ -2594,7 +2585,7 @@
   {
     "id": "350416727",
     "name": "News 21",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/350416727.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/News_21.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2603,7 +2594,7 @@
   {
     "id": "643229904",
     "name": "News Flash",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/643229904.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/News_Flash.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2612,7 +2603,7 @@
   {
     "id": "pishow-273",
     "name": "News India 24 x 7",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-273.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/News_India_24_X_7.png",
     "category": "News",
     "language": "en",
     "licenseKey": null,
@@ -2630,7 +2621,7 @@
   {
     "id": "737367535",
     "name": "News11 Bharat",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/737367535.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/News11_Bharat.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2639,7 +2630,7 @@
   {
     "id": "PBha-10826",
     "name": "NewsX",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/PBha-10826.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/News_X.png",
     "category": "News",
     "language": "en",
     "licenseKey": null,
@@ -2648,7 +2639,7 @@
   {
     "id": "pishow-1245",
     "name": "POLIMER NEWS",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-1245.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Polimer_News.png",
     "category": "News",
     "language": "ta",
     "licenseKey": null,
@@ -2657,7 +2648,7 @@
   {
     "id": "818656534",
     "name": "PTC NEWS",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/818656534.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/PTC_News.png",
     "category": "News",
     "language": "pa",
     "licenseKey": null,
@@ -2666,7 +2657,7 @@
   {
     "id": "821172381",
     "name": "PTC NEWS",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/821172381.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/PTC_News.png",
     "category": "News",
     "language": "pa",
     "licenseKey": null,
@@ -2675,7 +2666,7 @@
   {
     "id": "818842783",
     "name": "PTC SIMRAN",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/818842783.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/PTC_Simran.png",
     "category": "News",
     "language": "pa",
     "licenseKey": null,
@@ -2693,7 +2684,7 @@
   {
     "id": "pishow-439",
     "name": "PUBLIC TV",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-439.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Public_TV.png",
     "category": "News",
     "language": "kn",
     "licenseKey": null,
@@ -2720,7 +2711,7 @@
   {
     "id": "354624659",
     "name": "Prime TV",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/354624659.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Prime_TV.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2738,7 +2729,7 @@
   {
     "id": "pishow-1233",
     "name": "R PLUS",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-1233.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/RPLUS.png",
     "category": "News",
     "language": "none",
     "licenseKey": null,
@@ -2783,8 +2774,8 @@
   {
     "id": "pishow-271",
     "name": "REPUBLIC TV",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/republic-tv-in.png",
-    "category": "News",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Republic_TV.png",
+    "category": "English News",
     "language": "en",
     "licenseKey": null,
     "url": "https://cdn-2.pishow.tv/live/271/master.m3u8"
@@ -2792,8 +2783,8 @@
   {
     "id": "695950420",
     "name": "Republic TV",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/republic-tv-in.png",
-    "category": "News",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Republic_TV.png",
+    "category": "English News",
     "language": "en",
     "licenseKey": null,
     "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-366023/main.m3u8?ads.partner=PlayBox"
@@ -2802,15 +2793,15 @@
     "id": "PBha-10827",
     "name": "Republic TV Bharat",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/PBha-10827.jpg",
-    "category": "News",
-    "language": "hi",
+    "category": "English News",
+    "language": "en",
     "licenseKey": null,
     "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/7e8b490d6b9c4013a3e3e874aa352212/index.m3u8"
   },
   {
     "id": "pishow-409",
     "name": "SAKSHI TV",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-409.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sakshi_tv.png",
     "category": "News",
     "language": "te",
     "licenseKey": null,
@@ -2855,7 +2846,7 @@
   {
     "id": "pishow-465",
     "name": "SWADESH NEWS",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-465.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swadesh_News.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2882,7 +2873,7 @@
   {
     "id": "087310978",
     "name": "Samay Kolkata",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/087310978.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Samay_Kolkata.png",
     "category": "News",
     "language": "bn",
     "licenseKey": null,
@@ -2909,7 +2900,7 @@
   {
     "id": "pishow-385",
     "name": "T NEWS",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-385.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/T_News.png",
     "category": "News",
     "language": "te",
     "licenseKey": null,
@@ -2918,7 +2909,7 @@
   {
     "id": "pishow-1612",
     "name": "THANTHI TV",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-1612.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Thanthi_TV.png",
     "category": "News",
     "language": "ta",
     "licenseKey": null,
@@ -2945,7 +2936,7 @@
   {
     "id": "905407473",
     "name": "TTN 24",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/905407473.jpg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/TTN24.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2963,7 +2954,7 @@
   {
     "id": "pishow-387",
     "name": "TV5 NEWS",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-387.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/TV_5_News.png",
     "category": "News",
     "language": "te",
     "licenseKey": null,
@@ -2972,7 +2963,7 @@
   {
     "id": "PBha-10595",
     "name": "TV9 BHARATVARSH",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/tv9-bharatvarsh-in.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/TV9_Bharatvarsh.png",
     "category": "News",
     "language": "hi",
     "licenseKey": null,
@@ -2990,7 +2981,7 @@
   {
     "id": "738060892",
     "name": "Tribe TV",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/738060892.jpeg",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Tribe_TV.png",
     "category": "News",
     "language": "bn",
     "licenseKey": null,
@@ -2999,7 +2990,7 @@
   {
     "id": "pishow-389",
     "name": "V6 NEWS",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-389.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/V6_News.png",
     "category": "News",
     "language": "te",
     "licenseKey": null,
@@ -3018,8 +3009,8 @@
     "id": "added-batch-m3u-0-466642",
     "name": "&flix HD",
     "logo": "https://ui-avatars.com/api/?name=&flix+HD&background=random&color=fff&size=128",
-    "category": "Hindi Movies",
-    "language": "hi",
+    "category": "English Movies",
+    "language": "en",
     "licenseKey": null,
     "url": "http://103.182.170.32:8888/play/a02a"
   },
@@ -3045,8 +3036,8 @@
     "id": "added-batch-m3u-3-466724",
     "name": "BBC News",
     "logo": "https://ui-avatars.com/api/?name=BBC+News&background=random&color=fff&size=128",
-    "category": "Hindi News",
-    "language": "hi",
+    "category": "English News",
+    "language": "en",
     "licenseKey": null,
     "url": "http://103.182.170.32:8888/play/a04k"
   },
@@ -3071,7 +3062,7 @@
   {
     "id": "added-batch-m3u-6-466714",
     "name": "Colors Bangla Cinema",
-    "logo": "https://ui-avatars.com/api/?name=Colors+Bangla+Cinema&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png",
     "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
@@ -3080,7 +3071,7 @@
   {
     "id": "added-batch-m3u-7-466620",
     "name": "Colors Cineplex Bollywood",
-    "logo": "https://ui-avatars.com/api/?name=Colors+Cineplex+Bollywood&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Cineplex_Bollywood.png",
     "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
@@ -3089,7 +3080,7 @@
   {
     "id": "added-batch-m3u-8-466722",
     "name": "Colors Cineplex HD",
-    "logo": "https://ui-avatars.com/api/?name=Colors+Cineplex+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Color_Cineplex_HD.png",
     "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
@@ -3116,7 +3107,7 @@
   {
     "id": "added-batch-m3u-11-466720",
     "name": "Disney Channel",
-    "logo": "https://ui-avatars.com/api/?name=Disney+Channel&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",
     "category": "Kids",
     "language": "hi",
     "licenseKey": null,
@@ -3125,7 +3116,7 @@
   {
     "id": "added-batch-m3u-12-466630",
     "name": "Disney International HD",
-    "logo": "https://ui-avatars.com/api/?name=Disney+International+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Disney_International_HD.png",
     "category": "Kids",
     "language": "hi",
     "licenseKey": null,
@@ -3134,7 +3125,7 @@
   {
     "id": "added-batch-m3u-13-466694",
     "name": "Disney Junior",
-    "logo": "https://ui-avatars.com/api/?name=Disney+Junior&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Junior.png",
     "category": "Kids",
     "language": "hi",
     "licenseKey": null,
@@ -3171,15 +3162,15 @@
     "id": "added-batch-m3u-17-466619",
     "name": "Movies Now HD",
     "logo": "https://ui-avatars.com/api/?name=Movies+Now+HD&background=random&color=fff&size=128",
-    "category": "Hindi Movies",
-    "language": "hi",
+    "category": "English Movies",
+    "language": "en",
     "licenseKey": null,
     "url": "http://103.182.170.32:8888/play/a01n"
   },
   {
     "id": "added-batch-m3u-18-466623",
     "name": "Nat Geo Wild HD",
-    "logo": "https://ui-avatars.com/api/?name=Nat+Geo+Wild+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Nat_Geo_Wild_HD.png",
     "category": "Infotainment",
     "language": "en",
     "licenseKey": null,
@@ -3314,7 +3305,7 @@
   {
     "id": "added-batch-m3u-33-466651",
     "name": "STAR GOLD HD",
-    "logo": "https://ui-avatars.com/api/?name=STAR+GOLD+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_HD.png",
     "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
@@ -3323,18 +3314,18 @@
   {
     "id": "added-batch-m3u-34-466641",
     "name": "STAR Movies HD",
-    "logo": "https://ui-avatars.com/api/?name=STAR+Movies+HD&background=random&color=fff&size=128",
-    "category": "Hindi Movies",
-    "language": "hi",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Movies_HD.png",
+    "category": "English Movies",
+    "language": "en",
     "licenseKey": null,
     "url": "http://103.182.170.32:8888/play/a029"
   },
   {
     "id": "added-batch-m3u-35-466640",
     "name": "STAR Movies Select HD",
-    "logo": "https://ui-avatars.com/api/?name=STAR+Movies+Select+HD&background=random&color=fff&size=128",
-    "category": "Hindi Movies",
-    "language": "hi",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Movies_Select_HD.png",
+    "category": "English Movies",
+    "language": "en",
     "licenseKey": null,
     "url": "http://103.182.170.32:8888/play/a028"
   },
@@ -3350,7 +3341,7 @@
   {
     "id": "added-batch-m3u-37-466703",
     "name": "STAR Plus HD",
-    "logo": "https://ui-avatars.com/api/?name=STAR+Plus+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Plus_HD.png",
     "category": "Hindi",
     "language": "hi",
     "licenseKey": null,
@@ -3404,7 +3395,7 @@
   {
     "id": "added-batch-m3u-43-466671",
     "name": "Star Bharat HD",
-    "logo": "https://ui-avatars.com/api/?name=Star+Bharat+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Bharat_HD.png",
     "category": "Hindi",
     "language": "hi",
     "licenseKey": null,
@@ -3422,7 +3413,7 @@
   {
     "id": "added-batch-m3u-45-466631",
     "name": "Star Gold 2 HD",
-    "logo": "https://ui-avatars.com/api/?name=Star+Gold+2+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_2_HD.png",
     "category": "Hindi Movies",
     "language": "hi",
     "licenseKey": null,
@@ -3449,7 +3440,7 @@
   {
     "id": "added-batch-m3u-48-466727",
     "name": "Star Pravah HD",
-    "logo": "https://ui-avatars.com/api/?name=Star+Pravah+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Pravah_HD.png",
     "category": "Marathi",
     "language": "mr",
     "licenseKey": null,
@@ -3485,7 +3476,7 @@
   {
     "id": "added-batch-m3u-52-466718",
     "name": "Star Sports 1 Hindi HD",
-    "logo": "https://ui-avatars.com/api/?name=Star+Sports+1+Hindi+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_HD1_Hindi.png",
     "category": "Sports",
     "language": "en",
     "licenseKey": null,
@@ -3503,7 +3494,7 @@
   {
     "id": "added-batch-m3u-54-466709",
     "name": "Star Sports Select 1 HD",
-    "logo": "https://ui-avatars.com/api/?name=Star+Sports+Select+1+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_1.png",
     "category": "Sports",
     "language": "en",
     "licenseKey": null,
@@ -3512,7 +3503,7 @@
   {
     "id": "added-batch-m3u-55-466711",
     "name": "Star Sports Select 2 HD",
-    "logo": "https://ui-avatars.com/api/?name=Star+Sports+Select+2+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_2.png",
     "category": "Sports",
     "language": "en",
     "licenseKey": null,
@@ -3521,7 +3512,7 @@
   {
     "id": "added-batch-m3u-56-466627",
     "name": "Sun Bangla",
-    "logo": "https://ui-avatars.com/api/?name=Sun+Bangla&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sun_Bangla.png",
     "category": "Bangla",
     "language": "bn",
     "licenseKey": null,
@@ -3548,7 +3539,7 @@
   {
     "id": "added-batch-m3u-59-466622",
     "name": "TLC HD",
-    "logo": "https://ui-avatars.com/api/?name=TLC+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/TLC_HD_World.png",
     "category": "Infotainment",
     "language": "en",
     "licenseKey": null,
@@ -3557,7 +3548,7 @@
   {
     "id": "added-batch-m3u-60-466629",
     "name": "Travelxp HD",
-    "logo": "https://ui-avatars.com/api/?name=Travelxp+HD&background=random&color=fff&size=128",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Travel_XP_HD.png",
     "category": "Infotainment",
     "language": "en",
     "licenseKey": null,
@@ -3594,8 +3585,8 @@
     "id": "added-batch-m3u-64-466628",
     "name": "Zee Cafe HD",
     "logo": "https://ui-avatars.com/api/?name=Zee+Cafe+HD&background=random&color=fff&size=128",
-    "category": "Hindi",
-    "language": "hi",
+    "category": "English",
+    "language": "en",
     "licenseKey": null,
     "url": "http://103.182.170.32:8888/play/a01w"
   },

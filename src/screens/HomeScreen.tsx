@@ -25,6 +25,15 @@ const GRID_ITEM_WIDTH = (width - 48) / GRID_COLUMNS; // 48 = padding (16*2) + ga
 
 const HomeScreen = () => {
   const { categories, loading, channels } = useChannels();
+
+
+  const renderHeaderTitle = () => (
+    <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+      <Text style={[styles.headerTitle, { color: '#FFD700', marginRight: 4 }]}>EXCLUSIVE</Text>
+      <Text style={[styles.headerTitle, { color: '#FFF' }]}>TV</Text>
+    </View>
+  );
+
   const navigation = useNavigation();
   const [focusedChannelId, setFocusedChannelId] = useState<string | null>(null);
   const [viewMode, setViewMode] = useState<'list' | 'grid'>('list');
@@ -89,13 +98,12 @@ const HomeScreen = () => {
       />
     </View>
   ), [renderChannel]);
-
   if (loading) {
     return (
       <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
         <StatusBar barStyle="light-content" backgroundColor="#0f0f0f" />
         <View style={styles.header}>
-          <Text style={styles.headerTitle}>TVwala</Text>
+          {renderHeaderTitle()}
         </View>
         <SkeletonLoader />
       </SafeAreaView>
@@ -106,7 +114,7 @@ const HomeScreen = () => {
     <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
       <StatusBar barStyle="light-content" backgroundColor="#0f0f0f" />
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>TVwala</Text>
+        {renderHeaderTitle()}
         <TouchableOpacity 
           style={styles.viewToggle}
           onPress={() => setViewMode(prev => prev === 'list' ? 'grid' : 'list')}
@@ -166,8 +174,11 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 24,
-    fontWeight: 'bold',
-    color: '#fff',
+    fontWeight: '800', // Extra Bold
+    letterSpacing: 1,
+    textShadowColor: 'rgba(255, 215, 0, 0.3)', // Golden glow
+    textShadowOffset: { width: 0, height: 2 },
+    textShadowRadius: 4,
   },
   viewToggle: {
     padding: 8,
