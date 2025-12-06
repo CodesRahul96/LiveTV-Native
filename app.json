@@ -30,7 +30,8 @@
         "ACCESS_NETWORK_STATE",
         "ACCESS_WIFI_STATE",
         "WAKE_LOCK",
-        "FOREGROUND_SERVICE"
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_MEDIA_PLAYBACK"
       ]
     },
     "web": {
@@ -42,7 +43,13 @@
       }
     },
     "plugins": [
-      "expo-video",
+      [
+        "expo-video",
+        {
+          "supportsBackgroundPlayback": true,
+          "supportsPictureInPicture": true
+        }
+      ],
       [
         "expo-build-properties",
         {
