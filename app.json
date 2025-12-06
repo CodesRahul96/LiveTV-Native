@@ -37,11 +37,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "e0073166-31c2-42c1-9153-8e65fdc4c64f"
-      }
-    },
     "plugins": [
       [
         "expo-video",
@@ -59,6 +54,12 @@
           }
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "40ed9b66-d77d-4a3f-a59a-233eeda218ef"
+      }
+    },
+    "owner": "snowolf96"
   }
 }

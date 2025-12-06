@@ -387,24 +387,6 @@
     "url": "https://cdn-4.pishow.tv/live/1627/master.m3u8"
   },
   {
-    "id": "added-batch-m3u-4-466728",
-    "name": "Cartoon Network",
-    "logo": "https://ui-avatars.com/api/?name=Cartoon+Network&background=random&color=fff&size=128",
-    "category": "Hindi",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a04o"
-  },
-  {
-    "id": "added-batch-m3u-5-466673",
-    "name": "Cartoon Network HD+",
-    "logo": "https://ui-avatars.com/api/?name=Cartoon+Network+HD+&background=random&color=fff&size=128",
-    "category": "Hindi",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a035"
-  },
-  {
     "id": "manual-90760",
     "name": "Cineplex",
     "logo": "https://ui-avatars.com/api/?name=Cineplex&background=random&color=fff&size=128",
@@ -612,42 +594,6 @@
     "url": "https://cdn-6.pishow.tv/live/10001/master.m3u8"
   },
   {
-    "id": "added-batch-m3u-10-466656",
-    "name": "Discovery Kids",
-    "logo": "https://ui-avatars.com/api/?name=Discovery+Kids&background=random&color=fff&size=128",
-    "category": "Hindi",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a02o"
-  },
-  {
-    "id": "added-batch-m3u-11-466720",
-    "name": "Disney Channel",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",
-    "category": "Hindi",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a04g"
-  },
-  {
-    "id": "added-batch-m3u-12-466630",
-    "name": "Disney International HD",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Disney_International_HD.png",
-    "category": "Hindi",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a01y"
-  },
-  {
-    "id": "added-batch-m3u-13-466694",
-    "name": "Disney Junior",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Junior.png",
-    "category": "Hindi",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a03q"
-  },
-  {
     "id": "695735787",
     "name": "E24",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/E_24.png",
@@ -727,15 +673,6 @@
     "language": "hi",
     "licenseKey": null,
     "url": "https://cdn-1.pishow.tv/live/280/master.m3u8"
-  },
-  {
-    "id": "added-batch-m3u-15-466715",
-    "name": "Hungama Source 2",
-    "logo": "https://ui-avatars.com/api/?name=Hungama+Source+2&background=random&color=fff&size=128",
-    "category": "Hindi",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a04b"
   },
   {
     "id": "pishow-220",
@@ -837,24 +774,6 @@
     "url": "https://cdn-6.pishow.tv/live/1490/master.m3u8"
   },
   {
-    "id": "added-batch-m3u-19-466730",
-    "name": "Nick ",
-    "logo": "https://ui-avatars.com/api/?name=Nick+&background=random&color=fff&size=128",
-    "category": "Hindi",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a04q"
-  },
-  {
-    "id": "added-batch-m3u-20-466658",
-    "name": "Nick Jr.",
-    "logo": "https://ui-avatars.com/api/?name=Nick+Jr.&background=random&color=fff&size=128",
-    "category": "Hindi",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a02q"
-  },
-  {
     "id": "818842783",
     "name": "PTC SIMRAN",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/PTC_Simran.png",
@@ -898,15 +817,6 @@
     "language": "hi",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18887/.ts"
-  },
-  {
-    "id": "added-batch-m3u-21-466657",
-    "name": "Pogo",
-    "logo": "https://ui-avatars.com/api/?name=Pogo&background=random&color=fff&size=128",
-    "category": "Hindi",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a02p"
   },
   {
     "id": "992187986",
@@ -1017,15 +927,6 @@
     "url": "http://103.182.170.32:8888/play/a03r"
   },
   {
-    "id": "added-batch-m3u-32-466726",
-    "name": "SONY YAY! Source 2",
-    "logo": "https://ui-avatars.com/api/?name=SONY+YAY!+Source+2&background=random&color=fff&size=128",
-    "category": "Hindi",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a04m"
-  },
-  {
     "id": "added-batch-m3u-36-466692",
     "name": "STAR PLUS Source 2",
     "logo": "https://ui-avatars.com/api/?name=STAR+PLUS+Source+2&background=random&color=fff&size=128",
@@ -1078,15 +979,6 @@
     "language": "hi",
     "licenseKey": null,
     "url": "https://ams.sandbrix.live/LiveApp/streams/NKAv2V2BTnEuVJdS170390248731.m3u8"
-  },
-  {
-    "id": "added-batch-m3u-38-466660",
-    "name": "Sonic",
-    "logo": "https://ui-avatars.com/api/?name=Sonic&background=random&color=fff&size=128",
-    "category": "Hindi",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a02s"
   },
   {
     "id": "manual-48187",
@@ -1474,15 +1366,6 @@
     "language": "hi",
     "licenseKey": null,
     "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8"
-  },
-  {
-    "id": "added-batch-m3u-14-466634",
-    "name": "ETV Bal Bharat",
-    "logo": "https://ui-avatars.com/api/?name=ETV+Bal+Bharat&background=random&color=fff&size=128",
-    "category": "News",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "http://103.182.170.32:8888/play/a022"
   },
   {
     "id": "375180410",
@@ -2295,15 +2178,6 @@
     "url": "https://cdn-3.pishow.tv/live/1123/master.m3u8"
   },
   {
-    "id": "942933270",
-    "name": "Kids TV India - Nursery Rhymes and Baby Songs",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/105576.jpg",
-    "category": "Music",
-    "language": "hi",
-    "licenseKey": null,
-    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-india-nursery-rhymes-and-baby-songs/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23186&ads.content_duration=18000&ads.episode_id=105576&ads.show_id=3687&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CFamily%2FChildren%2CMusic%20Video%2CAsian&ads.showRating=TV-Y&ads.episodeRating=TV-Y&ads.language=hi&ads.showtitle=Kids%20TV%20India%20-%20Nursery%20Rhymes%20and%20Baby%20Songs&ads.episodetitle=Kids%20TV%20India%20-%20Nursery%20Rhymes%20and%20Baby%20Songs&ads.keywords=Kids%2CKidsTV%2CNursery%20Rhymes%2CSongs%2CHindi%2Cdesi&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
-  },
-  {
     "id": "942930103",
     "name": "La Bocina Latina",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/116281.jpg",
@@ -2556,15 +2430,6 @@
     "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8"
   },
   {
-    "id": "manual-437377",
-    "name": "Cartoon Network Multi Audio",
-    "logo": "https://ui-avatars.com/api/?name=Cartoon+Network+Multi+Audio&background=random&color=fff&size=128",
-    "category": "English",
-    "language": "en",
-    "licenseKey": null,
-    "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18802/.ts"
-  },
-  {
     "id": "pishow-33",
     "name": "DD MEGHALAYA",
     "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-33.jpg",
@@ -2617,33 +2482,6 @@
     "language": "en",
     "licenseKey": null,
     "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/SOLUN7O6J2CB9D8VZDG7/hls3/now,-1m/m.m3u8?ads.channel_name=HIP+HOP+TV&ads.content_id=SHH100&ads.coppa=0&ads.provider=Urban+News+Network&ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23195&ads.content_duration=18000&ads.episode_id=137455&ads.show_id=5262&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CEntertainment%2CHip%20Hop%20Music%2CEnglish&ads.showRating=TV-PG&ads.episodeRating=TV-PG&ads.language=en&ads.showtitle=HIP%20HOP%20TV&ads.episodetitle=HIP%20HOP%20TV&ads.keywords=Entertainment%2CMusic%2CHip%20Hop&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
-  },
-  {
-    "id": "manual-33894",
-    "name": "Hungama",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Hungama.png",
-    "category": "English",
-    "language": "en",
-    "licenseKey": null,
-    "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18811/.ts"
-  },
-  {
-    "id": "942932527",
-    "name": "Kids TV - Nursery Rhymes and Baby Songs",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/96919.jpg",
-    "category": "English",
-    "language": "en",
-    "licenseKey": null,
-    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-ind/master_en.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23186&ads.content_duration=18000&ads.episode_id=96919&ads.show_id=3449&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CFamily%2FChildren%2CAnimation%20%26%20Anime%2CEnglish&ads.showRating=TV-Y&ads.episodeRating=TV-G&ads.language=en&ads.showtitle=Kids%20TV%20-%20Nursery%20Rhymes%20and%20Baby%20Songs&ads.episodetitle=Kids%20TV%20-%20Nursery%20Rhymes%20and%20Baby%20Songs&ads.keywords=Kids%2CKidsTV%2CNursery%20Rhymes%2CSongs&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
-  },
-  {
-    "id": "942926263",
-    "name": "Kids TV Español Latino - Canciones Infantiles",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/97419.jpg",
-    "category": "English",
-    "language": "en",
-    "licenseKey": null,
-    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-espanol/master_es.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23186&ads.content_duration=18000&ads.episode_id=97419&ads.show_id=3458&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CFamily%2FChildren%2CAnimation%20%26%20Anime%2CSpanish&ads.showRating=TV-Y&ads.episodeRating=TV-G&ads.language=es&ads.showtitle=Kids%20TV%20Espa%C3%B1ol%20Latino%20-%20Canciones%20Infantiles&ads.episodetitle=Kids%20TV%20Espa%C3%B1ol%20Latino%20-%20Canciones%20Infantiles&ads.keywords=Kids%2CKidsTV%2CNursery%20Rhymes%2CSongs%2CEspanol%2CSpanish%2CCanciones%20infantiles%2Ccanciones%20para%20beb%C3%A9s&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
   },
   {
     "id": "pishow-1253",
@@ -2806,15 +2644,6 @@
     "language": "en",
     "licenseKey": null,
     "url": "http://103.182.170.32:8888/play/a036"
-  },
-  {
-    "id": "manual-33103",
-    "name": "Sony Yay",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/sony-yay-in.png",
-    "category": "English",
-    "language": "en",
-    "licenseKey": null,
-    "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18285/.ts"
   },
   {
     "id": "added-batch-m3u-40-466729",
@@ -3033,15 +2862,6 @@
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-urban/encrypted.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23073&ads.content_duration=18000&ads.episode_id=86557&ads.show_id=3243&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CMusic%20Video%2CContemporary%20Hits%2FPop%2FTop%2040%2CHip%20Hop%20Music%2CEnglish&ads.showRating=TV-G&ads.episodeRating=TV-G&ads.language=en&ads.showtitle=TRACE%20Urban&ads.episodetitle=TRACE%20Urban&ads.keywords=Music%2CTop%20Hits%2CToday%27s%20Top%20Hits&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
   },
   {
-    "id": "942932198",
-    "name": "ToonzKids",
-    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/118869.jpg",
-    "category": "English",
-    "language": "en",
-    "licenseKey": null,
-    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/toonzkids/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23131&ads.content_duration=18000&ads.episode_id=118869&ads.show_id=4875&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment%2CFamily%2FChildren%2CAnimation%20%26%20Anime%2CEnglish&ads.showRating=TV-Y&ads.episodeRating=TV-Y&ads.language=en&ads.showtitle=ToonzKids&ads.episodetitle=ToonzKids&ads.keywords=Animation%20for%20kids%2CCartoons%20for%20kids%2CKids%20shows%2CKids%20tv%20shows%2CToonzkids&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
-  },
-  {
     "id": "added-batch-m3u-60-466629",
     "name": "Travelxp HD",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Travel_XP_HD.png",
@@ -3085,6 +2905,195 @@
     "language": "en",
     "licenseKey": null,
     "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/d4435039c7d1433d9b9d0b6cdc9dd4ff/index.m3u8"
+  },
+  {
+    "id": "added-batch-m3u-4-466728",
+    "name": "Cartoon Network",
+    "logo": "https://ui-avatars.com/api/?name=Cartoon+Network&background=random&color=fff&size=128",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a04o"
+  },
+  {
+    "id": "added-batch-m3u-5-466673",
+    "name": "Cartoon Network HD+",
+    "logo": "https://ui-avatars.com/api/?name=Cartoon+Network+HD+&background=random&color=fff&size=128",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a035"
+  },
+  {
+    "id": "manual-437377",
+    "name": "Cartoon Network Multi Audio",
+    "logo": "https://ui-avatars.com/api/?name=Cartoon+Network+Multi+Audio&background=random&color=fff&size=128",
+    "category": "Kids",
+    "language": "en",
+    "licenseKey": null,
+    "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18802/.ts"
+  },
+  {
+    "id": "added-batch-m3u-10-466656",
+    "name": "Discovery Kids",
+    "logo": "https://ui-avatars.com/api/?name=Discovery+Kids&background=random&color=fff&size=128",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a02o"
+  },
+  {
+    "id": "added-batch-m3u-11-466720",
+    "name": "Disney Channel",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a04g"
+  },
+  {
+    "id": "added-batch-m3u-12-466630",
+    "name": "Disney International HD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Disney_International_HD.png",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a01y"
+  },
+  {
+    "id": "added-batch-m3u-13-466694",
+    "name": "Disney Junior",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Junior.png",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a03q"
+  },
+  {
+    "id": "added-batch-m3u-14-466634",
+    "name": "ETV Bal Bharat",
+    "logo": "https://ui-avatars.com/api/?name=ETV+Bal+Bharat&background=random&color=fff&size=128",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a022"
+  },
+  {
+    "id": "manual-33894",
+    "name": "Hungama",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Hungama.png",
+    "category": "Kids",
+    "language": "en",
+    "licenseKey": null,
+    "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18811/.ts"
+  },
+  {
+    "id": "added-batch-m3u-15-466715",
+    "name": "Hungama Source 2",
+    "logo": "https://ui-avatars.com/api/?name=Hungama+Source+2&background=random&color=fff&size=128",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a04b"
+  },
+  {
+    "id": "942932527",
+    "name": "Kids TV - Nursery Rhymes and Baby Songs",
+    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/96919.jpg",
+    "category": "Kids",
+    "language": "en",
+    "licenseKey": null,
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-ind/master_en.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23186&ads.content_duration=18000&ads.episode_id=96919&ads.show_id=3449&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CFamily%2FChildren%2CAnimation%20%26%20Anime%2CEnglish&ads.showRating=TV-Y&ads.episodeRating=TV-G&ads.language=en&ads.showtitle=Kids%20TV%20-%20Nursery%20Rhymes%20and%20Baby%20Songs&ads.episodetitle=Kids%20TV%20-%20Nursery%20Rhymes%20and%20Baby%20Songs&ads.keywords=Kids%2CKidsTV%2CNursery%20Rhymes%2CSongs&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
+  },
+  {
+    "id": "942926263",
+    "name": "Kids TV Español Latino - Canciones Infantiles",
+    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/97419.jpg",
+    "category": "Kids",
+    "language": "en",
+    "licenseKey": null,
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-espanol/master_es.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23186&ads.content_duration=18000&ads.episode_id=97419&ads.show_id=3458&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CFamily%2FChildren%2CAnimation%20%26%20Anime%2CSpanish&ads.showRating=TV-Y&ads.episodeRating=TV-G&ads.language=es&ads.showtitle=Kids%20TV%20Espa%C3%B1ol%20Latino%20-%20Canciones%20Infantiles&ads.episodetitle=Kids%20TV%20Espa%C3%B1ol%20Latino%20-%20Canciones%20Infantiles&ads.keywords=Kids%2CKidsTV%2CNursery%20Rhymes%2CSongs%2CEspanol%2CSpanish%2CCanciones%20infantiles%2Ccanciones%20para%20beb%C3%A9s&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
+  },
+  {
+    "id": "942933270",
+    "name": "Kids TV India - Nursery Rhymes and Baby Songs",
+    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/105576.jpg",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-india-nursery-rhymes-and-baby-songs/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23186&ads.content_duration=18000&ads.episode_id=105576&ads.show_id=3687&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CFamily%2FChildren%2CMusic%20Video%2CAsian&ads.showRating=TV-Y&ads.episodeRating=TV-Y&ads.language=hi&ads.showtitle=Kids%20TV%20India%20-%20Nursery%20Rhymes%20and%20Baby%20Songs&ads.episodetitle=Kids%20TV%20India%20-%20Nursery%20Rhymes%20and%20Baby%20Songs&ads.keywords=Kids%2CKidsTV%2CNursery%20Rhymes%2CSongs%2CHindi%2Cdesi&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
+  },
+  {
+    "id": "manual-35769",
+    "name": "Kochu",
+    "logo": "https://ui-avatars.com/api/?name=Kochu&background=random&color=fff&size=128",
+    "category": "Kids",
+    "language": "ml",
+    "licenseKey": null,
+    "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18212/.ts"
+  },
+  {
+    "id": "added-batch-m3u-19-466730",
+    "name": "Nick ",
+    "logo": "https://ui-avatars.com/api/?name=Nick+&background=random&color=fff&size=128",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a04q"
+  },
+  {
+    "id": "added-batch-m3u-20-466658",
+    "name": "Nick Jr.",
+    "logo": "https://ui-avatars.com/api/?name=Nick+Jr.&background=random&color=fff&size=128",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a02q"
+  },
+  {
+    "id": "added-batch-m3u-21-466657",
+    "name": "Pogo",
+    "logo": "https://ui-avatars.com/api/?name=Pogo&background=random&color=fff&size=128",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a02p"
+  },
+  {
+    "id": "added-batch-m3u-32-466726",
+    "name": "SONY YAY! Source 2",
+    "logo": "https://ui-avatars.com/api/?name=SONY+YAY!+Source+2&background=random&color=fff&size=128",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a04m"
+  },
+  {
+    "id": "added-batch-m3u-38-466660",
+    "name": "Sonic",
+    "logo": "https://ui-avatars.com/api/?name=Sonic&background=random&color=fff&size=128",
+    "category": "Kids",
+    "language": "hi",
+    "licenseKey": null,
+    "url": "http://103.182.170.32:8888/play/a02s"
+  },
+  {
+    "id": "manual-33103",
+    "name": "Sony Yay",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/sony-yay-in.png",
+    "category": "Kids",
+    "language": "en",
+    "licenseKey": null,
+    "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18285/.ts"
+  },
+  {
+    "id": "942932198",
+    "name": "ToonzKids",
+    "logo": "https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/118869.jpg",
+    "category": "Kids",
+    "language": "en",
+    "licenseKey": null,
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/toonzkids/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.playbackId=__PLAYBACK_ID__&ads.env_u=__ADVERTISING_ID__&ads.name=__APP_NAME__&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE_MAKE__&ads.deviceIdType=__AID_TYPE__&ads.deviceConnectionType=__CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23131&ads.content_duration=18000&ads.episode_id=118869&ads.show_id=4875&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment%2CFamily%2FChildren%2CAnimation%20%26%20Anime%2CEnglish&ads.showRating=TV-Y&ads.episodeRating=TV-Y&ads.language=en&ads.showtitle=ToonzKids&ads.episodetitle=ToonzKids&ads.keywords=Animation%20for%20kids%2CCartoons%20for%20kids%2CKids%20shows%2CKids%20tv%20shows%2CToonzkids&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.dpname=playboxtv&ads.vf=20250731&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__"
   },
   {
     "id": "942934830",
@@ -3247,15 +3256,6 @@
     "language": "ta",
     "licenseKey": null,
     "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18805/.ts"
-  },
-  {
-    "id": "manual-35769",
-    "name": "Kochu",
-    "logo": "https://ui-avatars.com/api/?name=Kochu&background=random&color=fff&size=128",
-    "category": "Malayalam",
-    "language": "ml",
-    "licenseKey": null,
-    "url": "http://cors.tundracast.com:2000/http://87.255.35.150:18212/.ts"
   },
   {
     "id": "pishow-10007",
