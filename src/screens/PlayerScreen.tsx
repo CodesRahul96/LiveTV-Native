@@ -51,19 +51,10 @@ const PlayerScreen = () => {
   const [gestureActive, setGestureActive] = useState(false);
   const [gestureType, setGestureType] = useState<'brightness' | 'volume' | null>(null);
   const [gestureValue, setGestureValue] = useState(0); 
-  const [permissionResponse, requestPermission] = Brightness.usePermissions();
   
   const startValueRef = useRef(0);
   const gestureTypeRef = useRef<'brightness' | 'volume' | null>(null);
   
-  useEffect(() => {
-    (async () => {
-      if (!permissionResponse || permissionResponse.status !== 'granted') {
-        await requestPermission();
-      }
-    })();
-  }, []);
-
   const toastOpacity = useRef(new Animated.Value(0)).current;
 
   const hexToBase64Url = (hex: string) => {
@@ -79,7 +70,10 @@ const PlayerScreen = () => {
   };
 
   const videoSource = useMemo(() => {
-    const headers: Record<string, string> = {}; 
+    // Use VLC User-Agent as it's often whitelisted for IPTV streams
+    const headers: Record<string, string> = {
+      'User-Agent': 'VLC/3.0.18 LibVLC/3.0.18'
+    }; 
 
     let drm = undefined;
     if (currentChannel.licenseKey) {
@@ -122,9 +116,28 @@ const PlayerScreen = () => {
   });
 
   useEffect(() => {
-    ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
+    // Lock to landscape on mount
+    const lock = async () => {
+      try {
+        await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
+      } catch (e) {
+        console.warn("Error locking orientation:", e);
+      }
+    };
+    lock();
+    
     return () => {
-      ScreenOrientation.unlockAsync();
+      // Unlock on unmount
+      const unlock = async () => {
+        try {
+          await ScreenOrientation.unlockAsync();
+        } catch (e) {
+           console.warn("Error unlocking orientation:", e);
+        }
+      };
+      unlock();
+      
+      // Cleanup retry timeout
       if (retryTimeoutRef.current) {
         clearTimeout(retryTimeoutRef.current);
       }
@@ -224,7 +237,7 @@ const PlayerScreen = () => {
         if (showChannelList) {
           setShowChannelList(false);
         } else {
-          cycleAudioTrack();
+          openAudioSelection();
         }
       }
     };
@@ -247,10 +260,38 @@ const PlayerScreen = () => {
     setCurrentChannel(channels[newIndex]);
   };
 
-  const cycleAudioTrack = () => {
-    setAudioTrackName(prev => prev === 'Default' ? 'Alternative' : 'Default');
-    showAudioToastMessage();
-    showControls();
+  // Audio Selection State
+  const [showAudioModal, setShowAudioModal] = useState(false);
+  const [availableAudioTracks, setAvailableAudioTracks] = useState<any[]>([]);
+  const [currentAudioTrack, setCurrentAudioTrack] = useState<any>(null);
+
+  const openAudioSelection = () => {
+    // Cast to any to access audioTracks if not in types (though we know it exists now)
+    const p = player as any;
+    
+    if (p.availableAudioTracks && p.availableAudioTracks.length > 0) {
+        setAvailableAudioTracks(p.availableAudioTracks);
+        // Find current
+        setCurrentAudioTrack(p.audioTrack);
+        setShowAudioModal(true);
+        setUiVisible(false); 
+    } else {
+        setShowAudioToast(true);
+        setAudioTrackName("No other tracks");
+        setTimeout(() => setShowAudioToast(false), 2000);
+    }
+  };
+
+  const selectAudioTrack = (track: any) => {
+      const p = player as any;
+      p.audioTrack = track;
+      setCurrentAudioTrack(track);
+      setShowAudioModal(false);
+      showControls();
+      
+      // Toast
+      setAudioTrackName(track.label || `Track ${availableAudioTracks.indexOf(track) + 1}`);
+      showAudioToastMessage();
   };
 
   const showAudioToastMessage = () => {
@@ -285,7 +326,7 @@ const PlayerScreen = () => {
             player.replaceAsync({
                 uri: currentChannel.url,
                 headers: {
-                    'User-Agent': '' 
+                    'User-Agent': 'VLC/3.0.18 LibVLC/3.0.18'
                 }
             });
             player.play();
@@ -301,13 +342,16 @@ const PlayerScreen = () => {
     setLoading(true);
     player.replaceAsync({
         uri: currentChannel.url,
-        headers: {}
+        headers: {
+             'User-Agent': 'VLC/3.0.18 LibVLC/3.0.18'
+        }
     });
     player.play();
   };
 
   // Pan Gesture Handlers
   const panGesture = useMemo(() => Gesture.Pan()
+    .enabled(!showAudioModal)
     .onStart((e) => {
       if (Platform.isTV) return;
       
@@ -331,7 +375,7 @@ const PlayerScreen = () => {
        const type = gestureTypeRef.current;
        if (!type) return;
 
-       const delta = -e.translationY / 200; // Adjusted sensitivity
+       const delta = -e.translationY / 200; 
        
        let newValue = Math.max(0, Math.min(1, startValueRef.current + delta));
        
@@ -348,7 +392,7 @@ const PlayerScreen = () => {
         setGestureType(null);
         gestureTypeRef.current = null;
     })
-    .runOnJS(true), [player]);
+    .runOnJS(true), [player, showAudioModal]);
 
   const channelList = useMemo(() => channels, [channels]);
 
@@ -365,9 +409,38 @@ const PlayerScreen = () => {
         showControls();
       }}
     >
-      <ChannelLogo url={item.logo} style={styles.channelListLogo} />
+      <ChannelLogo uri={item.logo} name={item.name} style={styles.channelListLogo} />
       <Text style={styles.channelListText} numberOfLines={1}>{item.name}</Text>
     </Pressable>
+  );
+
+  const renderAudioModal = () => (
+      <View style={styles.audioModalOverlay}>
+          <View style={styles.audioModalContent}>
+              <Text style={styles.overlayTitle}>Select Audio</Text>
+              <FlatList
+                  data={availableAudioTracks}
+                  keyExtractor={(item, index) => index.toString()}
+                  renderItem={({ item, index }) => (
+                      <TouchableOpacity 
+                        style={[
+                            styles.audioTrackItem, 
+                            currentAudioTrack === item && styles.audioTrackItemActive
+                        ]}
+                        onPress={() => selectAudioTrack(item)}
+                      >
+                          <Text style={styles.audioTrackText}>
+                              {item.label || item.language || `Track ${index + 1}`}
+                          </Text>
+                          {currentAudioTrack === item && <View style={styles.activeDot} />}
+                      </TouchableOpacity>
+                  )}
+              />
+              <TouchableOpacity style={styles.closeButton} onPress={() => setShowAudioModal(false)}>
+                  <Text style={styles.closeButtonText}>Close</Text>
+              </TouchableOpacity>
+          </View>
+      </View>
   );
 
   return (
@@ -385,6 +458,10 @@ const PlayerScreen = () => {
         <Pressable 
           style={StyleSheet.absoluteFill} 
           onPress={() => {
+            if (showAudioModal) {
+                setShowAudioModal(false);
+                return;
+            }
             if (uiVisible) {
               setUiVisible(false);
             } else {
@@ -439,6 +516,8 @@ const PlayerScreen = () => {
             />
           </View>
         )}
+        
+        {showAudioModal && renderAudioModal()}
 
         {showAudioToast && (
           <Animated.View style={[styles.audioToast, { opacity: toastOpacity }]}>
@@ -447,7 +526,7 @@ const PlayerScreen = () => {
           </Animated.View>
         )}
 
-        {uiVisible && (
+        {uiVisible && !showAudioModal && (
           <>
             {!Platform.isTV && (
               <TouchableOpacity 
@@ -461,16 +540,14 @@ const PlayerScreen = () => {
 
             {!Platform.isTV && (
               <View style={styles.controlsBar}>
-                {hasMultipleAudioTracks && (
                   <TouchableOpacity 
                     style={styles.controlButton} 
-                    onPress={cycleAudioTrack}
+                    onPress={openAudioSelection}
                     focusable={false}
                   >
                     <Volume2 color="#fff" size={24} />
                     <Text style={styles.controlText}>Audio</Text>
                   </TouchableOpacity>
-                )}
               </View>
             )}
           </>
@@ -625,6 +702,54 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginTop: 10,
+  },
+  audioModalOverlay: {
+    position: 'absolute',
+    top: 0, bottom: 0, left: 0, right: 0,
+    backgroundColor: 'rgba(0,0,0,0.8)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    zIndex: 100,
+    elevation: 100,
+  },
+  audioModalContent: {
+      backgroundColor: '#1a1a1a',
+      padding: 20,
+      borderRadius: 12,
+      width: 300,
+      maxHeight: '80%',
+  },
+  audioTrackItem: {
+      padding: 15,
+      borderBottomWidth: 1,
+      borderBottomColor: '#333',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+  },
+  audioTrackItemActive: {
+      backgroundColor: '#2a2a2a',
+  },
+  audioTrackText: {
+      color: '#fff',
+      fontSize: 16,
+  },
+  activeDot: {
+      width: 10,
+      height: 10,
+      borderRadius: 5,
+      backgroundColor: '#3498db',
+  },
+  closeButton: {
+      marginTop: 20,
+      alignItems: 'center',
+      padding: 10,
+      backgroundColor: '#333',
+      borderRadius: 8,
+  },
+  closeButtonText: {
+      color: '#fff',
+      fontWeight: 'bold',
   }
 });
 
