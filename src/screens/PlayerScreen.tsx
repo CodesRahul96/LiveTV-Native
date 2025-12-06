@@ -13,16 +13,21 @@ import {
   Image,
   Animated,
   Platform,
+  Dimensions,
 } from 'react-native';
 import { useVideoPlayer, VideoView, VideoContentFit } from 'expo-video';
 import * as ScreenOrientation from 'expo-screen-orientation';
 import { useRoute, useNavigation } from '@react-navigation/native';
 import { Channel } from '../types';
 import { TEST_CHANNEL, useChannels } from '../data/channels';
-import { ArrowLeft, Volume2, Maximize, Monitor, Settings } from 'lucide-react-native';
+import { ArrowLeft, Volume2, Maximize, Monitor, Settings, Sun } from 'lucide-react-native';
 import { saveLastChannel } from '../utils/storage';
 import { useKeepAwake } from 'expo-keep-awake';
 import ChannelLogo from '../components/ChannelLogo';
+import { Gesture, GestureDetector } from 'react-native-gesture-handler';
+import * as Brightness from 'expo-brightness';
+
+const { width } = Dimensions.get('window');
 
 const PlayerScreen = () => {
   useKeepAwake();
@@ -40,22 +45,31 @@ const PlayerScreen = () => {
   const [showAudioToast, setShowAudioToast] = useState(false);
   const [audioTrackName, setAudioTrackName] = useState('Default');
   const [hasMultipleAudioTracks, setHasMultipleAudioTracks] = useState(false);
-  // Removed quality state
   const [contentFit, setContentFit] = useState<VideoContentFit>('fill');
   
-  // Animation for toast
-  // Animation for toast
-  const toastOpacity = useRef(new Animated.Value(0)).current;
-  // Removed quality toast opacity
+  // Gesture States
+  const [gestureActive, setGestureActive] = useState(false);
+  const [gestureType, setGestureType] = useState<'brightness' | 'volume' | null>(null);
+  const [gestureValue, setGestureValue] = useState(0); 
+  const [permissionResponse, requestPermission] = Brightness.usePermissions();
+  
+  const startValueRef = useRef(0);
+  const gestureTypeRef = useRef<'brightness' | 'volume' | null>(null);
+  
+  useEffect(() => {
+    (async () => {
+      if (!permissionResponse || permissionResponse.status !== 'granted') {
+        await requestPermission();
+      }
+    })();
+  }, []);
 
-  // Initialize Video Player
-  // Helper helper to convert Hex to Base64Url
+  const toastOpacity = useRef(new Animated.Value(0)).current;
+
   const hexToBase64Url = (hex: string) => {
     try {
-      // Remove any non-hex characters
       const cleanHex = hex.replace(/[^0-9a-fA-F]/g, '');
       if (cleanHex.length % 2 !== 0) return '';
-      
       const binary = cleanHex.match(/.{1,2}/g)?.map(byte => String.fromCharCode(parseInt(byte, 16))).join('') || '';
       return btoa(binary).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
     } catch (e) {
@@ -65,7 +79,6 @@ const PlayerScreen = () => {
   };
 
   const videoSource = useMemo(() => {
-    // User requested to remove User-Agent (let player use default)
     const headers: Record<string, string> = {}; 
 
     let drm = undefined;
@@ -83,9 +96,6 @@ const PlayerScreen = () => {
                 keys: [{ kty: 'oct', k, kid }],
                 type: 'temporary'
             });
-            // Use local license server instead of data URI to avoid protocol errors on Android
-            // Android Emulator loopback: 10.0.2.2
-            // Physical device: needs machine IP (we default to 10.0.2.2 for now as mostly emulator usage is implied with 'java.net')
             const host = Platform.OS === 'android' ? '10.0.2.2' : 'localhost';
             const licenseServer = `http://${host}:3000/license?keys=${encodeURIComponent(btoa(clearKeyJson))}`;
             
@@ -100,7 +110,7 @@ const PlayerScreen = () => {
 
     return {
       uri: currentChannel.url,
-      headers, // Empty now
+      headers,
       drm
     };
   }, [currentChannel.url, currentChannel.licenseKey]);
@@ -112,13 +122,9 @@ const PlayerScreen = () => {
   });
 
   useEffect(() => {
-    // Lock to landscape on mount
     ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
-    
     return () => {
-      // Unlock on unmount
       ScreenOrientation.unlockAsync();
-      // Cleanup retry timeout
       if (retryTimeoutRef.current) {
         clearTimeout(retryTimeoutRef.current);
       }
@@ -126,24 +132,17 @@ const PlayerScreen = () => {
   }, []);
 
   useEffect(() => {
-    // Reset state when channel changes
     setLoading(true);
     setError(false);
-    // Save the channel ID
     saveLastChannel(currentChannel.id);
-    
-    // Player source is handled by useVideoPlayer hook updates
-    // Just ensure we play
     player.play();
   }, [currentChannel, player]);
 
-  // Handle Player Events
   useEffect(() => {
     const statusSubscription = player.addListener('statusChange', ({ status, error }) => {
       if (status === 'readyToPlay') {
         setLoading(false);
         setError(false);
-        // Check for multiple audio tracks
         // @ts-ignore
         if (player.audioTracks && player.audioTracks.length > 1) {
           setHasMultipleAudioTracks(true);
@@ -161,7 +160,6 @@ const PlayerScreen = () => {
     };
   }, [player]);
 
-  // Auto-hide UI
   const [uiVisible, setUiVisible] = useState(true);
   const controlsTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -171,7 +169,6 @@ const PlayerScreen = () => {
       clearTimeout(controlsTimeoutRef.current);
     }
     
-    // Only auto-hide if channel list is NOT visible
     if (!showChannelList) {
       controlsTimeoutRef.current = setTimeout(() => {
         setUiVisible(false);
@@ -182,10 +179,8 @@ const PlayerScreen = () => {
   useEffect(() => {
     showControls();
     if (showChannelList) {
-      // Scroll to current channel when list opens
       const index = channels.findIndex(c => c.id === currentChannel.id);
       if (index !== -1) {
-        // Small timeout to allow layout to settle
         setTimeout(() => {
             flatListRef.current?.scrollToIndex({ index, animated: false, viewPosition: 0.5 });
         }, 100);
@@ -196,9 +191,8 @@ const PlayerScreen = () => {
         clearTimeout(controlsTimeoutRef.current);
       }
     };
-  }, [showChannelList]); // Re-run when showChannelList changes
+  }, [showChannelList]);
 
-  // Hardware Back Button Handler
   useEffect(() => {
     const backAction = () => {
       showControls();
@@ -214,29 +208,12 @@ const PlayerScreen = () => {
     return () => backHandler.remove();
   }, [showChannelList, navigation]);
 
-  // TV Remote Event Handler
-  // @ts-ignore - useTVEventHandler is available in recent RN versions
-  const { useTVEventHandler } = require('react-native');
-  
-  const [lastRemoteEventTime, setLastRemoteEventTime] = useState(0);
-
-  // We use a try-catch block or conditional import in a real app, 
-  // but here we'll assume it's available or fallback gracefully if not (it won't crash, just won't hook).
-  // Actually, let's stick to the Keyboard listener for maximum compatibility across Phone/TV 
-  // UNLESS we are sure.
-  // Wait, the user specifically asked for Fire TV.
-  // Let's IMPROVE the Keyboard listener to be more robust instead of replacing it, 
-  // as useTVEventHandler might not be available in the types if not configured.
-  
-  // REVISED PLAN: Stick to Keyboard but add more key codes and logging.
-  
   useEffect(() => {
     const onKeyDown = (e: any) => {
       showControls();
       const keyName = e.nativeEvent?.key;
-      console.log('Key pressed:', keyName); // Debugging
+      console.log('Key pressed:', keyName); 
 
-      // Fire TV / Android TV Key Mapping
       if (keyName === 'ArrowUp' || keyName === 'DPadUp') {
         changeChannel('next');
       } else if (keyName === 'ArrowDown' || keyName === 'DPadDown') {
@@ -249,20 +226,6 @@ const PlayerScreen = () => {
         } else {
           cycleAudioTrack();
         }
-      } else if (
-        keyName === 'Select' || 
-        keyName === 'Enter' || 
-        keyName === 'DPadCenter' || 
-        keyName === ' ' ||
-        keyName === 'MediaPlayPause'
-      ) {
-         if (!showChannelList) {
-           // Toggle controls or Play/Pause?
-           // For now, just show controls
-         }
-      } else if (keyName === 'Menu') {
-        // Fire TV Menu button - Removed resize toggle
-        // toggleResizeMode();
       }
     };
 
@@ -284,18 +247,11 @@ const PlayerScreen = () => {
     setCurrentChannel(channels[newIndex]);
   };
 
-
-
   const cycleAudioTrack = () => {
-    // Placeholder logic for audio track cycling
-    // In a real scenario, we would iterate player.audioTracks
-    // For now, we'll simulate it and show the toast
     setAudioTrackName(prev => prev === 'Default' ? 'Alternative' : 'Default');
     showAudioToastMessage();
     showControls();
   };
-
-
 
   const showAudioToastMessage = () => {
     setShowAudioToast(true);
@@ -314,8 +270,6 @@ const PlayerScreen = () => {
     ]).start(() => setShowAudioToast(false));
   };
 
-
-
   const retryTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const handleError = (e: any) => {
@@ -323,7 +277,6 @@ const PlayerScreen = () => {
     setError(true);
     setLoading(false);
     
-    // Attempt to retry once after 3 seconds before falling back
     if (!retryTimeoutRef.current) {
         retryTimeoutRef.current = setTimeout(() => {
             console.log("Retrying playback...");
@@ -332,14 +285,12 @@ const PlayerScreen = () => {
             player.replaceAsync({
                 uri: currentChannel.url,
                 headers: {
-                    'User-Agent': '' // Empty or just remove key? The tool requires replacement content.
+                    'User-Agent': '' 
                 }
             });
             player.play();
             retryTimeoutRef.current = null;
         }, 3000);
-    } else {
-        // ...
     }
   };
 
@@ -355,130 +306,177 @@ const PlayerScreen = () => {
     player.play();
   };
 
+  // Pan Gesture Handlers
+  const panGesture = useMemo(() => Gesture.Pan()
+    .onStart((e) => {
+      if (Platform.isTV) return;
+      
+      const isLeft = e.x < width / 2;
+      setGestureActive(true);
+      
+      if (isLeft) {
+        gestureTypeRef.current = 'brightness';
+        setGestureType('brightness');
+        Brightness.getBrightnessAsync().then(val => {
+           startValueRef.current = val;
+        });
+      } else {
+        gestureTypeRef.current = 'volume';
+        setGestureType('volume');
+        startValueRef.current = player.volume;
+      }
+    })
+    .onUpdate((e) => {
+       if (Platform.isTV) return;
+       const type = gestureTypeRef.current;
+       if (!type) return;
+
+       const delta = -e.translationY / 200; // Adjusted sensitivity
+       
+       let newValue = Math.max(0, Math.min(1, startValueRef.current + delta));
+       
+       setGestureValue(Math.round(newValue * 100));
+       
+       if (type === 'brightness') {
+           Brightness.setBrightnessAsync(newValue);
+       } else {
+           player.volume = newValue;
+       }
+    })
+    .onEnd(() => {
+        setGestureActive(false);
+        setGestureType(null);
+        gestureTypeRef.current = null;
+    })
+    .runOnJS(true), [player]);
+
+  const channelList = useMemo(() => channels, [channels]);
+
   const renderChannelItem = ({ item }: { item: Channel }) => (
     <Pressable
       style={({ pressed }) => [
         styles.channelListItem,
-        pressed && styles.channelListItemFocused,
-        item.id === currentChannel.id && styles.channelListItemActive
+        item.id === currentChannel.id && styles.channelListItemActive,
+        pressed && styles.channelListItemFocused
       ]}
       onPress={() => {
         setCurrentChannel(item);
-        setShowChannelList(false); // Close list on selection
+        setShowChannelList(false);
+        showControls();
       }}
     >
-      <ChannelLogo uri={item.logo} name={item.name} style={styles.channelListLogo} />
+      <ChannelLogo url={item.logo} style={styles.channelListLogo} />
       <Text style={styles.channelListText} numberOfLines={1}>{item.name}</Text>
     </Pressable>
   );
 
-  const channelList = useMemo(() => channels, [channels]);
-
   return (
-    <View style={styles.container}>
-      <StatusBar hidden />
-      
-      <VideoView
-        player={player}
-        style={styles.video}
-        contentFit={contentFit}
-        nativeControls={false}
-      />
+    <GestureDetector gesture={panGesture}>
+      <View style={styles.container}>
+        <StatusBar hidden />
+        
+        <VideoView
+          player={player}
+          style={styles.video}
+          contentFit={contentFit}
+          nativeControls={false}
+        />
 
-      <Pressable 
-        style={StyleSheet.absoluteFill} 
-        onPress={() => {
-          if (uiVisible) {
-            setUiVisible(false);
-          } else {
-            showControls();
-          }
-        }}
-      />
+        <Pressable 
+          style={StyleSheet.absoluteFill} 
+          onPress={() => {
+            if (uiVisible) {
+              setUiVisible(false);
+            } else {
+              showControls();
+            }
+          }}
+        />
 
-      {loading && (
-        <View style={styles.loadingContainer}>
-          <ActivityIndicator size="large" color="#fff" />
-        </View>
-      )}
+        {loading && (
+          <View style={styles.loadingContainer}>
+            <ActivityIndicator size="large" color="#fff" />
+          </View>
+        )}
 
-      {error && (
-        <View style={styles.errorContainer}>
-          <Text style={styles.errorText}>Playback Error</Text>
-          <TouchableOpacity style={styles.retryButton} onPress={manualRetry}>
-            <Text style={styles.retryText}>Retry</Text>
-          </TouchableOpacity>
-        </View>
-      )}
+        {gestureActive && (
+          <View style={styles.gestureOverlay}>
+              {gestureType === 'brightness' ? <Sun color="#fff" size={48} /> : <Volume2 color="#fff" size={48} />}
+              <Text style={styles.gestureText}>{gestureValue}%</Text>
+          </View>
+        )}
 
-      {/* Channel List Overlay (Left Drawer) */}
-      {showChannelList && (
-        <View style={styles.channelListOverlay}>
-          <Text style={styles.overlayTitle}>Channels</Text>
-          <FlatList
-            data={channelList}
-            renderItem={renderChannelItem}
-            keyExtractor={item => item.id}
-            contentContainerStyle={styles.channelListContent}
-            getItemLayout={(data, index) => (
-              {length: 65, offset: 65 * index, index}
-            )}
-            initialNumToRender={15}
-            maxToRenderPerBatch={10}
-            windowSize={10}
-            removeClippedSubviews={true}
-            onScrollToIndexFailed={(info) => {
-              setTimeout(() => {
-                flatListRef.current?.scrollToIndex({ index: info.index, animated: true });
-              }, 500);
-            }}
-            ref={flatListRef}
-          />
-        </View>
-      )}
-
-      {/* Audio Toast (Right) */}
-      {showAudioToast && (
-        <Animated.View style={[styles.audioToast, { opacity: toastOpacity }]}>
-          <Volume2 color="#fff" size={32} />
-          <Text style={styles.audioToastText}>Audio: {audioTrackName}</Text>
-        </Animated.View>
-      )}
-
-
-
-      {/* On-Screen Controls (Mobile Only) */}
-      {/* On-Screen Controls (Mobile Only) */}
-      {uiVisible && (
-        <>
-          {!Platform.isTV && (
-            <TouchableOpacity 
-              style={styles.backButton}
-              onPress={() => navigation.goBack()}
-              focusable={false} // Disable focus on touch controls for TV
-            >
-              <ArrowLeft color="#fff" size={24} />
+        {error && (
+          <View style={styles.errorContainer}>
+            <Text style={styles.errorText}>Playback Error</Text>
+            <TouchableOpacity style={styles.retryButton} onPress={manualRetry}>
+              <Text style={styles.retryText}>Retry</Text>
             </TouchableOpacity>
-          )}
+          </View>
+        )}
 
-          {/* Player Controls Bar */}
-          {!Platform.isTV && (
-            <View style={styles.controlsBar}>
-              {hasMultipleAudioTracks && (
-                <TouchableOpacity 
-                  style={styles.controlButton} 
-                  onPress={cycleAudioTrack}
-                  focusable={false}
-                >
-                  <Volume2 color="#fff" size={24} />
-                  <Text style={styles.controlText}>Audio</Text>
-                </TouchableOpacity>
+        {showChannelList && (
+          <View style={styles.channelListOverlay}>
+            <Text style={styles.overlayTitle}>Channels</Text>
+            <FlatList
+              data={channelList}
+              renderItem={renderChannelItem}
+              keyExtractor={item => item.id}
+              contentContainerStyle={styles.channelListContent}
+              getItemLayout={(data, index) => (
+                {length: 65, offset: 65 * index, index}
               )}
-            </View>
-          )}
-        </>
-      )}
-    </View>
+              initialNumToRender={15}
+              maxToRenderPerBatch={10}
+              windowSize={10}
+              removeClippedSubviews={true}
+              onScrollToIndexFailed={(info) => {
+                setTimeout(() => {
+                  flatListRef.current?.scrollToIndex({ index: info.index, animated: true });
+                }, 500);
+              }}
+              ref={flatListRef}
+            />
+          </View>
+        )}
+
+        {showAudioToast && (
+          <Animated.View style={[styles.audioToast, { opacity: toastOpacity }]}>
+            <Volume2 color="#fff" size={32} />
+            <Text style={styles.audioToastText}>Audio: {audioTrackName}</Text>
+          </Animated.View>
+        )}
+
+        {uiVisible && (
+          <>
+            {!Platform.isTV && (
+              <TouchableOpacity 
+                style={styles.backButton}
+                onPress={() => navigation.goBack()}
+                focusable={false} 
+              >
+                <ArrowLeft color="#fff" size={24} />
+              </TouchableOpacity>
+            )}
+
+            {!Platform.isTV && (
+              <View style={styles.controlsBar}>
+                {hasMultipleAudioTracks && (
+                  <TouchableOpacity 
+                    style={styles.controlButton} 
+                    onPress={cycleAudioTrack}
+                    focusable={false}
+                  >
+                    <Volume2 color="#fff" size={24} />
+                    <Text style={styles.controlText}>Audio</Text>
+                  </TouchableOpacity>
+                )}
+              </View>
+            )}
+          </>
+        )}
+      </View>
+    </GestureDetector>
   );
 };
 
@@ -517,7 +515,6 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     zIndex: 10,
   },
-  // Controls Bar
   controlsBar: {
     position: 'absolute',
     bottom: 30,
@@ -540,7 +537,6 @@ const styles = StyleSheet.create({
     marginTop: 4,
     fontWeight: '600',
   },
-  // Channel List Overlay
   channelListOverlay: {
     position: 'absolute',
     left: 0,
@@ -588,7 +584,6 @@ const styles = StyleSheet.create({
     fontSize: 14,
     flex: 1,
   },
-  // Audio Toast
   audioToast: {
     position: 'absolute',
     right: 40,
@@ -617,6 +612,20 @@ const styles = StyleSheet.create({
     color: '#000',
     fontWeight: 'bold',
   },
+  gestureOverlay: {
+    position: 'absolute',
+    top: 0, bottom: 0, left: 0, right: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0,0,0,0.3)',
+    zIndex: 50,
+  },
+  gestureText: {
+    color: '#fff',
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginTop: 10,
+  }
 });
 
 export default PlayerScreen;
